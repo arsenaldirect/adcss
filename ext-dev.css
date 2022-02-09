@@ -26,7 +26,7 @@ cursor:pointer;
 }
 
 #payment-provider__paypal-pay:hover{
-  background-color: #F8F8F8;
+  background-color: #F8F8F8 !important;
 }
 
 /* Style Amazon payment button - needs more work 
