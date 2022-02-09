@@ -24,7 +24,7 @@ cursor:pointer;
   font-size:15px;
   color: #3C4043;
 }
-.amazonpay-button-container{
+#AmazonPayButton .amazonpay-button-container{
   min-height:70px;
 }
 div > div.amazonpay-button-view3{
