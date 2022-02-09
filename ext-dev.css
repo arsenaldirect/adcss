@@ -44,6 +44,8 @@ cursor:pointer;
 @media (min-width: 1024px){
   .payment-provider__inner--google-checkout .gpay-card-info-container{
     max-width:300px;
+  }
+  .payment-provider__inner--google-checkout{
     margin-bottom:0;
   }
 }
