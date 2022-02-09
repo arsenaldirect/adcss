@@ -52,7 +52,7 @@ cursor:pointer;
 
 /* Style Amazon payment button */
 
-/deep/ .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
+#AmazonPayButton /deep/ .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
   min-height:70px !important;
 }
 div > div.amazonpay-button-view3{
