@@ -18,9 +18,11 @@ cursor:pointer;
   margin-bottom:10px !important;
   box-shadow:none !important;
   border:1px solid #505050 !important;
+  border-radius:0 !important;
 } 
 .payment-provider__text--paypal-pay{
   font-size:15px;
+  color: #3C4043;
 }
 .amazonpay-button-container{
   min-height:70px;
