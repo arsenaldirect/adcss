@@ -50,9 +50,9 @@ cursor:pointer;
   }
 }
 
-/* Style Amazon payment button */
+/* Style Amazon payment button - NEEDS WORK DUE TO SHADOW ROOT 
 
-shadow-host::root #AmazonPayButton .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
+#AmazonPayButton .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
   min-height:70px !important;
 }
 div > div.amazonpay-button-view3{
@@ -83,6 +83,7 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
   border-color:#505050 !important;
   background:transparent !important;
 }
+*/
 
 /* Shop by player - prevent faces being obscured on mobile */
 
