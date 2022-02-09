@@ -13,11 +13,11 @@ cursor:pointer;
 /* Style PDP express payment buttons */
 
 .gpay-card-info-container{
-  min-width:100%;
-  height:50px;
-  margin-bottom:10px;
-  box-shadow:none;
-  border:1px solid #505050;
+  min-width:100% !important;
+  height:50px !important;
+  margin-bottom:10px !important;
+  box-shadow:none !important;
+  border:1px solid #505050 !important;
 } 
 .payment-provider__text--paypal-pay{
   font-size:15px;
