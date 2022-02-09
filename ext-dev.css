@@ -10,7 +10,7 @@ cursor:pointer;
   display:flex;
 }
 
-/* Style PDP express payment buttons */
+/* Style Google/PayPal PDP express payment buttons */
 
 .jsPaymentProviderGooglePayPDP .gpay-card-info-container{
   min-width:100% !important;
@@ -24,6 +24,9 @@ cursor:pointer;
   font-size:15px;
   color: #3C4043;
 }
+
+/* Style Amazon payment button - needs more work 
+
 .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
   min-height:70px !important;
 }
@@ -55,6 +58,14 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
   border-color:#505050 !important;
   background:transparent !important;
 }
+*/
 
+/* Shop by player - prevent faces being obscured on mobile */
+
+@media (max-width: 639px){
+.player-list .details-wrapper {
+  height:50px;
+  }
+}
 
 
