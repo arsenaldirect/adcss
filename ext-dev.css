@@ -33,7 +33,7 @@ cursor:pointer;
 
 /* Style Google cart express payment buttons */
 
-.payment-provider__inner--google-checkout{
+.payment-provider__inner--google-checkout .gpay-card-info-container{
   min-width:100% !important;
   height:50px !important;
   margin-bottom:10px !important;
