@@ -31,6 +31,17 @@ cursor:pointer;
   background-color: #F8F8F8 !important;
 }
 
+/* Style Google cart express payment buttons */
+
+.payment-provider__inner--google-checkout{
+  min-width:100% !important;
+  height:50px !important;
+  margin-bottom:10px !important;
+  box-shadow:none !important;
+  border:1px solid #505050 !important;
+  border-radius:0 !important;
+}
+
 /* Style Amazon payment button - needs more work 
 
 .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
