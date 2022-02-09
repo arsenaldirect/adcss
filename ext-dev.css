@@ -1,1 +1,5 @@
-/* JUST FOR TESTING */
+/* Add pointer cursor to Global-e switcher */
+
+#GlobaleSwitcher{
+cursor:pointer;
+}
