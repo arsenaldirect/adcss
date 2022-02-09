@@ -41,6 +41,11 @@ cursor:pointer;
   border:1px solid #505050 !important;
   border-radius:0 !important;
 }
+@media (min-width: 1024px){
+  .payment-provider__inner--google-checkout .gpay-card-info-container{
+    max-width:300px;
+  }
+}
 
 /* Style Amazon payment button - needs more work 
 
