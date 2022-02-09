@@ -46,7 +46,7 @@ cursor:pointer;
     max-width:300px;
   }
   .payment-provider__inner--google-checkout{
-    margin-bottom:0;
+    margin-bottom:0 !important;
   }
 }
 
