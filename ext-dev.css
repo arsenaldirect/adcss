@@ -45,7 +45,7 @@ cursor:pointer;
   .payment-provider__inner--google-checkout .gpay-card-info-container{
     max-width:300px;
   }
-  .payment-provider__inner--google-checkout{
+  .payment-provider__wrapper--desktop .payment-provider__inner--google-checkout{
     margin-bottom:0 !important;
   }
 }
