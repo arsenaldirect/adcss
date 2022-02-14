@@ -41,12 +41,12 @@ cursor:pointer;
   border:1px solid #505050 !important;
   border-radius:0 !important;
 }
+ .payment-provider__wrapper--desktop .payment-provider__inner--google-checkout{
+    margin-bottom:0 !important;
+}
 @media (min-width: 1024px){
   .payment-provider__inner--google-checkout .gpay-card-info-container{
     max-width:300px;
-  }
-  .payment-provider__wrapper--desktop .payment-provider__inner--google-checkout{
-    margin-bottom:0 !important;
   }
 }
 
