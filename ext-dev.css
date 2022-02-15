@@ -95,3 +95,10 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
 .AddToCart-BackInStockNotifyAction{
     width:100%;
 }
+
+/* Remove unnecessary EMWBIS popup scrollbar on desktop */
+@media (min-width: 1024px){
+  #cboxLoadedContent{
+    overflow-y:hidden !important;
+  }
+}
