@@ -90,10 +90,8 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
   }
 }
 
-/* Make EMWBIS full width on mobile */
+/* Make EMWBIS full width on mobile/tablet and same width as OOS on desktop */
 
-@media (max-width: 1023px){
-  .AddToCart-BackInStockNotifyAction{
+.AddToCart-BackInStockNotifyAction{
     width:100%;
-  }
 }
