@@ -16,7 +16,7 @@
 
 /* Add pointer cursor to Global-e switcher */
 
-#GlobaleSwitcher > img{
+#GlobaleSwitcher > img:hover{
 cursor:pointer !important;
 }
 
@@ -117,9 +117,6 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
   #cboxLoadedContent{
     overflow-y:hidden !important;
   }
-
-  
-  
 
 //..................................................................................................................................
 //.EEEEEEEEEEE.ENNN...NNNN..NDDDDDDDD......... RRRRRRRRR...REEEEEEEEEE.ELLL.......LEEEEEEEEEE....AAAAA......SSSSSSS....SEEEEEEEEEE..
