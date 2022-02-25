@@ -16,7 +16,7 @@
 
 /* Add pointer cursor to Global-e switcher */
 
-#GlobaleSwitcher > img:hover{
+div.secondary-nav-item.secondary-nav-item-center > ul.top-header-links > li.yCmsComponent:hover{
 cursor:pointer !important;
 }
 
