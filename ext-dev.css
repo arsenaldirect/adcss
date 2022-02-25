@@ -17,7 +17,7 @@
 /* Add pointer cursor to Global-e switcher */
 
 #GlobaleSwitcher{
-cursor:pointer;
+cursor:pointer !important;
 }
 
 /* Fix checkbox alignment for delivery address during checkout */
