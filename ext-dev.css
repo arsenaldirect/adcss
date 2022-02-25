@@ -14,12 +14,6 @@
 //.2222222222....1111........FFFF.......EEEEEEEEEEE.BBBBBBBBBB....... 2222222222222222222..
 //.........................................................................................
 
-/* Add pointer cursor to Global-e switcher */
-
-div.secondary-nav-item.secondary-nav-item-center > ul.top-header-links > li.yCmsComponent:hover{
-cursor:pointer !important;
-}
-
 /* Fix checkbox alignment for delivery address during checkout */
 
 #newDeliveryAddress > div.optedin{
