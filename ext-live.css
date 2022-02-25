@@ -14,12 +14,6 @@
 //.2222222222....1111........FFFF.......EEEEEEEEEEE.BBBBBBBBBB....... 2222222222222222222..
 //.........................................................................................
 
-/* Add pointer cursor to Global-e switcher */
-
-#GlobaleSwitcher{
-cursor:pointer;
-}
-
 /* Fix checkbox alignment for delivery address during checkout */
 
 #newDeliveryAddress > div.optedin{
