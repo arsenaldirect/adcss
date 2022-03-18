@@ -17,7 +17,7 @@
 /* Fix checkbox alignment for delivery address during checkout */
 
 #newDeliveryAddress > div.optedin{
-  display:flex;
+  display:flex !important;
 }
 
 /* Style Google/PayPal PDP express payment buttons */
