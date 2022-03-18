@@ -16,7 +16,7 @@
 
 /* Fix checkbox alignment for delivery address during checkout */
 
-#newDeliveryAddress > .optedin{
+#newDeliveryAddress > div.optedin{
   display:flex !important;
 }
 
