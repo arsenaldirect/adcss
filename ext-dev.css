@@ -20,6 +20,10 @@
   display:flex !important;
 }
 
+.main-footer--checkout {
+padding:1px;
+}
+
 /* Style Google/PayPal PDP express payment buttons */
 
 .jsPaymentProviderGooglePayPDP .gpay-card-info-container{
