@@ -237,3 +237,16 @@ a.option-label.sizeGuideLink:before, a.option-label.sizeGuideLink:after {
 a.option-label.sizeGuideLink:hover {
     color: white;
 }
+div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
+    content: "";
+    background-image: url(https://static.thenounproject.com/png/299638-200.png);
+    display: block;
+    height: 14px;
+    width: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -21px;
+    top: 6px;
+    filter: brightness(0) invert(1);
+}
