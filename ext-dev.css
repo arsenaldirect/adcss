@@ -117,7 +117,6 @@ font-size:14px;
 
 .was-now-price{
 font-family:'tk-agency-gothic-ct-conden-n5';
-display:block;
 }
 
 .was-now-price__now{
@@ -132,12 +131,14 @@ color:red;
 .was-now-price__was{
 float:left;
 justify-content: center;
-position: absolute;
 margin-top: -5px;
 width:100%;
   order:1;
 }
 
 .divider.js-page-divider{
+  display:none;
+}
+.pagination span{
   display:none;
 }
