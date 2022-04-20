@@ -151,3 +151,41 @@ width:100%;
   display:none;
 }
 
+/* Monetate badge styling */
+
+.details [id^=mt_htmlBadge_]{
+    /* border-bottom: 1px solid #f00; */
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    width: 100%;
+    text-transform:uppercase;
+}
+.details [id^=mt_htmlBadge_] strong, .details [id^=mt_htmlBadge_] span{
+    background-color: red;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-size: 12px;
+    border-radius: 15px;
+    min-width: 160px;
+    height: 18px;
+    color: white !important;
+    display: inline-block;
+    padding-top: 8px;
+    margin-top: -8px;
+}
+.details [id^=mt_htmlBadge_] strong font{
+color:white !important;
+}
+.details [id^=mt_htmlBadge_]:before {
+    content: "";
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/desktop/theme-blue/images/favicon.ico);
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-left: 64px;
+    margin-top: -13px;
+}
+
