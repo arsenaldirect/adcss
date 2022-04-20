@@ -160,7 +160,7 @@ width:100%;
     width: 100%;
     text-transform:uppercase;
 }
-.details [id^=mt_htmlBadge_] strong{
+.details [id^=mt_htmlBadge_] strong, .details [id^=mt_htmlBadge_] span{
 background-color:red;
 padding-left:25px;
 padding-right:15px;
