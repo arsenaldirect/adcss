@@ -106,6 +106,7 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
 .product-listing.product-grid .details .price{
 font-family:'tk-agency-gothic-ct-conden-n5';
 font-size:28px;
+font-weight:600;
 }
 
 .product-listing.product-grid .details .name{
@@ -135,6 +136,13 @@ margin-top: -5px;
 width:100%;
   order:1;
 }
+
+.carousel .item .item-price{
+  font-family:'tk-agency-gothic-ct-conden-n5';
+  font-size:28px;
+}
+
+/* Hide page dividers and pagination links */
 
 .divider.js-page-divider{
   display:none;
