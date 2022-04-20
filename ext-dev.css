@@ -106,11 +106,33 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
 .product-listing.product-grid .details .price{
 font-family:'tk-agency-gothic-ct-conden-n5';
 font-size:28px;
-
 }
 
 .product-listing.product-grid .details .name{
 text-transform:uppercase;
 font-size:14px;
+}
 
+/* Update PLP was/now pricing */
+
+.was-now-price{
+font-family:'tk-agency-gothic-ct-conden-n5';
+display:block;
+margin-left:-35px;
+}
+
+.was-now-price__now{
+font-size:28px;
+float:right;
+background-color:transparent;
+color:red;
+justify-content:left;
+}
+
+.was-now-price__was{
+justify-content: right;
+padding-right: 10px;
+position: absolute;
+margin-top: -5px;
+margin-left: 20px;
 }
