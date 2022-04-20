@@ -150,3 +150,22 @@ width:100%;
 .pagination span{
   display:none;
 }
+
+/* Monetate badge styling */
+
+.details [id^=mt_htmlBadge_]{
+    border-bottom: 1px solid #f00;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    width: 100%;
+}
+.details [id^=mt_htmlBadge_] strong{
+background-color:red;
+padding-left:15px;
+padding-right:15px;
+font-size:13px;
+border-radis:15px;
+}
+.details [id^=mt_htmlBadge_] strong font{
+color:white !important;
+}
