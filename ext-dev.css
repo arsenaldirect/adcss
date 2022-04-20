@@ -106,7 +106,6 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
 .product-listing.product-grid .details .price{
 font-family:'tk-agency-gothic-ct-conden-n5';
 font-size:28px;
-font-weight:600;
 }
 
 .product-listing.product-grid .details .name{
@@ -127,6 +126,7 @@ background-color:transparent;
 color:red;
   order:2;
   margin-top:-20px;
+  letter-spacing:1px;
 }
 
 .was-now-price__was{
