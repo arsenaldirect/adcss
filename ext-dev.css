@@ -184,9 +184,10 @@ color:white !important;
     height: 30px;
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
+    position: relative;
     margin-left: 64px;
     margin-top: -13px;
+    margin-bottom: -17px;
 }
 
 /* Remove hover effect on site logo */
