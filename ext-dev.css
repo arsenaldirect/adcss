@@ -189,3 +189,8 @@ color:white !important;
     margin-top: -13px;
 }
 
+/* Remove hover effect on site logo */
+
+body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-logo > div > div > a:hover{
+opacity:1;
+}
