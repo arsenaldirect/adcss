@@ -154,7 +154,7 @@ width:100%;
 /* Monetate badge styling */
 
 .details [id^=mt_htmlBadge_]{
-    border-bottom: 1px solid #f00;
+    /* border-bottom: 1px solid #f00; */
     line-height: 0.1em;
     margin: 10px 0 20px;
     width: 100%;
@@ -164,7 +164,7 @@ width:100%;
 background-color:red;
 padding-left:15px;
 padding-right:15px;
-font-size:13px;
+font-size:12px;
 border-radius:15px;
 }
 .details [id^=mt_htmlBadge_] strong font{
