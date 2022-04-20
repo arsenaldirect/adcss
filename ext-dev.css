@@ -176,7 +176,7 @@ width:100%;
 .details [id^=mt_htmlBadge_] strong font{
 color:white !important;
 }
-.details [id^=mt_htmlBadge_]:before {
+.details [id^=mt_htmlBadge_] strong:before {
     content: "";
     background-image: url(https://i.postimg.cc/vBmzspfZ/AFC50.png);
     display: block;
@@ -185,7 +185,7 @@ color:white !important;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    margin-left: 64px;
+    margin-left: -30%;
     margin-top: -13px;
     margin-bottom: -17px;
 }
