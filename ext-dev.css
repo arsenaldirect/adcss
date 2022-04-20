@@ -176,7 +176,7 @@ width:100%;
 .details [id^=mt_htmlBadge_] strong font{
 color:white !important;
 }
-.details [id^=mt_htmlBadge_] strong:before {
+.details [id^=mt_htmlBadge_] strong:before, .details [id^=mt_htmlBadge_] span:before {
     content: "";
     background-image: url(https://i.postimg.cc/vBmzspfZ/AFC50.png);
     display: block;
