@@ -162,11 +162,23 @@ width:100%;
 }
 .details [id^=mt_htmlBadge_] strong{
 background-color:red;
-padding-left:15px;
+padding-left:25px;
 padding-right:15px;
 font-size:12px;
 border-radius:15px;
 }
 .details [id^=mt_htmlBadge_] strong font{
 color:white !important;
+}
+.details [id^=mt_htmlBadge_]:before {
+    content: "";
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/desktop/theme-blue/images/favicon.ico);
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-left: 63px;
+    margin-top: -13px;
 }
