@@ -478,3 +478,14 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     border: none;
     box-shadow: 2px 2px 9px #e8e8e8;
 }
+
+/* Fix OOS variation X lines and restyle boxes */
+
+.select-box.out-of-stock:before, .select-box.out-of-stock:after{
+  display:none;
+}
+.select-box.out-of-stock{
+    background-color: rgba(0,0,0,0.04);
+    color: white;
+    text-shadow: #999 1px 1px 0;
+}
