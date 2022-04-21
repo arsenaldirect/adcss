@@ -441,3 +441,28 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     margin-top:-20px;
 }
 
+.stock-levels .in-stock{
+    color: white;
+    width: auto;
+    padding-right: 25px;
+    max-width: 120px;
+    float: right;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #159B09;
+}
+.stock-levels .in-stock:after{
+    content: "";
+    background-image: url(https://i.postimg.cc/prnYW1Yb/greenticksolid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: -10px;
+    margin-top: -5px;
+}
