@@ -513,12 +513,12 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     box-shadow: 2px 2px 9px #e8e8e8;
 }
 
-/* Fix OOS variation X lines and restyle boxes */
+/* Fix OOS variation X lines and restyle boxes/disabled add to cart button */
 
 .select-box.out-of-stock:before, .select-box.out-of-stock:after{
   display:none;
 }
-.select-box.out-of-stock{
+.select-box.out-of-stock, #addToCartButton:disabled{
     background-color: rgba(0,0,0,0.04);
     color: rgba(255,0,0,0.2);
 }
