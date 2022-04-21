@@ -43,41 +43,6 @@
   }
 }
 
-/* Style Amazon payment button - NEEDS WORK DUE TO SHADOW ROOT 
-
-#AmazonPayButton .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
-  min-height:70px !important;
-}
-div > div.amazonpay-button-view3{
-  max-width:60% !important;
-  margin-left:auto !important;
-  margin-right:auto !important;
-}
-#AmazonPayButton{
-  margin-top:-9px !important;
-  margin-bottom:45px !important;
-}
-#mtvheader > a > span{
-  font-size:16px !important;
-  text-align:center !important;
-}
-div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay-button-logo > img{
-  max-height:20px !important;
-  padding-top:4px !important;
-}
-div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay-button-chevrons > img{
-  max-height:15px !important;
-  padding-top:3px !important;
-}
-.amazonpay-button-view1{
-  border-radius:0 !important;
-}
-.amazonpay-button-view1-gold{
-  border-color:#505050 !important;
-  background:transparent !important;
-}
-*/
-
 /* Shop by player - prevent faces being obscured on mobile */
 
 @media (max-width: 639px){
