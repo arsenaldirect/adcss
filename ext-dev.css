@@ -343,4 +343,8 @@ letter-spacing:1px !important;
     font-size:40px;
     letter-spacing:1px;
   }
+  .product-details-wrapper .totalPriceWas{
+    margin-top:-10px;
+    margin-bottom:20px;
+  }
 }
