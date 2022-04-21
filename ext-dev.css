@@ -250,3 +250,23 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
     top: 6px;
     filter: brightness(0) invert(1);
 }
+
+/* PDP free shipping section */
+
+.con{ 
+  width: 100%;
+}
+.c1{
+  color: red; 
+  font-weight: bolder; 
+  font-size: 40px; 
+}
+.c2{
+  font-weight: bold; 
+  font-size: 30px; 
+}
+.c3{
+  color: rgb(83, 82, 82); 
+  font-size: 15px; 
+  font-weight: 500;
+}
