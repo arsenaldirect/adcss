@@ -330,9 +330,13 @@ font-weight:normal;
 }
 .product-details-wrapper .totalPriceWas .minor{
 font-size:26px;
+padding-left:5px;
 }
 .product-details-wrapper p.totalPrice{
 letter-spacing:1px !important;
+}
+.product-details-wrapper .totalPrice .red{
+  color:red;
 }
 
 @media (max-width: 1024px){
