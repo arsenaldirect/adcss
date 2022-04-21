@@ -298,13 +298,13 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
   line-height:1.2em;
 }
 @media (max-width: 1024px){
-  c1{
+  .c1{
     font-size:70px;
   }
-  c2{
+  .c2{
     font-size:28px;
   }
-  c3{
+  .c3{
     font-size:18px;
   }
 }
