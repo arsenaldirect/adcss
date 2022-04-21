@@ -423,7 +423,7 @@ letter-spacing:1px !important;
 
 /* PDP Product notice badge styling */
 
-.product-summary-style:not(:empty) {
+p.product-summary-style:not(:empty) {
     margin-top: 0px;
     padding: 20px;
     font-weight: bold;
