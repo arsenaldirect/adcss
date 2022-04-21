@@ -386,8 +386,8 @@ letter-spacing:1px !important;
 
 /* PDP Product notice badge styling */
 
-/* REQUIRES WHITESPACE TO BE REMOVED FROM PDP */
-p.product-summary-style:not(:empty), .pdp-warning-box {
+/* REQUIRES WHITESPACE TO BE REMOVED FROM PDP
+p.product-summary-style:not(:empty){
     margin-top: 0px;
     padding: 20px;
     font-weight: bold;
@@ -409,13 +409,31 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     margin-left: -70px;
     filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
 }
+*/
+
+/* PDP Personalised product delivery delay styling */
 
 .pdp-warning-box{
+  margin-top: 0px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 95px;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
+    height:auto;
   background-color:red;
   color:white;
 }
 
 .pdp-warning-box:before{
+  content: "";
+    background-image: url(https://www.loomkart.com/wp-content/uploads/2018/01/info.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: -70px;
   filter: brightness(0) invert(1);
 }
 
