@@ -345,10 +345,10 @@ p#noOfShirts{
 .product-details-wrapper .product-price-panel{
 font-family: 'tk-agency-gothic-ct-conden-n5';
 }
-div.product-details-wrapper.border.bottom > div.addtocart-component > div.grand-totals.table-display > div > div:nth-child(1){
+div.addtocart-component > div.grand-totals.table-display > div > div:nth-child(1){
 order:2;
 }
-div.product-details-wrapper.border.bottom > div.addtocart-component > div.grand-totals.table-display > div > div:nth-child(2){
+div.addtocart-component > div.grand-totals.table-display > div > div:nth-child(2){
 order:1;
 line-height: 0.1em;
 }
