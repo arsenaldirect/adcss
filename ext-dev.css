@@ -118,14 +118,14 @@ width:100%;
 
 /* Monetate badge styling */
 
-.details [id^=mt_htmlBadge_]{
+.details [id^=mt_htmlBadge_], .details-wrapper [id^=mt_htmlBadge_]{
     /* border-bottom: 1px solid #f00; */
     line-height: 0.1em;
     margin: 10px 0 20px;
     width: 100%;
     text-transform:uppercase;
 }
-.details [id^=mt_htmlBadge_] strong, .details [id^=mt_htmlBadge_] span{
+.details [id^=mt_htmlBadge_] strong, .details [id^=mt_htmlBadge_] span, .details-wrapper [id^=mt_htmlBadge_] span{
     background-color: red;
     padding-left: 25px;
     padding-right: 15px;
