@@ -442,7 +442,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
 }
 
 .stock-levels .in-stock{
-    color: white;
+    color: white !important;
     width: auto;
     padding-right: 25px;
     max-width: 120px;
