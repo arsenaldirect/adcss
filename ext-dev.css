@@ -253,6 +253,9 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
 
 /* PDP free shipping section */
 
+.fixw img{
+  max-width:50%;
+}
 .con{ 
   width: 100%;
 }
