@@ -127,6 +127,7 @@ width:100%;
 }
 .details-wrapper [id^=mt_htmlBadge_]{
   margin-bottom:0px;
+  margin-top:20px;
 }
 .details [id^=mt_htmlBadge_] strong, .details [id^=mt_htmlBadge_] span, .details-wrapper [id^=mt_htmlBadge_] span{
     background-color: red;
@@ -389,7 +390,7 @@ letter-spacing:1px !important;
 
 /* PDP Product notice badge styling */
 
-/* REQUIRES WHITESPACE TO BE REMOVED FROM PDP
+/* REQUIRES WHITESPACE TO BE REMOVED FROM PDP FIRST - JIRA TICKET 3909
 p.product-summary-style:not(:empty){
     margin-top: 0px;
     padding: 20px;
@@ -414,7 +415,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
 }
 */
 
-/* PDP Personalised product delivery delay styling */
+/* PDP Personalised product delivery delay warning styling */
 
 .pdp-warning-box{
   margin-top: 0px;
@@ -442,6 +443,8 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
 .product-summary-style(:empty){
     margin-top:-20px;
 }
+
+/* PDP in stock status after choosing variation */
 
 .stock-levels .in-stock{
     color: white !important;
