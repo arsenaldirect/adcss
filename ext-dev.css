@@ -310,10 +310,10 @@ p.option-label.choosesize-vari:after {
     background-repeat: no-repeat;
     background-size: contain;
     width: 60px;
-    height: 50px;
+    height: 30px;
     position: absolute;
     right: -10px;
-    margin-top: -6px;
+    margin-top: -5px;
 }
 
 /* PDP free shipping section */
