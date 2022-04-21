@@ -256,8 +256,9 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
 .fixw{
   width:100%;
 }
-.fixw td{
-  width:50%;
+.fixw td.imgcol{
+  width:30%;
+  padding-right:20px;
 }
 .fixw img{
   max-width:100%;
@@ -274,7 +275,7 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
 }
 .c2{
   font-weight: bold; 
-  font-size: 30px; 
+  font-size: 18px; 
 }
 .c3{
   color: rgb(83, 82, 82); 
