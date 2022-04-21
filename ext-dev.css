@@ -423,6 +423,7 @@ letter-spacing:1px !important;
 
 /* PDP Product notice badge styling */
 
+/* REQUIRES WHITESPACE TO BE REMOVED FROM PDP
 p.product-summary-style:not(:empty) {
     margin-top: 0px;
     padding: 20px;
@@ -444,3 +445,4 @@ p.product-summary-style:not(:empty):before {
     margin-left: -70px;
     filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
 }
+*/
