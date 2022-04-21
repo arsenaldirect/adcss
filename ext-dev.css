@@ -255,6 +255,7 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
 
 #freedelcont{
   margin-left: auto;
+  margin-right:auto;
   width: 90%;
   padding-left:10px;
 }
