@@ -465,3 +465,10 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     right: -10px;
     margin-top: -5px;
 }
+
+/* Replace PDP section border with shadow */
+
+.product-details-wrapper.border {
+    border: none;
+    box-shadow: 2px 2px 9px #e8e8e8;
+}
