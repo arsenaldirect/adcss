@@ -196,8 +196,9 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
 opacity:1;
 }
 
-/* PDP size guide link */
+/* PDP size guide link - OPTION 1 with ribbon effect */
 
+/*
 a.option-label.sizeGuideLink:after {
     width: 0;
     height: 0;
@@ -258,6 +259,12 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
     margin-right:-35px;
   }
 }
+
+*/
+
+/* PDP size guide link - OPTION 2 with icon */
+
+
 
 /* PDP free shipping section */
 
