@@ -255,7 +255,7 @@ p#noOfShirts{
 
 /* PDP personalise title */
 
-.product-details-wrapper .actions-text {
+.product-details-wrapper .actions-text:not(.accordion-header) {
     font-size: 14px;
     font-family: "meta-normal";
     text-transform: uppercase;
@@ -267,7 +267,7 @@ p#noOfShirts{
     border-top-left-radius: 10px;
     margin-right: 10px;
 }
-.product-details-wrapper .actions-text:after {
+.product-details-wrapper .actions-text:not(.accordion-header):after {
     content: "";
     background-image: url(https://i.postimg.cc/VsDyqP4K/texticon.png);
     background-repeat: no-repeat;
