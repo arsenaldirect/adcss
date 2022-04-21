@@ -520,6 +520,5 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
 }
 .select-box.out-of-stock{
     background-color: rgba(0,0,0,0.04);
-    color: white;
-    text-shadow: #999 1px 1px 0;
+    color: rgba(255,0,0,0.2);
 }
