@@ -334,3 +334,13 @@ font-size:26px;
 .product-details-wrapper p.totalPrice{
 letter-spacing:1px !important;
 }
+
+@media (max-width: 1024px){
+.product-details-wrapper p.totalPrice{
+  font-size:50px;
+  }
+  .product-details-wrapper .totalPriceWas .minor{
+    font-size:40px;
+    letter-spacing:1px;
+  }
+}
