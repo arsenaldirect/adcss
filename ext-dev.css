@@ -207,7 +207,7 @@ a.option-label.sizeGuideLink:after {
 }
 
 a.option-label.sizeGuideLink:before {
-    background: #03A9F4;
+    background: red;
 }
 a.option-label.sizeGuideLink:before {
     width: 18px;
@@ -226,7 +226,7 @@ a.option-label.sizeGuideLink:before, a.option-label.sizeGuideLink:after {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #32a4d8;
+    background-color: red;
     padding-left: 10px;
     padding-right: 30px;
     padding-top: 3px;
