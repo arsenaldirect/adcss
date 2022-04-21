@@ -396,7 +396,6 @@ p.product-summary-style:not(:empty), .pdp-warning-box {
     color: #999999;
     box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
     height:auto;
-    background-color:white;
 }
 
 p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
@@ -409,6 +408,15 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     position: absolute;
     margin-left: -70px;
     filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
+}
+
+.pdp-warning-box{
+  background-color:red;
+  color:white;
+}
+
+.pdp-warning-box:before{
+  filter: brightness(0) invert(1);
 }
 
 .product-summary-style(:empty){
