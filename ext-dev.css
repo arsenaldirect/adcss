@@ -252,15 +252,16 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
 }
 
 /* PDP free shipping section */
-
+.fixwcontainer{
+  width:80%;
+  justify-content:center;
+}
 .fixw{
-  width:auto;
+  width:100%;
   margin-bottom:20px;
-  margin-left:auto;
-  margin-right:auto;
 }
 .fixw td.imgcol{
-  max-width:30%;
+  width:30%;
   padding-right:20px;
 }
 .fixw img{
