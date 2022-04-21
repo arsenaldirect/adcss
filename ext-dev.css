@@ -255,7 +255,6 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
 
 #freedelcont{
   margin-left: auto;
-  margin-right: auto;
   width: 90%;
   padding-left:10px;
 }
@@ -296,4 +295,15 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
   font-family: 'meta-font';
   display:block;
   line-height:1.2em;
+}
+@media (max-width: 1024px){
+  c1{
+    font-size:70px;
+  }
+  c2{
+    font-size:28px;
+  }
+  c3{
+    font-size:18px;
+  }
 }
