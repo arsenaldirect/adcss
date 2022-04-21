@@ -423,7 +423,7 @@ letter-spacing:1px !important;
 
 /* PDP Product notice badge styling */
 
-.product-summary-style {
+.product-summary-style:not(:empty) {
     margin-top: 0px;
     padding: 20px;
     font-weight: bold;
@@ -433,7 +433,7 @@ letter-spacing:1px !important;
     box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
 }
 
-p.product-summary-style:before {
+p.product-summary-style:not(:empty):before {
     content: "";
     background-image: url(https://www.loomkart.com/wp-content/uploads/2018/01/info.png);
     background-repeat: no-repeat;
