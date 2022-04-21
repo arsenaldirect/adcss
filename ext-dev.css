@@ -201,7 +201,7 @@ opacity:1;
 a.option-label.sizeGuideLink:after {
     width: 0;
     height: 0;
-    border: 12px solid transparent;
+    border: 10px solid transparent;
     border-bottom-color: #fff;
     border-right-color: #fff;
 }
