@@ -161,73 +161,7 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
 opacity:1;
 }
 
-/* PDP size guide link - OPTION 1 with ribbon effect */
-
-/*
-a.option-label.sizeGuideLink:after {
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #fff;
-    border-right-color: #fff;
-}
-
-a.option-label.sizeGuideLink:before {
-    background: red;
-}
-a.option-label.sizeGuideLink:before {
-    width: 18px;
-    height: 24px;
-    box-shadow: inset 12px 0 13px rgb(0 0 0 / 50%);
-}
-a.option-label.sizeGuideLink:before, a.option-label.sizeGuideLink:after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    right: -30px;
-    bottom: -19px;
-    transform: rotateX(60deg);
-}
-.sizeGuideLink {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: red;
-    padding-left: 10px;
-    padding-right: 30px;
-    padding-top: 3px;
-    padding-bottom: 5px;
-    margin-right: -40px;
-    font-size: 14px !important;
-}
-a.option-label.sizeGuideLink:hover {
-    color: white;
-}
-div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
-    content: "";
-    background-image: url(https://static.thenounproject.com/png/299638-200.png);
-    display: block;
-    height: 14px;
-    width: 14px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: -21px;
-    top: 6px;
-    filter: brightness(0) invert(1);
-}
-@media (max-width: 1024px){
-  a.option-label.sizeGuideLink:before, a.option-label.sizeGuideLink:after{
-    right:-25px;
-  }
-  .sizeGuideLink{
-    margin-right:-35px;
-  }
-}
-
-*/
-
-/* PDP size guide link - OPTION 2 with icon */
+/* PDP size guide link */
 
 .sizeGuideLink {
     color: white;
@@ -317,6 +251,32 @@ p#noOfShirts{
     border-top-left-radius: 10px;
     margin-top: 1px;
     margin-right: 10px;
+}
+
+/* PDP personalise title */
+
+.product-details-wrapper .actions-text {
+    font-size: 14px;
+    font-family: "meta-normal";
+    text-transform: uppercase;
+    letter-spacing: 0;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 10px;
+}
+.product-details-wrapper .actions-text:after {
+    content: "";
+    background-image: url(https://i.postimg.cc/mkfC6nbk/carticonred.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    margin-top: -4px;
 }
 
 /* PDP free shipping section */
