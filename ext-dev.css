@@ -273,14 +273,19 @@ div.variant-section > div > div > div.col-xs-6.col-md-6.text-right:after {
   font-size: 40px;
   font-family: 'tk-agency-gothic-ct-conden-n5';
   white-space: nowrap;
+  display:block;
+  line-height:1.6em;
 }
 .c2{
   font-weight: bold; 
   font-size: 18px; 
   font-family: 'meta-font';
+  display:block;
 }
 .c3{
   color: rgb(83, 82, 82); 
   font-size: 12px; 
   font-family: 'meta-font';
+  display:block;
+  line-height:1.2em;
 }
