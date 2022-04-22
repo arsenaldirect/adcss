@@ -527,10 +527,43 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
   opacity:0.3;
 }
 
-/* Cart remove button */
-
 /* Mini-cart totals */
 
+.main-header .mini-cart-taxes .value, .main-header .mini-cart-totals .value{
+    font-family: 'agency-gothic-ct-cond-tt';
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: -4px;
+}
+
+.main-header .mini-cart-taxes {
+    color: inherit;
+    background-color: #F5F5F5;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 9px #e8e8e8;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main-header .mini-cart-taxes, .main-header .mini-cart-totals {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#miniCartSlot > div > div.mini-cart.js-mini-cart > div > div.mini-cart-taxes > span{
+    content: "";
+    background-image: url(https://i.postimg.cc/W3LxGJ4r/savings.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top:-2px;
+}
+
+/* Cart remove button */
 /* Cart totals */
 
 /* Cart free delivery message */
