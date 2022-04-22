@@ -551,7 +551,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     padding-right: 10px;
 }
 
-#miniCartSlot > div > div.mini-cart.js-mini-cart > div > div.mini-cart-taxes > span{
+#miniCartSlot > div > div.mini-cart.js-mini-cart > div > div.mini-cart-taxes > span:before{
     content: "";
     background-image: url(https://i.postimg.cc/W3LxGJ4r/savings.png);
     background-repeat: no-repeat;
