@@ -492,6 +492,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     font-size: 14px;
     margin-right: 10px;
     margin-top: 15px;
+    margin-bottom:15x;
     background-color: #159B09;
 }
 .stock-levels .in-stock:after{
