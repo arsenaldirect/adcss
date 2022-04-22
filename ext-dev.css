@@ -543,6 +543,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     box-shadow: 2px 2px 9px #e8e8e8;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-top:10px;
 }
 
 .main-header .mini-cart-taxes, .main-header .mini-cart-totals {
