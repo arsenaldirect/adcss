@@ -563,6 +563,13 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     margin-top:-2px;
 }
 
+.mini-cart-item .price {
+    font-family: 'agency-gothic-ct-cond-tt';
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
 /* Cart remove button */
 /* Cart totals */
 
