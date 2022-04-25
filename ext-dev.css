@@ -181,7 +181,7 @@ color:white !important;
 }
 .details [id^=mt_htmlBadge_] strong:before, .details [id^=mt_htmlBadge_] span:before, .details-wrapper [id^=mt_htmlBadge_] span:before {
     content: "";
-    background-image: url(https://i.postimg.cc/vBmzspfZ/AFC50.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/AFC50.png);
     display: block;
     width: 30px;
     height: 30px;
@@ -223,14 +223,14 @@ opacity:1;
     height: 30px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(https://i.postimg.cc/4dwqSHMM/shirticonred.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/shirticonred.png);
     position: absolute;
     margin-left: -32px;
     margin-top: -2px;
 }
 a.option-label.sizeGuideLink:after {
     content: "";
-    background-image: url(https://static.thenounproject.com/png/299638-200.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/299638-200.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -255,7 +255,7 @@ a.option-label.sizeGuideLink:after {
 }
 p.option-label.choosesize-vari:after {
     content: "";
-    background-image: url(https://i.postimg.cc/SsgkHfKF/rulericonwhite.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/rulericonwhite.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 60px;
@@ -269,7 +269,7 @@ p.option-label.choosesize-vari:after {
 
 p#noOfShirts:after {
     content: "";
-    background-image: url(https://i.postimg.cc/mkfC6nbk/carticonred.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/carticonred.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30px;
@@ -307,7 +307,7 @@ p#noOfShirts{
 }
 .product-details-wrapper .actions-text:not(.accordion-header):after {
     content: "";
-    background-image: url(https://i.postimg.cc/VsDyqP4K/texticon.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/texticon.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30px;
@@ -464,7 +464,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
 
 .pdp-warning-box:before, .product-details-wrapper .qty-max-messages:before, .product-details-wrapper .qty-min-messages:before{
   content: "";
-    background-image: url(https://www.loomkart.com/wp-content/uploads/2018/01/info.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -497,7 +497,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
 }
 .stock-levels .in-stock:after{
     content: "";
-    background-image: url(https://i.postimg.cc/prnYW1Yb/greenticksolid.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/greenticksolid.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 30px;
@@ -554,7 +554,7 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
 
 #miniCartSlot > div > div.mini-cart.js-mini-cart > div > div.mini-cart-taxes > span:before{
     content: "";
-    background-image: url(https://i.postimg.cc/W3LxGJ4r/savings.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/savings.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 30px;
