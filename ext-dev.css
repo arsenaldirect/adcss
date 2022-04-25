@@ -436,9 +436,9 @@ p.product-summary-style:not(:empty){
     height:auto;
 }
 
-p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
+p.product-summary-style:not(:empty):before{
     content: "";
-    background-image: url(https://www.loomkart.com/wp-content/uploads/2018/01/info.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -448,6 +448,30 @@ p.product-summary-style:not(:empty):before, .pdp-warning-box:before {
     filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
 }
 */
+
+/* PDP out of stock size notification */
+
+.items-out-of-stock{
+ margin-top: 0px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 95px;
+    color: #999999;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
+    height:auto;
+}
+.items-out-of-stock:before{
+   content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: -70px;
+    filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
+}
 
 /* PDP Personalised product delivery delay warning styling and quantity warnings */
 
