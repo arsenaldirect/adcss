@@ -453,21 +453,23 @@ p.product-summary-style:not(:empty):before{
 
 .items-out-of-stock{
  margin-top: 0px;
-    padding: 20px;
+    padding: 20px !important;
     font-weight: bold;
     border-radius: 5px;
-    padding-left: 95px;
-    color: #999999;
+    padding-left: 95px !important;
+    color: #999999 !important;
     box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
     height:auto;
+  width:100%;
+  margin-bottom:10px;
 }
 .items-out-of-stock:before{
    content: "";
     background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     position: absolute;
     margin-left: -70px;
     filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
