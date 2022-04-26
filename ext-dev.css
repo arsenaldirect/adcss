@@ -278,6 +278,11 @@ p#noOfShirts:after {
     right: 30px;
     margin-top: -4px;
 }
+@media (max-width: 1024px){
+  p#noOfShirts:after {
+    right:25px;
+  }
+}
 
 p#noOfShirts{
     background-color: red;
