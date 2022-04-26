@@ -581,6 +581,7 @@ p.product-summary-style:not(:empty):before{
 .select-box.out-of-stock span{
    padding:5px;
    background-color: #F5F5F5;
+   z-index:9;
 }
 
 /* Mini-cart totals */
