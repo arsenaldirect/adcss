@@ -420,8 +420,8 @@ letter-spacing:1px !important;
   div.addtocart-component > div.payment-provider__wrapper.js-paymentProviderWrapperPDP{
     margin-top:15px;
   }
-  .product-details-wrapper .product-price-panel{
-    padding-top:30px;
+  p#noOfShirts{
+    margin-bottom:30px;
   }
 }
 
