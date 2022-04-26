@@ -578,6 +578,11 @@ p.product-summary-style:not(:empty):before{
     border: 1px solid #FFB4B5;
 }
 
+.select-box.out-of-stock span{
+   padding:5px;
+   background-color: #F5F5F5;
+}
+
 /* Mini-cart totals */
 
 .main-header .mini-cart-taxes .value, .main-header .mini-cart-totals .value{
