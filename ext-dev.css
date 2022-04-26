@@ -617,7 +617,7 @@ p.product-summary-style:not(:empty):before{
   opacity:0.3;
 }
 
-.select-box.out-of-stock:before {
+.select-box.out-of-stock span:before {
     content: "";
     height: 53px;
     width: 55px;
@@ -627,7 +627,7 @@ p.product-summary-style:not(:empty):before{
     background: linear-gradient(45deg,rgba(0,0,0,0)49%,#FFB4B5 50%,rgba(0,0,0,0)51%);
     margin-top: -15px;
 }
-.select-box.out-of-stock:after {
+.select-box.out-of-stock span:after {
     content: "";
     height: 53px;
     width: 55px;
