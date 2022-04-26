@@ -423,6 +423,9 @@ letter-spacing:1px !important;
   p#noOfShirts{
     margin-bottom:30px;
   }
+  .patches-container{
+    margin-bottom:30px;
+  }
 }
 
 /* PDP Product notice badge styling */
