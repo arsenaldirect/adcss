@@ -499,6 +499,7 @@ p.product-summary-style:not(:empty):before{
     height:auto;
   width:100%;
   margin-bottom:10px;
+  text-align:left !important;
 }
 .text-below-stock-levels:before{
      content: "";
