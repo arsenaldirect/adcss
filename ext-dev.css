@@ -566,9 +566,9 @@ p.product-summary-style:not(:empty):before{
     color: inherit;
     background-color: #F5F5F5;
     padding-bottom: 5px;
-    box-shadow: 2px 2px 9px #e8e8e8;
+    /* box-shadow: 2px 2px 9px #e8e8e8;
     border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 20px;*/
     margin-top:10px;
 }
 
@@ -578,6 +578,7 @@ p.product-summary-style:not(:empty):before{
     padding-right: 10px;
 }
 
+/*
 #miniCartSlot > div > div.mini-cart.js-mini-cart > div > div.mini-cart-taxes > span:before{
     content: "";
     background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/savings.png);
@@ -589,6 +590,7 @@ p.product-summary-style:not(:empty):before{
     margin-left: -35px;
     margin-top:-2px;
 }
+*/
 
 .mini-cart-item .price {
     font-family: 'agency-gothic-ct-cond-tt';
@@ -598,6 +600,7 @@ p.product-summary-style:not(:empty):before{
 }
 
 /* Cart remove button */
+
 /* Cart totals */
 
 /* Cart free delivery message */
