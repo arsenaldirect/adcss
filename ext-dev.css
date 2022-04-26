@@ -617,29 +617,9 @@ p.product-summary-style:not(:empty):before{
   opacity:0.3;
 }
 
-.select-box.out-of-stock span:before {
-    content: "";
-    height: 53px;
-    width: 55px;
-    position: absolute;
-    display: block;
-    transform: rotate(0deg);
-    background: linear-gradient(45deg,rgba(0,0,0,0)49%,#FFB4B5 50%,rgba(0,0,0,0)51%);
-    margin-top: -15px;
-}
-.select-box.out-of-stock span:after {
-    content: "";
-    height: 53px;
-    width: 55px;
-    position: absolute;
-    display: block;
-    transform: rotate(90deg);
-    background: linear-gradient(45deg,rgba(0,0,0,0)49%,#FFB4B5 50%,rgba(0,0,0,0)51%);
-    top: 5px;
-}
-
 .select-box.out-of-stock {
     border: 1px solid #FFB4B5;
+    background:  linear-gradient(to top right, #F5F5F5 calc(50% - 1px), #FFB4B5, #F5F5F5 calc(50% + 1px) )
 }
 
 .select-box.out-of-stock span{
