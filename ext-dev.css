@@ -543,6 +543,32 @@ p.product-summary-style:not(:empty):before{
     right: -10px;
     margin-top: -5px;
 }
+.stock-levels .low-stock {
+    width: auto;
+    padding-right: 25px;
+    max-width: 120px;
+    float: right;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #F2BD00;
+    color: white !important;
+}
+.stock-levels .low-stock:after{
+    content: "";
+    background-image: url(https://i.postimg.cc/3N6hkn3G/lowstock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: -10px;
+    margin-top: -5px;
+}
 
 /* Replace PDP section border with shadow */
 
