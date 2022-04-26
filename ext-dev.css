@@ -561,23 +561,23 @@ p.product-summary-style:not(:empty):before{
 
 .select-box.out-of-stock:before {
     content: "";
-    height: 55px;
+    height: 53px;
     width: 55px;
     position: absolute;
     display: block;
     transform: rotate(0deg);
     background: linear-gradient(45deg,rgba(0,0,0,0)49%,#FFB4B5 50%,rgba(0,0,0,0)51%);
-    margin-top: -17px;
+    margin-top: -15px;
 }
 .select-box.out-of-stock:after {
     content: "";
-    height: 55px;
+    height: 53px;
     width: 55px;
     position: absolute;
     display: block;
     transform: rotate(90deg);
     background: linear-gradient(45deg,rgba(0,0,0,0)49%,#FFB4B5 50%,rgba(0,0,0,0)51%);
-    top: 3px;
+    top: 5px;
 }
 
 .select-box.out-of-stock {
