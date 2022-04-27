@@ -465,6 +465,9 @@ p.product-summary-style:not(:empty):before{
 .control-group .items-out-of-stock{
   display:none;
 }
+#backInStockPopup{
+  margin-top:10px;
+}
 
 /* PDP pre-order text notification */
 
