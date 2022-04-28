@@ -677,4 +677,10 @@ body.page-parentCategory .carousel .item{
   height:360px;
 }
 
+/* Make product name capitals on carousels */
+
+div.owl-wrapper-outer .item-name{
+  text-transform:uppercase;
+}
+
 /* END RELEASE */
