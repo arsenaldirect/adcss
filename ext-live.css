@@ -1,8 +1,22 @@
-/* RELEASE 22 FEB 2021 */
+/* ....................................................................................
+//...222222......1111........FFFFFFFFFF..........ebbb..............222222....222222....
+//..22222222....11111........FFFFFFFFFF..........ebbb.............22222222..22222222...
+//.2222..2222..111111........FFFFFFFFFF..........ebbb............ 222..22222222..2222..
+//.2222..2222.1111111........FFFF........eeeeee..ebbbbbbbb....... 222..22222222..2222..
+//.......2222.1111111........FFFF.......eeeeeeee.ebbbbbbbbb............2222......2222..
+//......22222.11.1111........FFFFFFFFF.Feee.eeee.ebbbb.bbbbb..........22222.....22222..
+//.....22222.....1111........FFFFFFFFF.Feee..eeeeebbb...bbbb.........22222.....22222...
+//....22222......1111........FFFFFFFFF.Feeeeeeeeeebbb...bbbb........22222.....22222....
+//...22222.......1111........FFFF......Feeeeeeeeeebbb...bbbb.......22222.....22222.....
+//..22222........1111........FFFF......Feee......ebbb...bbbb......22222.....22222......
+//..2222.........1111........FFFF......Feee..eeeeebbbb.bbbbb......2222......2222.......
+//.2222222222....1111........FFFF.......eeeeeeee.ebbbbbbbbb...... 2222222222222222222..
+//.2222222222....1111........FFFF........eeeeee..ebbbbbbbb....... 2222222222222222222..
+//.................................................................................. */
 
 /* Fix checkbox alignment for delivery address during checkout */
 
-#newDeliveryAddress > div.optedin{
+.checkout-payment .optedin{
   display:flex !important;
 }
 
@@ -43,40 +57,6 @@
   }
 }
 
-/* Style Amazon payment button - NEEDS WORK DUE TO SHADOW ROOT 
-#AmazonPayButton .amazonpay-button-container.amazonpay-button-enabled.amazonpay-button-container-rows{
-  min-height:70px !important;
-}
-div > div.amazonpay-button-view3{
-  max-width:60% !important;
-  margin-left:auto !important;
-  margin-right:auto !important;
-}
-#AmazonPayButton{
-  margin-top:-9px !important;
-  margin-bottom:45px !important;
-}
-#mtvheader > a > span{
-  font-size:16px !important;
-  text-align:center !important;
-}
-div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay-button-logo > img{
-  max-height:20px !important;
-  padding-top:4px !important;
-}
-div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay-button-chevrons > img{
-  max-height:15px !important;
-  padding-top:3px !important;
-}
-.amazonpay-button-view1{
-  border-radius:0 !important;
-}
-.amazonpay-button-view1-gold{
-  border-color:#505050 !important;
-  background:transparent !important;
-}
-*/
-
 /* Shop by player - prevent faces being obscured on mobile */
 
 @media (max-width: 639px){
@@ -98,5 +78,603 @@ div > div.amazonpay-button-view1.amazonpay-button-view1-gold > picture.amazonpay
   }
 }
 
+/* END RELEASE */
+
+/*....................................................................................
+//...222222....888888...........AAAAA.............................222222....222222....
+//..22222222..88888888..........AAAAA............................22222222..22222222...
+//.2222..22222888888888........AAAAAA........................... 222..22222222..2222..
+//.2222..22222888..8888........AAAAAAA...Apppppppp..prrrrrrr.... 222..22222222..2222..
+//.......2222288888888........AAAAAAAA...Appppppppp.prrrrrrr..........2222......2222..
+//......22222.88888888........AAAAAAAA...Apppp.pppppprrrr............22222.....22222..
+//.....22222..88888888........AAAA.AAAA..Appp...ppppprrr............22222.....22222...
+//....22222..2888.88888......AAAAAAAAAA..Appp...ppppprrr...........22222.....22222....
+//...22222...2888..8888......AAAAAAAAAAA.Appp...ppppprrr..........22222.....22222.....
+//..22222....2888..8888......AAAAAAAAAAA.Appp...ppppprrr.........22222.....22222......
+//..2222.....2888888888..... AAA....AAAA.Apppp.pppppprrr.........2222......2222.......
+//.2222222222.88888888...... AAA.....AAAAAppppppppp.prrr........ 2222222222222222222..
+//.2222222222..888888...... AAA.....AAAAApppppppp..prrr........ 2222222222222222222..
+//.......................................Appp.........................................
+//.......................................Appp.........................................
+//.......................................Appp.........................................
+//.......................................Appp.........................................
+//..................................................................................*/
+
+/* Update PLP product name and price */
+  
+.product-listing.product-grid .details .price{
+font-family:'tk-agency-gothic-ct-conden-n5';
+font-size:28px;
+}
+
+.product-listing.product-grid .details .name{
+text-transform:uppercase;
+font-size:14px;
+}
+
+/* Update PLP was/now pricing */
+
+.was-now-price{
+font-family:'tk-agency-gothic-ct-conden-n5';
+}
+
+.was-now-price__now{
+font-size:28px;
+float:right;
+background-color:transparent;
+color:red;
+  order:2;
+  margin-top:-20px;
+  letter-spacing:1px;
+}
+
+.was-now-price__was{
+float:left;
+justify-content: center;
+margin-top: -5px;
+width:100%;
+  order:1;
+}
+
+.carousel .item .item-price{
+  font-family:'tk-agency-gothic-ct-conden-n5';
+  font-size:28px;
+}
+
+/* Hide page dividers and pagination links */
+
+.divider.js-page-divider{
+  display:none;
+}
+.pagination span{
+  display:none;
+}
+
+/* Monetate badge styling */
+
+.details [id^=mt_htmlBadge_], .details-wrapper [id^=mt_htmlBadge_]{
+    /* border-bottom: 1px solid #f00; */
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    width: 100%;
+    text-transform:uppercase;
+}
+.details-wrapper [id^=mt_htmlBadge_]{
+  margin-bottom:0px;
+  margin-top:20px;
+}
+.details [id^=mt_htmlBadge_] strong, .details [id^=mt_htmlBadge_] span, .details-wrapper [id^=mt_htmlBadge_] span{
+    background-color: red;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-size: 12px;
+    border-radius: 15px;
+    min-width: 160px;
+    height: 18px;
+    color: white !important;
+    display: inline-block;
+    padding-top: 8px;
+    margin-top: -8px;
+}
+.details [id^=mt_htmlBadge_] strong font{
+color:white !important;
+}
+.details [id^=mt_htmlBadge_] strong:before, .details [id^=mt_htmlBadge_] span:before, .details-wrapper [id^=mt_htmlBadge_] span:before {
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/AFC50.png);
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-left: -30%;
+    margin-top: -13px;
+    margin-bottom: -17px;
+}
+
+/* Remove hover effect on site logo */
+
+body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-logo > div > div > a:hover{
+opacity:1;
+}
+
+/* PDP size guide link */
+
+.sizeGuideLink {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.sizeGuideLink:hover{
+    color: white;
+}
+.sizeGuideLink:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/shirticonred.png);
+    position: absolute;
+    margin-left: -32px;
+    margin-top: -2px;
+}
+a.option-label.sizeGuideLink:after {
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/299638-200.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    filter: brightness(0) invert(1);
+    height: 14px;
+    width: 14px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+/* PDP choose size title */
+
+.option-label.choosesize-vari{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius:10px;
+    margin-top: 1px;
+    max-width:100px;
+}
+/* p.option-label.choosesize-vari:after {
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/rulericonwhite.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    right: -10px;
+    margin-top: -5px;
+} */
+
+/* PDP choose qty title */
+
+p#noOfShirts:after {
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/carticonred.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    margin-top: -4px;
+}
+@media (max-width: 1024px){
+  p#noOfShirts:after {
+    right:25px;
+  }
+}
+
+p#noOfShirts{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+
+/* PDP personalise title */
+
+.product-details-wrapper .actions-text:not(.accordion-header) {
+    font-size: 14px;
+    font-family: "meta-normal";
+    text-transform: uppercase;
+    letter-spacing: 0;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 10px;
+}
+.product-details-wrapper .actions-text:not(.accordion-header):after {
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/934963e503b9232f9590bb98dfae854994aa4e89/img/texticon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    margin-top: -4px;
+}
+
+/* PDP free shipping section */
+
+#freedelcont{
+  margin-left: auto;
+  margin-right:auto;
+  width: 90%;
+  padding-left:10px;
+}
+.fixw{
+  width:100%;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.fixw td.imgcol{
+  width:30%;
+  padding-right:20px;
+}
+.fixw td.txtcol{
+  width:50%;
+}
+.fixw img{
+  max-width:100%;
+}
+.c1{
+  color: red; 
+  font-weight: bold; 
+  font-size: 40px;
+  font-family: 'tk-agency-gothic-ct-conden-n5';
+  white-space: nowrap;
+  display:block;
+  line-height:0.8em;
+}
+.c2{
+  font-weight: bold; 
+  font-size: 18px; 
+  font-family: 'meta-font';
+  display:block;
+}
+.c3{
+  color: rgb(83, 82, 82); 
+  font-size: 12px; 
+  font-family: 'meta-font';
+  display:block;
+  line-height:1.2em;
+}
+@media (max-width: 1024px){
+  .c1{
+    font-size:70px;
+  }
+  .c2{
+    font-size:28px;
+  }
+  .c3{
+    font-size:15px;
+  }
+}
+
+/* PDP was/now pricing */
+
+.js-productNowPriceLabel, .js-productWasPriceLabel{
+  display:none;
+}
+.product-details-wrapper .product-price-panel{
+font-family: 'tk-agency-gothic-ct-conden-n5';
+}
+div.addtocart-component > div.grand-totals.table-display > div > div:nth-child(1){
+order:2;
+}
+div.addtocart-component > div.grand-totals.table-display > div > div:nth-child(2){
+order:1;
+line-height: 0.1em;
+}
+.product-details-wrapper .totalPriceWas{
+margin-bottom:0;
+font-weight:normal;
+}
+.product-details-wrapper .totalPriceWas .minor{
+font-size:26px;
+padding-left:5px;
+}
+.product-details-wrapper p.totalPrice{
+letter-spacing:1px !important;
+}
+.product-details-wrapper .totalPrice .red{
+  color:red;
+}
+
+@media (max-width: 1024px){
+.product-details-wrapper p.totalPrice{
+  font-size:50px;
+  }
+  .product-details-wrapper .totalPriceWas .minor{
+    font-size:40px;
+    letter-spacing:1px;
+  }
+  .product-details-wrapper .totalPriceWas{
+    margin-top:-10px;
+    margin-bottom:20px;
+  }
+  div.addtocart-component > div.payment-provider__wrapper.js-paymentProviderWrapperPDP{
+    margin-top:15px;
+  }
+  p#noOfShirts{
+    margin-bottom:30px;
+  }
+  .patches-container{
+    margin-bottom:30px;
+  }
+}
+
+/* PDP Product notice badge styling */
+
+/* REQUIRES WHITESPACE TO BE REMOVED FROM PDP FIRST - JIRA TICKET 3909
+p.product-summary-style:not(:empty){
+    margin-top: 0px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 95px;
+    color: #999999;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
+    height:auto;
+}
+
+p.product-summary-style:not(:empty):before{
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: -70px;
+    filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
+}
+*/
+
+/* Hide PDP out of stock sizes (the list above EMWBIS button) */
+
+.control-group .items-out-of-stock{
+  display:none;
+}
+#backInStockPopup{
+  margin-top:10px;
+}
+
+/* PDP pre-order text notification */
+
+.text-below-stock-levels{
+   margin-top: 20px !important;
+    padding: 20px !important;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 95px !important;
+    color: #999999 !important;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
+    height:auto;
+  width:100%;
+  margin-bottom:10px;
+  text-align:left !important;
+}
+.text-below-stock-levels:before{
+     content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: -70px;
+    filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
+}
+
+/* PDP Personalised product delivery delay warning styling and quantity warnings */
+
+.pdp-warning-box, .product-details-wrapper .qty-max-messages, .product-details-wrapper .qty-min-messages{
+  margin-top: 0px;
+    padding: 20px;
+    border-radius: 5px;
+    padding-left: 95px;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
+    height:auto;
+  background-color:red;
+  color:white;
+}
+
+.pdp-warning-box:before, .product-details-wrapper .qty-max-messages:before, .product-details-wrapper .qty-min-messages:before{
+  content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: -70px;
+  filter: brightness(0) invert(1);
+}
+
+.product-summary-style(:empty){
+    margin-top:-20px;
+}
+
+/* PDP in stock status after choosing variation */
+
+.stock-levels .in-stock{
+    color: white !important;
+    width: auto;
+    padding-right: 25px;
+    max-width: 120px;
+    float: right;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    background-color: #159B09;
+}
+.stock-levels .in-stock:after{
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/greenticksolid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: -10px;
+    margin-top: -5px;
+}
+.stock-levels .low-stock {
+    width: auto;
+    padding-right: 25px;
+    max-width: 120px;
+    float: right;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #F2BD00;
+    color: white !important;
+}
+.stock-levels .low-stock:after{
+    content: "";
+    background-image: url(https://i.postimg.cc/3N6hkn3G/lowstock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: -10px;
+    margin-top: -5px;
+}
+
+/* Replace PDP section border with shadow */
+
+.product-details-wrapper.border {
+    border: none;
+    box-shadow: 2px 2px 9px #e8e8e8;
+}
+
+/* Fix OOS variation X lines and restyle boxes/disabled add to cart buttons */
+
+.select-box.out-of-stock:before, .select-box.out-of-stock:after{
+  display:none;
+}
+.select-box.out-of-stock, #addToCartButton:disabled{
+    background-color: rgba(0,0,0,0.04);
+    color: rgba(255,0,0,0.2);
+}
+.btn-primary[disabled]{
+  opacity:0.3;
+}
+
+.select-box.out-of-stock {
+    border: 1px solid #FFB4B5;
+    background:
+         linear-gradient(to top left,
+             rgba(0,0,0,0) 0%,
+             rgba(0,0,0,0) calc(50% - 0.8px),
+             rgba(255,180,181,1) 50%,
+             rgba(0,0,0,0) calc(50% + 0.8px),
+             rgba(0,0,0,0) 100%),
+         linear-gradient(to top right,
+             rgb(245, 245, 245) 0%,
+             rgb(245, 245, 245) calc(50% - 0.8px),
+             rgba(255,180,181,1) 50%,
+             rgb(245, 245, 245) calc(50% + 0.8px),
+             rgb(245, 245, 245) 100%);
+}
+
+.select-box.out-of-stock span{
+   padding:5px;
+   background-color: #F5F5F5;
+   z-index:9;
+}
+
+/* Mini-cart totals */
+
+.main-header .mini-cart-taxes .value, .main-header .mini-cart-totals .value{
+    font-family: 'agency-gothic-ct-cond-tt';
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: -4px;
+}
+@media (max-width: 1024px){
+  .main-header .mini-cart-taxes .value, .main-header .mini-cart-totals .value{
+    font-size:24px;
+  }
+  .mini-cart-taxes, .mini-cart-totals{
+    text-transform:uppercase;
+  }
+}
+
+.main-header .mini-cart-taxes {
+    color: inherit;
+    padding-bottom: 5px;
+    /* background-color: #F5F5F5;
+    box-shadow: 2px 2px 9px #e8e8e8;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    margin-top:10px;
+}
+
+.main-header .mini-cart-taxes, .main-header .mini-cart-totals {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*
+#miniCartSlot > div > div.mini-cart.js-mini-cart > div > div.mini-cart-taxes > span:before{
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/savings.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top:-2px;
+}
+*/
+
+.mini-cart-item .price {
+    font-family: 'agency-gothic-ct-cond-tt';
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
 
 /* END RELEASE */
