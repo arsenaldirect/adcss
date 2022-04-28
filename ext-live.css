@@ -674,7 +674,7 @@ p.product-summary-style:not(:empty):before{
 /* Fix cropping on carousels */
 
 body.page-parentCategory .carousel .item{
-  height:360px;
+  height:370px;
 }
 
 /* Make product name capitals on carousels */
