@@ -683,4 +683,19 @@ div.owl-wrapper-outer .item-name{
   text-transform:uppercase;
 }
 
+/* PLP increase space between products on mobile and sort out PDP title */
+
+@media (max-width: 1024px){
+    .product-listing.product-grid .product-item{
+    margin-bottom:30px;
+  }
+  .product-details .product-header{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin-top:10px;
+  }
+}
+
 /* END RELEASE */
