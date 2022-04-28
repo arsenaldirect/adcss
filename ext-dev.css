@@ -691,8 +691,10 @@ div.owl-wrapper-outer .item-name{
   }
   .product-details .product-header{
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
+    text-transform:uppercase;
+    margin-top:10px;
 }
 }
 
