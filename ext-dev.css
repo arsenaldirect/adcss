@@ -677,6 +677,12 @@ p.product-summary-style:not(:empty):before{
     font-weight: bold;
 }
 
+/* Fix cropping on carousels */
+
+body.page-parentCategory .carousel .item{
+  height:360px;
+}
+
 /* END RELEASE */
 
 
