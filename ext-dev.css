@@ -736,9 +736,9 @@ div.owl-wrapper-outer .item-name{
 
 /* Add hover transition to new express checkout buttons */
 
-#payment-provider__paypal-pay:hover, .gpay-button.black.hover{
+/* #payment-provider__paypal-pay:hover, .gpay-button.black.hover{
 transition: 0.2s ease-in-out;
-}
+} */
 
 
 
