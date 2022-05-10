@@ -743,6 +743,9 @@ transition: 0.2s ease-in-out;
 #payment-provider__paypal-pay[disabled]:hover {
     background-color: #FEC53A !important;
 }
+.amazonpay-button-view1-gold:hover {
+    background: linear-gradient(to bottom, #f5d78e, #eeb933) !important;
+}
 
 /* Cart remove button */
 
