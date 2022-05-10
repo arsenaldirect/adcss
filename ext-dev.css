@@ -740,7 +740,6 @@ div.owl-wrapper-outer .item-name{
 transition: 0.2s ease-in-out;
 }
 #payment-provider__paypal-pay[disabled]:hover {
-    cursor: not-allowed;
     background-color: #FEC53A !important;
 }
 
