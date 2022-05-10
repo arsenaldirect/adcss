@@ -37,9 +37,9 @@
 
 /* Add hover effect to PayPal PDP express payment button to match Google */
 
-/*#payment-provider__paypal-pay:hover{
+#payment-provider__paypal-pay:hover{
   background-color: #F8F8F8 !important;
-}*/
+}
 
 /* Style Google cart express payment buttons */
 
