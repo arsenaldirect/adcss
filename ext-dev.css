@@ -749,19 +749,19 @@ transition: 0.2s ease-in-out;
 
 /* Swap the promo banner images for second and third sections (ref SA) */
 
-.page-homepage .bottom-header-wrapper .content:nth-of-type(2) p:before {
-    background-image: url(../images/header-bottom-third-inv.png);
-}
-.page-homepage .bottom-header-wrapper .content:nth-of-type(3) p:before {
-    background-image: url(../images/header-bottom-second-inv.png);
-}
-
 .bottom-header-wrapper .bottom-header-inner .content:nth-of-type(3) p:before {
-    background-image: url(../images/header-bottom-second.png);
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-second.png);
 }
 
 .bottom-header-wrapper .bottom-header-inner .content:nth-of-type(2) p:before {
-    background-image: url(../images/header-bottom-third.png);
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-third.png);
+}
+
+.page-homepage .bottom-header-wrapper .content:nth-of-type(3) p:before {
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-second-inv.png);
+}
+.page-homepage .bottom-header-wrapper .content:nth-of-type(2) p:before {
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-third-inv.png);
 }
 
 /* Cart remove button */
