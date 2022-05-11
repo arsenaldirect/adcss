@@ -747,6 +747,16 @@ transition: 0.2s ease-in-out;
     background: linear-gradient(to bottom, #f5d78e, #eeb933) !important;
 }
 
+/* Swap the promo banner images for second and third sections (ref SA) */
+
+.bottom-header-wrapper .bottom-header-inner .content:nth-of-type(3) p:before {
+    background-image: url(../images/header-bottom-second.png);
+}
+
+.bottom-header-wrapper .bottom-header-inner .content:nth-of-type(2) p:before {
+    background-image: url(../images/header-bottom-third.png);
+}
+
 /* Cart remove button */
 
 /* Cart totals */
