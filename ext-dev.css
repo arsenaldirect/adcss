@@ -748,6 +748,10 @@ transition: 0.2s ease-in-out;
     background: linear-gradient(to bottom, #f5d78e, #eeb933) !important;
 }
 
+.first-promo-banner{
+  white-space:nowrap;
+}
+
 /* END RELEASE */
 
 /* Swap the promo banner images for second and third sections (ref SA) */
