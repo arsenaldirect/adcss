@@ -726,7 +726,7 @@ div.owl-wrapper-outer .item-name{
 //....................................................................................*/
 
 /* Homepage carousel - add wordwrap and adjust padding on mobile */
-/*
+
 @media (max-width: 1024px){
   .owl-carousel.js-owl-hero-banners-carousel .owl-wrapper .hero-banners-carousel__text{
     padding:0 40px 30px 40px;
@@ -734,8 +734,11 @@ div.owl-wrapper-outer .item-name{
   .owl-carousel.js-owl-hero-banners-carousel .owl-wrapper .hero-banners-carousel__text h2{
     white-space:normal;
   }
+  .hero-component__content .hero-component-text{
+    padding-right:25px;
+  }
 }
-*/
+
 /* Add hover transition to new express checkout buttons */
 
 #payment-provider__paypal-pay:hover, .gpay-button.black.hover, .amazonpay-button-view1-gold:hover{
