@@ -38,7 +38,8 @@
 /* Add hover effect to PayPal PDP express payment button to match Google */
 
 #payment-provider__paypal-pay:hover{
-  background-color: #F8F8F8 !important;
+  /*background-color: #F8F8F8 !important;*/
+  opacity:0.7;
 }
 
 /* Style Google cart express payment buttons */
@@ -329,6 +330,7 @@ p#noOfShirts{
   margin-right:auto;
   width: 90%;
   padding-left:10px;
+  margin-top:30px;
 }
 .fixw{
   width:100%;
@@ -429,7 +431,6 @@ letter-spacing:1px !important;
 
 /* PDP Product notice badge styling */
 
-/* REQUIRES WHITESPACE TO BE REMOVED FROM PDP FIRST - JIRA TICKET 3909
 p.product-summary-style:not(:empty){
     margin-top: 0px;
     padding: 20px;
@@ -452,7 +453,7 @@ p.product-summary-style:not(:empty):before{
     margin-left: -70px;
     filter: invert(62%) sepia(0%) saturate(78%) hue-rotate(196deg) brightness(101%) contrast(82%);
 }
-*/
+
 
 /* Hide PDP out of stock sizes (the list above EMWBIS button) */
 
@@ -695,11 +696,56 @@ div.owl-wrapper-outer .item-name{
     font-weight: bold;
     text-transform:uppercase;
     margin-top:10px;
-  }
+}
 }
 
 #monetate_selectorBanner_5c002728_00{
   text-align:center;
+}
+
+/* END RELEASE */
+
+/*....................................................................................
+//....1111.....1111....... MMM...MMMMMM........................... 22222....222222....
+//...11111....11111....... MMM...MMMMMM.......................... 222222..22222222...
+//..111111...111111....... MMM...MMMMMM......................... 2..22222222..2222..
+//.1111111..1111111....... MMMM.MMMMMMM..Maaaaa.aaaa...yyyy..... 2..22222222..2222..
+//.1111111..1111111....... MMMM.MMMMMMM.MMaaaaaa.aaay..yyyy...........2222......2222..
+//.11.1111..11.1111....... MMMM.MMMMMMMMMMa.aaaaaaaay..yyyy..........22222.....22222..
+//....1111.....1111....... MMMMMMMMMMMM....aaaaaaaaay.yyyy..........22222.....22222...
+//....1111.....1111....... MMMMMMMMMMMM.MMaaaaaaa.aayyyyyy.........22222.....22222....
+//....1111.....1111....... MMMMMMMMMMMMMMMaaaaaaa.aayyyyy......... 2222.....22222.....
+//....1111.....1111....... M.MMMMM.MMMMMMMa.aaaaa..ayyyyy........ 222.....22222......
+//....1111.....1111....... M.MMMMM.MMMMMMMa.aaaaa..ayyyyy........ 22......2222.......
+//....1111.....1111....... M.MMMMM.MMMMMMMaaaaaaa..ayyyy........ 22222222222222222..
+//....1111.....1111....... M.MMMMM.MMMM.MMaaaaaaa...yyyy........ 22222222222222222..
+//..................................................yyyy..............................
+//.................................................ayyy...............................
+//...............................................aaayyy...............................
+//..............................................aaayy................................
+//....................................................................................*/
+
+/* Homepage carousel - add wordwrap and adjust padding on mobile */
+
+@media (max-width: 1024px){
+  .owl-carousel.js-owl-hero-banners-carousel .owl-wrapper .hero-banners-carousel__text{
+    padding:0 40px 30px 40px;
+  }
+  .owl-carousel.js-owl-hero-banners-carousel .owl-wrapper .hero-banners-carousel__text h2{
+    white-space:normal;
+  }
+}
+
+/* Add hover transition to new express checkout buttons */
+
+#payment-provider__paypal-pay:hover, .gpay-button.black.hover, .amazonpay-button-view1-gold:hover{
+transition: 0.2s ease-in-out;
+}
+#payment-provider__paypal-pay[disabled]:hover {
+    background-color: #FEC53A !important;
+}
+.amazonpay-button-view1-gold:hover {
+    background: linear-gradient(to bottom, #f5d78e, #eeb933) !important;
 }
 
 /* END RELEASE */
