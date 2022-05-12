@@ -779,6 +779,14 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
   height:380px;
 }
 
+/* Hide SBP title on mobile */
+
+@media only screen and (max-device-width: 568px){
+ .shopbyplayer-title-over-image {
+    display:none;
+ }
+}
+
 /* END RELEASE */
 
 /* Swap the promo banner images for second and third sections (ref SA) */
