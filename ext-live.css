@@ -734,6 +734,10 @@ div.owl-wrapper-outer .item-name{
   .owl-carousel.js-owl-hero-banners-carousel .owl-wrapper .hero-banners-carousel__text h2{
     white-space:normal;
   }
+  /* Fix category text going off-screen */
+  .hero-component__content{
+    left:0;
+  }
 }
 
 /* Add hover transition to new express checkout buttons */
@@ -752,6 +756,12 @@ transition: 0.2s ease-in-out;
 
 .first-promo-banner{
   white-space:nowrap;
+}
+
+/* JY Fix obscured cart removal button */
+
+.btn.remove-item-link.remove-entry-button{
+  width:75px;
 }
 
 /* END RELEASE */
