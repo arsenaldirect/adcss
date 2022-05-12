@@ -734,6 +734,7 @@ div.owl-wrapper-outer .item-name{
   .owl-carousel.js-owl-hero-banners-carousel .owl-wrapper .hero-banners-carousel__text h2{
     white-space:normal;
   }
+  /* Fix category text going off-screen */
   .hero-component__content{
     left:0;
   }
