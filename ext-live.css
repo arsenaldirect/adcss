@@ -764,4 +764,18 @@ transition: 0.2s ease-in-out;
   width:75px;
 }
 
+/* Adjust (reduce) spacing between product name and price on Carousel pages */
+
+.carousel .item .item-price{
+  margin-top:-10px;
+}
+
+/* Adjust product name font size on mobile carousel pages */
+
+@media (max-width: 1023px){
+ .carousel .item .item-name {
+    font-size: 16px;
+ }
+}
+
 /* END RELEASE */
