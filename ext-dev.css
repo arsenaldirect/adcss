@@ -672,11 +672,6 @@ p.product-summary-style:not(:empty):before{
     font-weight: bold;
 }
 
-/* Fix cropping on carousels */
-
-body.page-parentCategory .carousel .item{
-  height:370px;
-}
 
 /* Make product name capitals on carousels */
 
@@ -778,7 +773,7 @@ transition: 0.2s ease-in-out;
  }
 }
 
-/* Adjust carousel item height */
+/* Adjust carousel item height to prevent cropping/border issues */
 
 body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .item:hover{
   height:380px;
