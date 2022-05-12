@@ -778,6 +778,12 @@ transition: 0.2s ease-in-out;
  }
 }
 
+/* Adjust carousel item height */
+
+body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .item:hover{
+  height:380px;
+}
+
 /* END RELEASE */
 
 /* Swap the promo banner images for second and third sections (ref SA) */
