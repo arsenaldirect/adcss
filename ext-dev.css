@@ -872,6 +872,14 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
     padding-right: 4px;
 }
 
+/* Fix rollover image showing on mobile */
+
+@media (max-width: 1023px){
+a.thumb.product-link-js picture img.primaryImageF5 {
+    display: none;
+}
+}
+
 /* END RELEASE */
 
 
