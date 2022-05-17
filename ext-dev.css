@@ -847,6 +847,26 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
   line-height: 3em;
 }
 
+/* Highlight home kit in mobile nav menu */
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a:after{
+    content: "";
+    display: inline-block;
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/7318fbc…/img/new-corner120.png);
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a {
+    border-left: 5px solid #ED1F1F;
+    padding-left: 15px;
+}
+
 /* END RELEASE */
 
 
