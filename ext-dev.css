@@ -789,6 +789,26 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
 
 /* END RELEASE */
 
+/*......................................................................................
+//....1111....999999....... MMMM...MMMMMM...........................222222....222222....
+//...11111...19999999...... MMMM...MMMMMM.......................... 2222222..22222222...
+//..111111..1199.9999...... MMMM...MMMMMM......................... 22..22222222..2222..
+//.1111111..1199..9999..... MMMMM.MMMMMMM..aaaaaa.aaay...yyyy..... 22..22222222..2222..
+//.1111111..1199..9999..... MMMMM.MMMMMMM.Maaaaaaa.aayy..yyyy...........2222......2222..
+//.11.1111..1199..9999..... MMMMM.MMMMMMMMMaa.aaaaaaayy..yyyy..........22222.....22222..
+//....1111..1199999999..... MMMMMMMMMMMMM....aaaaaaaayy.yyyy..........22222.....22222...
+//....1111...199999999..... MMMMMMMMMMMMM.Maaaaaaaa.ayyyyyyy.........22222.....22222....
+//....1111....99999999..... MMMMMMMMMMMMMMMaaaaaaaa.ayyyyyy.........22222.....22222.....
+//....1111........9999..... MM.MMMMM.MMMMMMaa.aaaaa..yyyyyy........ 2222.....22222......
+//....1111..1199.9999...... MM.MMMMM.MMMMMMaa.aaaaa..yyyyyy........ 222......2222.......
+//....1111...19999999...... MM.MMMMM.MMMMMMaaaaaaaa..yyyyy........ 222222222222222222..
+//....1111....99999........ MM.MMMMM.MMMM.Maaaaaaaa...yyyy........ 222222222222222222..
+//.....................................................yyyy..............................
+//....................................................yyyy...............................
+//..................................................aayyyy...............................
+//..................................................aayyy................................
+//.....................................................................................*/
+
 /* Swap the promo banner images for second and third sections (ref SA) */
 
 .bottom-header-wrapper .bottom-header-inner .content:nth-of-type(3) p:before {
@@ -806,8 +826,32 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
     background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-third-inv.png);
 }
 
+/* Mobile category banner font colour */
 
-/* Cart remove button */
+@media only screen and (max-device-width: 639px){
+  .hero-component--medium .hero-component__heading{
+    color:white;
+    -webkit-text-stroke: 1px black;
+  }
+  .hero-component--medium .hero-component__lead{
+    color:white;
+    -webkit-text-stroke: 0.5px black;
+  }
+}
+
+/* Payment page gift card button adjustments */
+
+.btn-giftcard{
+  width: 100%;
+  margin-left: 0;
+  line-height: 3em;
+}
+
+/* END RELEASE */
+
+
+
+/* Cart remove button styling */
 
 /* Cart totals */
 
