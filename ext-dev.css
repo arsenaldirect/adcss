@@ -876,8 +876,11 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
 
 @media (max-width: 1023px){
 a.thumb.product-link-js picture img.primaryImageF5 {
-    display: none;
-}
+    display: none !important;
+  }
+a.thumb.product-link-js picture img.primaryImageF {
+    display: inline !important;
+  }
 }
 
 /* END RELEASE */
