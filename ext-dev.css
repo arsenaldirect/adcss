@@ -889,6 +889,12 @@ a.thumb.product-link-js picture img.primaryImageF {
   margin-bottom:20px;
 }
 
+/* Hide PDP personalised shirt delivery delay notice */
+
+.AddToCart-AddToCartAction .pdp-warning-box{
+  display:none;
+}
+
 /* END RELEASE */
 
 
