@@ -895,6 +895,18 @@ a.thumb.product-link-js picture img.primaryImageF {
   display:none;
 }
 
+/* SBP text background colour */
+
+.shopbyplayer-title-over-image{
+    background-color: #93192E;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-left: -30px;
+    padding-right: 30px;
+    margin-top: 0;
+}
+
 /* END RELEASE */
 
 
