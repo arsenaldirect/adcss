@@ -883,6 +883,12 @@ a.thumb.product-link-js picture img.primaryImageF {
   }
 }
 
+/* Add space below monetate delivery banner in checkout  */
+
+.js-monetate-delivery-banner-v3.mod-ghost{
+  margin-bottom:20px;
+}
+
 /* END RELEASE */
 
 
