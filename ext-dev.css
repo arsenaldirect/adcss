@@ -955,7 +955,7 @@ height:350px;
 
 .template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty):before{
     content: "";
-    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/a958ea98fe59e381bd626cea95dc881c4710c361/img/Love_Heart_symbol150.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
