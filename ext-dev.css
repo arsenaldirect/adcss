@@ -779,14 +779,6 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
   height:380px;
 }
 
-/* Hide SBP title on mobile */
-
-@media only screen and (max-device-width: 568px){
- .shopbyplayer-title-over-image {
-    display:none;
- }
-}
-
 /* END RELEASE */
 
 /*......................................................................................
@@ -963,6 +955,14 @@ height:350px;
     position: absolute;
     margin-left: -70px;
     filter: brightness(0) invert(1);
+}
+
+/* Hide SBP title on mobile */
+
+@media only screen and (max-device-width: 568px){
+ .shopbyplayer-title-over-image {
+    display:none;
+ }
 }
 
 /* END RELEASE */
