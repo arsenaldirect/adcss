@@ -919,6 +919,14 @@ div.yCmsComponent.case.col-xs-12.col-md-6.shop-by-player-section > div > div.inn
   width:auto !important;
 }
 
+/* Make SBP on homepager taller on mobile */
+
+@media only screen and (max-device-width: 639px){
+.player-list .image-wrapper{
+height:350px;
+}
+}
+
 /* END RELEASE */
 
 
