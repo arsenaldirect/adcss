@@ -915,6 +915,9 @@ a.thumb.product-link-js picture img.primaryImageF {
 .page-homepage .shop-by-player-section{
   width:100%;
 }
+div.yCmsComponent.case.col-xs-12.col-md-6.shop-by-player-section > div > div.inner-content > div > div.owl-wrapper-outer > div > div{
+  width:auto;
+}
 
 /* END RELEASE */
 
