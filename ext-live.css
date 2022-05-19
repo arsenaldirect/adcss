@@ -103,7 +103,7 @@
 
 /* Update PLP product name and price */
   
-.product-listing.product-grid .details .price{
+.product-listing.product-grid .details .price, .carousel .product-item .item-price{
 font-family:'tk-agency-gothic-ct-conden-n5';
 font-size:28px;
 }
