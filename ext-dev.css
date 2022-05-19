@@ -933,7 +933,7 @@ height:350px;
 
 /* Update PDP Product notice badge styling for kit only (make it red and change icon to heart) */
 
-.template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty), .template-pages-product-kitProductPlayerLayoutPage p.product-summary-style:not(:empty), template-pages-product-kitUserCustomisedProductLayout1Page p.product-summary-style:not(:empty){
+.template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty), .template-pages-product-kitProductPlayerLayoutPage p.product-summary-style:not(:empty), .template-pages-product-kitUserCustomisedProductLayout1Page p.product-summary-style:not(:empty){
     margin-top: 0px;
     padding: 20px;
     font-weight: bold;
@@ -945,7 +945,7 @@ height:350px;
     height:auto;
 }
 
-.template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty):before, .template-pages-product-kitProductPlayerLayoutPage p.product-summary-style:not(:empty):before, template-pages-product-kitUserCustomisedProductLayout1Page p.product-summary-style:not(:empty):before{
+.template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty):before, .template-pages-product-kitProductPlayerLayoutPage p.product-summary-style:not(:empty):before, .template-pages-product-kitUserCustomisedProductLayout1Page p.product-summary-style:not(:empty):before{
     content: "";
     background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/0d27838a74f706899f8e3364b9636046fd61a497/img/Love_Heart_symbolv2150.png);
     background-repeat: no-repeat;
