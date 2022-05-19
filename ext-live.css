@@ -779,3 +779,123 @@ transition: 0.2s ease-in-out;
 }
 
 /* END RELEASE */
+
+/*......................................................................................
+//....1111....999999....... MMMM...MMMMMM...........................222222....222222....
+//...11111...19999999...... MMMM...MMMMMM.......................... 2222222..22222222...
+//..111111..1199.9999...... MMMM...MMMMMM......................... 22..22222222..2222..
+//.1111111..1199..9999..... MMMMM.MMMMMMM..aaaaaa.aaay...yyyy..... 22..22222222..2222..
+//.1111111..1199..9999..... MMMMM.MMMMMMM.Maaaaaaa.aayy..yyyy...........2222......2222..
+//.11.1111..1199..9999..... MMMMM.MMMMMMMMMaa.aaaaaaayy..yyyy..........22222.....22222..
+//....1111..1199999999..... MMMMMMMMMMMMM....aaaaaaaayy.yyyy..........22222.....22222...
+//....1111...199999999..... MMMMMMMMMMMMM.Maaaaaaaa.ayyyyyyy.........22222.....22222....
+//....1111....99999999..... MMMMMMMMMMMMMMMaaaaaaaa.ayyyyyy.........22222.....22222.....
+//....1111........9999..... MM.MMMMM.MMMMMMaa.aaaaa..yyyyyy........ 2222.....22222......
+//....1111..1199.9999...... MM.MMMMM.MMMMMMaa.aaaaa..yyyyyy........ 222......2222.......
+//....1111...19999999...... MM.MMMMM.MMMMMMaaaaaaaa..yyyyy........ 222222222222222222..
+//....1111....99999........ MM.MMMMM.MMMM.Maaaaaaaa...yyyy........ 222222222222222222..
+//.....................................................yyyy..............................
+//....................................................yyyy...............................
+//..................................................aayyyy...............................
+//..................................................aayyy................................
+//.....................................................................................*/
+
+/* Swap the promo banner images for second and third sections (ref SA) */
+
+.bottom-header-wrapper .bottom-header-inner .content:nth-of-type(3) p:before {
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-second.png);
+}
+
+.bottom-header-wrapper .bottom-header-inner .content:nth-of-type(2) p:before {
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-third.png);
+}
+
+.page-homepage .bottom-header-wrapper .content:nth-of-type(3) p:before {
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-second-inv.png);
+}
+.page-homepage .bottom-header-wrapper .content:nth-of-type(2) p:before {
+    background-image: url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-third-inv.png);
+}
+
+/* Mobile category banner font colour */
+
+@media only screen and (max-device-width: 639px){
+  .hero-component--medium .hero-component__heading{
+    color:white !important;
+    -webkit-text-stroke: 1px black;
+  }
+  .hero-component--medium .hero-component__lead{
+    color:white !important;
+    -webkit-text-stroke: 0.5px black;
+  }
+}
+
+/* Payment page gift card button adjustments */
+
+.btn-giftcard{
+  width: 100%;
+  margin-left: 0;
+  line-height: 3em;
+}
+
+/* Highlight home kit in mobile nav menu */
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a:after{
+    content: "";
+    display: inline-block;
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/856764b6db4ecbf8739c556115d1ef517092bee1/img/new-corner120-trans.png);
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a {
+    border-left: 5px solid #ED1F1F;
+    padding-left: 15px;
+}
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a:before {
+    content: "22/23";
+    padding-right: 4px;
+}
+
+/* Fix rollover image showing on mobile */
+
+@media (max-width: 1023px){
+a.thumb.product-link-js picture img.primaryImageF5 {
+    display: none !important;
+  }
+a.thumb.product-link-js picture img.primaryImageF {
+    display: inline !important;
+  }
+}
+
+/* Add space below monetate delivery banner in checkout  */
+
+.js-monetate-delivery-banner-v3.mod-ghost{
+  margin-bottom:20px;
+}
+
+/* Hide PDP personalised shirt delivery delay notice */
+
+.AddToCart-AddToCartAction .pdp-warning-box{
+  display:none;
+}
+
+/* SBP text background colour */
+
+.shopbyplayer-title-over-image{
+    background-color: #93192E;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-left: -30px;
+    padding-right: 30px;
+    margin-top: 0;
+}
+
+/* END RELEASE */
