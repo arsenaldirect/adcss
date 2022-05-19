@@ -939,6 +939,32 @@ height:350px;
     padding-bottom:10px;
 }
 
+/* Update PDP Product notice badge styling for kit only (make it red) */
+
+.template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty){
+    margin-top: 0px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 95px;
+    color: white;
+    background-color:red;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 25%), -2px -2px 2px 0 rgb(255 255 255 / 30%);
+    height:auto;
+}
+
+.template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty):before{
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/4a180f349569ad43db90916f8558d4a4233c283b/img/info.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: -70px;
+    filter: brightness(0) invert(1);
+}
+
 /* END RELEASE */
 
 
