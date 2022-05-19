@@ -898,4 +898,13 @@ a.thumb.product-link-js picture img.primaryImageF {
     margin-top: 0;
 }
 
+/* Hide kit builder on homepage */
+
+.page-homepage .personalise-kit-section{
+  display:none;
+}
+.page-homepage .shop-by-player-section{
+  width:100%;
+}
+
 /* END RELEASE */
