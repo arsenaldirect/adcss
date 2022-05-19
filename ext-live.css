@@ -955,5 +955,12 @@ height:350px;
     filter: brightness(0) invert(1);
 }
 
+/* Hide SBP title on mobile */
+
+@media only screen and (max-device-width: 568px){
+ .shopbyplayer-title-over-image {
+    display:none;
+ }
+}
 
 /* END RELEASE */
