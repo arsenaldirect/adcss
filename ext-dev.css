@@ -847,7 +847,7 @@ body.page-parentCategory .carousel .item, body.page-parentCategory .carousel .it
   line-height: 3em;
 }
 
-/* Highlight home kit in mobile nav menu */
+/* Highlight home kit in mobile nav menu - change to sub.counter_8 for live */
 
 #nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a:after{
     content: "";
