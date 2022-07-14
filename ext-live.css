@@ -965,3 +965,9 @@ height:350px;
 }
 
 /* END RELEASE */
+
+/* Remove border around dropdown items in Yotpo */
+
+.yotpo-drop-down-layout .yotpo-dropdown .list-category .selected-item{
+  outline:none;
+}
