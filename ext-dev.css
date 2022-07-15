@@ -859,7 +859,7 @@ transition: 0.2s ease-in-out;
     padding-left: 15px;
 }*/
 
-#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a:before {
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(1) > li > a:before {
     content: "22/23";
     padding-right: 4px;
 }
@@ -996,6 +996,31 @@ body.page-parentCategory .carousel .item:hover{
 }
 
 /* END RELEASE */
+
+/* Highlight away kit in mobile nav menu - change to sub.counter_8 for live */
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(3) > li > a:after{
+    content: "";
+    display: inline-block;
+    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/856764b6db4ecbf8739c556115d1ef517092bee1/img/new-corner120-trans.png);
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(3) > li > a {
+    border-left: 5px solid #ED1F1F;
+    padding-left: 15px;
+}
+
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(3) > li > a:before {
+    content: "22/23";
+    padding-right: 4px;
+}
 
 /* Cart remove button styling */
 
