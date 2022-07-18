@@ -901,7 +901,7 @@ a.thumb.product-link-js picture img.primaryImageF {
 
 /* Hide kit builder on homepage */
 
-.page-homepage .personalise-kit-section{
+/*.page-homepage .personalise-kit-section{
   display:none;
 }
 .page-homepage .shop-by-player-section{
@@ -909,7 +909,7 @@ a.thumb.product-link-js picture img.primaryImageF {
 }
 div.yCmsComponent.case.col-xs-12.col-md-6.shop-by-player-section > div > div.inner-content > div > div.owl-wrapper-outer > div > div{
   width:auto !important;
-}
+}*/
 
 
 /* Make SBP on homepager taller on mobile */
