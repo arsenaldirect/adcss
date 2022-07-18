@@ -1036,3 +1036,9 @@ body.page-parentCategory .carousel .item:hover{
     padding-right: 4px;
 }
 
+/* Resize notice icon on cart page */
+
+.pdp-warning-box:before{
+  width:25px;
+  height:25px;
+}
