@@ -1063,7 +1063,7 @@ body.page-parentCategory .carousel .item:hover{
 
 /* Highlight third kit in mobile nav menu */
 
-#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a:after{
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(3) > li > a:after{
     content: "";
     display: inline-block;
     background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/856764b6db4ecbf8739c556115d1ef517092bee1/img/new-corner120-trans.png);
@@ -1076,7 +1076,7 @@ body.page-parentCategory .carousel .item:hover{
     right: 0;
 }
 
-#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(2) > li > a {
+#nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(3) > li > a {
     border-left: 5px solid #ED1F1F;
     padding-left: 15px;
 }
