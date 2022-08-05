@@ -932,7 +932,7 @@ height:350px;
 }
 
 /* Update PDP Product notice badge styling for kit only (make it red and change icon to heart) */
-/*
+
 .template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty), .template-pages-product-kitProductPlayerLayoutPage p.product-summary-style:not(:empty), .template-pages-product-kitUserCustomisedProductLayout1Page p.product-summary-style:not(:empty){
     margin-top: 0px;
     padding: 20px;
@@ -956,7 +956,7 @@ height:350px;
     margin-left: -70px;
     filter: brightness(0) invert(1);
 }
-*/
+
 /* Hide SBP title on mobile */
 
 @media only screen and (max-device-width: 568px){
@@ -1069,9 +1069,11 @@ body.page-parentCategory .carousel .item:hover{
 }
 
 
+/* Hide Yotpo placeholder empty stars */
 
-
-
+div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings.starRatings--pdp-mobile > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings__hollow.starRatings__hollow--plp > span.starRatings__hollow-star{
+  color:white;
+}
 
 /* Cart remove button styling */
 
