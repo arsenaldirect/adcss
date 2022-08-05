@@ -1071,8 +1071,8 @@ body.page-parentCategory .carousel .item:hover{
 
 /* Hide Yotpo placeholder empty stars */
 
-div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings.starRatings--pdp-mobile > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings__hollow.starRatings__hollow--plp > span.starRatings__hollow-star{
-  color:white;
+div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings.starRatings--pdp-mobile > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings__hollow.starRatings__hollow--plp > span.starRatings__hollow-star {
+  color: white !important;
 }
 
 /* Cart remove button styling */
