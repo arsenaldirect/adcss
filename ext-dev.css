@@ -1068,11 +1068,16 @@ body.page-parentCategory .carousel .item:hover{
     padding-left: 15px;
 }
 
-
 /* Hide Yotpo placeholder empty stars */
 
 div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings.starRatings--pdp-mobile > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings__hollow.starRatings__hollow--plp > span.starRatings__hollow-star {
   color: white !important;
+}
+
+/* Fix SBP player name in banner */
+
+.player-banner{
+  position:relative;
 }
 
 /* Cart remove button styling */
