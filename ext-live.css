@@ -1089,3 +1089,10 @@ body.page-parentCategory .carousel .item:hover{
 div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings.starRatings--pdp-mobile > div.starRatings__hollow.starRatings__hollow--pdp > span.starRatings__hollow-star, div.starRatings__hollow.starRatings__hollow--plp > span.starRatings__hollow-star {
   color: white !important;
 }
+
+
+/* 02/09/22 Fix SBP player name in banner (ref Fu) */
+
+.player-banner{
+  position:relative;
+}
