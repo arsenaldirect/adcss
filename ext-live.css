@@ -1063,7 +1063,7 @@ body.page-parentCategory .carousel .item:hover{
 //.............................................................................*/
 
 /* Highlight third kit in mobile nav menu */
-
+/*
 #nav > ul > li.auto.has-sub.js-enquire-has-sub.counter_9 > div > div > div > div.col-md-6.col-no-padding-mobile > ul:nth-child(3) > li > a:after{
     content: "";
     display: inline-block;
@@ -1081,7 +1081,7 @@ body.page-parentCategory .carousel .item:hover{
     border-left: 5px solid #ED1F1F;
     padding-left: 15px;
 }
-
+*/
 /* END RELEASE */
 
 /* 11/08/22 Hide Yotpo placeholder empty stars */
