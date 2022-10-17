@@ -584,9 +584,10 @@ p.product-summary-style:not(:empty):before{
 
 /* Fix OOS variation X lines and restyle boxes/disabled add to cart buttons */
 
-.select-box.out-of-stock:before, .select-box.out-of-stock:after{
+/*.select-box.out-of-stock:before, .select-box.out-of-stock:after{
   display:none;
-}
+}*/
+
 .select-box.out-of-stock, #addToCartButton:disabled{
     background-color: rgba(0,0,0,0.04);
     color: rgba(255,0,0,0.2);
