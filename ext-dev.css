@@ -1135,7 +1135,7 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 /* Size chart style */
 
 /* Christmas Hat */
-
+@media (min-width: 1024px){
 body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-logo > div > div > a:after {
     content: "";
     position: absolute;
@@ -1146,7 +1146,8 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
     width: 150px;
     background-repeat: no-repeat;
     z-index: 9999999999;
-    top: -12px;
+    top: -9px;
     margin-left: 61px;
-    transform: rotate(15deg);
+    transform: rotate(18deg);
+}
 }
