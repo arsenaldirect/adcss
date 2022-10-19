@@ -1133,3 +1133,20 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 /* Checkout email entry page */
 
 /* Size chart style */
+
+/* Christmas Hat */
+
+body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-logo > div > div > a:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-size: contain;
+    background-image: url(https://i.postimg.cc/fTbg9dG8/hat.png);
+    height: 90px;
+    width: 150px;
+    background-repeat: no-repeat;
+    z-index: 9999999999;
+    top: -12px;
+    margin-left: 61px;
+    transform: rotate(15deg);
+}
