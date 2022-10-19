@@ -1110,7 +1110,7 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 }
 }
 
-@media only screen and (max-device-width: 639px){
+@media only screen and (max-device-width: 1023px){
 #nav > ul > li:nth-child(1) > a:after{
     content: "Exclusive Deals";
     position: absolute;
