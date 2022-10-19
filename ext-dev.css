@@ -1146,7 +1146,7 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
     width: 150px;
     background-repeat: no-repeat;
     z-index: 9999999999;
-    top: -4px;
+    top: 4px;
     margin-left: -85px;
     transform: scale(-1, 1) rotate(30deg);
 }
