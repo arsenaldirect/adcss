@@ -1110,6 +1110,20 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 }
 }
 
+@media only screen and (max-device-width: 639px){
+#nav > ul > li:nth-child(1) > a:after{
+    content: "Exclusive Deals";
+    position: absolute;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: -8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+
 /* Cart remove button styling */
 
 /* Cart totals */
