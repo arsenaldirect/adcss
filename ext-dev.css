@@ -1081,6 +1081,33 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
   position:relative;
 }
 
+
+/* BLACK FRIDAY 22 */
+#nav > ul > li:nth-child(1) > a{
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 10px 20px;
+    transition: padding .4s;
+}
+
+#nav > ul > li:nth-child(1) > a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding-bottom: 10%;
+    background: black;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+    transform: rotate(0deg);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 3px;
+    z-index: 99999999;
+}
+
+
 /* Cart remove button styling */
 
 /* Cart totals */
