@@ -1083,6 +1083,8 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 
 
 /* BLACK FRIDAY 22 */
+
+@media (min-width: 1024px){
 #nav > ul > li:nth-child(1) > a{
     background-color: black;
     color: white;
@@ -1106,7 +1108,7 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
     margin-top: 3px;
     z-index: 99999999;
 }
-
+}
 
 /* Cart remove button styling */
 
