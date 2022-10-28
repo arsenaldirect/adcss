@@ -1097,3 +1097,15 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 .player-banner{
   position:relative;
 }
+
+/* Fix adidas size guide page on desktop */
+
+#adidas-sizeguide-tabs .tabhead+.tabbody{
+display:block;
+}
+
+/* Fix Arsenal size guide page on desktop*/
+
+#arsenal-sizeguide-tabs .tabhead+.tabbody {
+    display: block;
+}
