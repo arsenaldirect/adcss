@@ -1126,7 +1126,7 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 
 /* Fix size adidas guide page */
 
-#adidas-sizeguide-tabs .tabs .tabhead+.tabbody{
+#adidas-sizeguide-tabs .tabhead+.tabbody{
 display:block;
 }
 
