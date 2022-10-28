@@ -1124,13 +1124,17 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 }
 }
 
-/* Fix size adidas guide page */
+/* Fix adidas size guide page on desktop */
 
 #adidas-sizeguide-tabs .tabhead+.tabbody{
 display:block;
 }
 
-/* Cart totals */
+/* Fix Arsenal size guide page on desktop*/
+
+#arsenal-sizeguide-tabs .tabhead+.tabbody {
+    display: block;
+}
 
 /* Cart free delivery message */
 
