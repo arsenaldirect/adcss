@@ -1109,3 +1109,9 @@ display:block;
 #arsenal-sizeguide-tabs .tabhead+.tabbody {
     display: block;
 }
+
+/* Remove gap above FAQ text for last two icons */
+
+.faq-content:not(.faq-content--static) a p {
+    margin-top: 3px;
+}
