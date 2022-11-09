@@ -1123,3 +1123,11 @@ display:block;
 a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
   white-space: break-spaces;
 }
+
+/* Increase padding at bottom of mobile nav */
+
+@media (max-width: 639px){
+.mobile-main-nav-container .navbar-nav {
+    padding-bottom: 250px;
+}
+}
