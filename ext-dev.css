@@ -1144,6 +1144,12 @@ display:block;
     margin-top: 3px;
 }
 
+/* Fix word wrap on login CTA on PDP */
+
+a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
+  white-space: break-spaces;
+}
+
 /* Checkout email entry page */
 
 /* Size chart style */
