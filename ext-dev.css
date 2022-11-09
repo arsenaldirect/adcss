@@ -1150,7 +1150,22 @@ a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
   white-space: break-spaces;
 }
 
-/* Checkout email entry page */
+/* Update header icons after Wishlist release - URLs to be updated */
+
+.top-header-link-account .header-link{
+    background-image: url(https://toppng.com/uploads/preview/black-and-white-stockportable-network-account-icon-11553436383dwuayhjyvo.png);
+    background-size: contain;
+}
+
+.top-header-link-search .header-link {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png);
+    background-size: contain;
+}
+
+.main-header .mini-cart-link .header-link {
+    background-image: url(https://i.postimg.cc/4xWFBBDP/mini-cart-small.png);
+    background-size: contain;
+}
 
 /* Size chart style */
 
