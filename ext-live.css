@@ -588,6 +588,7 @@ p.product-summary-style:not(:empty):before{
   display:none;
 }*/
 
+/*
 .select-box.out-of-stock, #addToCartButton:disabled{
     background-color: rgba(0,0,0,0.04);
     color: rgba(255,0,0,0.2);
@@ -595,6 +596,7 @@ p.product-summary-style:not(:empty):before{
 .btn-primary[disabled]{
   opacity:0.3;
 }
+*/
 
 .select-box.out-of-stock {
     border: 1px solid #FFB4B5;
