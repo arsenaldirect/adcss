@@ -1089,7 +1089,7 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 @media (min-width: 1024px){
 #nav > ul > li:nth-child(1) > a{
     background-color: black;
-    color: yellow;
+    color: #DFFD16;
     height: auto;
     padding: 10px 20px;
     transition: padding .4s;
