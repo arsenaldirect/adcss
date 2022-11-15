@@ -1173,10 +1173,23 @@ div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"]{
     color: black;
     background-color: #DFFD16;
     font-weight: bold;
-    width: 100%;
+    width: 90%;
     display: block;
     padding-top: 4px;
     padding-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Member discount promo message styling */
+
+div[data-promo-name="Arsenal Member 10% Discount"]{
+    width: 90%;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Size chart style */
