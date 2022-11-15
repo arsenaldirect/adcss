@@ -1150,7 +1150,7 @@ a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
   white-space: break-spaces;
 }
 
-/* Update header icons after Wishlist release - URLs to be updated */
+/* Update header icons after Wishlist release */
 
 .top-header-link-account .header-link{
     background-image: url(https://www.arsenal.com/sites/default/files/images/MicrosoftTeams-image%20%281%29_15.png);
@@ -1165,6 +1165,18 @@ a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
 .main-header .mini-cart-link .header-link {
     background-image: url(https://www.arsenal.com/sites/default/files/images/MicrosoftTeams-image_13.png);
     background-size: contain;
+}
+
+/* Black friday promo message styling */
+
+div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"]{
+    color: black;
+    background-color: #DFFD16;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 /* Size chart style */
@@ -1189,3 +1201,4 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
 }
 }
 */
+
