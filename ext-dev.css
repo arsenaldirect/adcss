@@ -1192,6 +1192,12 @@ div[data-promo-name="Arsenal Member 10% Discount"]{
     margin-right: auto;
 }
 
+@media (max-width: 639px){
+  div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="Arsenal Member 10% Discount"]{
+    width: 100%;
+  }
+}
+
 /* Size chart style */
 
 /* Christmas Hat */
