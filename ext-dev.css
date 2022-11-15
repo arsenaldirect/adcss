@@ -1183,7 +1183,7 @@ div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"]{
 
 /* Member discount promo message styling */
 
-div[data-promo-name="Arsenal Member 10% Discount"]{
+div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
     width: 90%;
     display: block;
     padding-top: 4px;
