@@ -1308,7 +1308,19 @@ div.basket-items-wrapper div.promo:before{
   touch-action: manipulation;
   margin-top:0;
 }
-
+.btn.remove-item-link.remove-entry-button{
+  color:white;
+}
+button#removeEntry_0:before {
+    content: "";
+    background: url(https://i.postimg.cc/MGgFkjsd/2830383.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: block;
+    height: 25px;
+    width: 25px;
+}
 /* Size chart style */
 
 /* Christmas Hat */
