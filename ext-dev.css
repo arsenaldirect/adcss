@@ -1234,6 +1234,7 @@ header > div.bottom-header-wrapper.text-center{
 }
 #addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10:hover{  
   color:#DFFD16;
+  background-position:left top;
 }
 
 /* Size chart style */
