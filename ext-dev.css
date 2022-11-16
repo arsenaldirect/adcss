@@ -1223,6 +1223,15 @@ header > div.bottom-header-wrapper.text-center{
   background-color: #DFFD16;
 }
 
+/* Black Friday member login button on PDP */
+
+#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
+  background: linear-gradient(to right, #000000 50%, #DFFD16 50%);
+  color:black;
+}
+#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10:hover{  
+  color:#DFFD16;
+}
 
 /* Size chart style */
 
