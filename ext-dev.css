@@ -1306,6 +1306,7 @@ div.basket-items-wrapper div.promo:before{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top:0;
 }
 
 /* Size chart style */
