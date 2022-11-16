@@ -1270,6 +1270,13 @@ div.basket-items-wrapper div.promo:before{
     margin-left:0px;
     font-size:10px;
     margin-top:10px;
+    padding-left:30px;
+  }
+  div.basket-items-wrapper div.promo:before{
+    height: 20px;
+    width: 20px;
+    margin-left: -25px;
+    
   }
 }
 
