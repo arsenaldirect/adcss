@@ -1203,7 +1203,7 @@ div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL
 .page-homepage .bottom-header-wrapper{
     background: none;
     background-color: #DFFD16;
-    position: relative;
+    position: initial;
 }
 .bottom-header-wrapper .bottom-header-inner .content:nth-child(n) p{
   color:black;
