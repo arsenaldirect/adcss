@@ -1249,6 +1249,7 @@ div.basket-items-wrapper div.promo{
     color: #3D434D;
     margin-top: 0px;
     background-color: #F3F3F3;
+    min-height: 48px;
 }
 
 div.basket-items-wrapper div.promo:before{
