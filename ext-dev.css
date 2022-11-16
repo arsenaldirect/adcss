@@ -1169,7 +1169,7 @@ a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
 
 /* Black friday promo message styling */
 
-div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"]{
+div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"]{
     color: black;
     background-color: #DFFD16;
     font-weight: bold;
@@ -1193,7 +1193,7 @@ div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL
 }
 
 @media (max-width: 639px){
-  div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="Arsenal Member 10% Discount"]{
+  div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"], div[data-promo-name="Arsenal Member 10% Discount"], , div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
     width: 100%;
   }
 }
