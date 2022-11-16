@@ -1228,6 +1228,9 @@ header > div.bottom-header-wrapper.text-center{
 #addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
   background: linear-gradient(to right, #000000 50%, #DFFD16 50%);
   color:black;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s ease;
 }
 #addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10:hover{  
   color:#DFFD16;
