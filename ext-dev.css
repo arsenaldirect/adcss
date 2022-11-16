@@ -1215,6 +1215,9 @@ div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL
   filter: brightness(0);
 }
 
+#monetate_selectorHTML_cca15348_0 > p > span{
+  color:black !important;
+}
 /* Size chart style */
 
 /* Christmas Hat */
