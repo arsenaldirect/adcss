@@ -1290,7 +1290,7 @@ div.basket-items-wrapper div.promo:before{
   border: 0 solid #E2E8F0;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  color: #1A202C;
+  color: white;
   display: inline-flex;
   font-family: Inter, sans-serif;
   font-size: 1rem;
@@ -1308,9 +1308,7 @@ div.basket-items-wrapper div.promo:before{
   touch-action: manipulation;
   margin-top:0;
 }
-.btn.remove-item-link.remove-entry-button{
-  color:white;
-}
+
 button#removeEntry_0:before {
     content: "";
     background: url(https://i.postimg.cc/MGgFkjsd/2830383.png);
@@ -1321,6 +1319,23 @@ button#removeEntry_0:before {
     height: 25px;
     width: 25px;
 }
+
+.btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button:before{
+    content: "";
+    background: url(https://torqueenergy.in/assets/cmswebsite/images/wishlist-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    filter: invert(30%) sepia(72%) saturate(7325%) hue-rotate(352deg) brightness(104%) contrast(100%);
+}
+
+.btn.remove-item-link.remove-entry-button:focus, .btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button:focus{
+    outline:none; 
+}
+
 /* Size chart style */
 
 /* Christmas Hat */
