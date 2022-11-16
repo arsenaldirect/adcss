@@ -1237,6 +1237,42 @@ header > div.bottom-header-wrapper.text-center{
   background-position:left top;
 }
 
+/* Cart page discount/promo styling */
+
+div.basket-items-wrapper div.promo{
+    padding: 5px 10px 5px 50px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: -60px;
+    color: #3D434D;
+    margin-top: 0px;
+    background-color: #F3F3F3;
+}
+
+div.basket-items-wrapper div.promo:before{
+    content: "";
+    background: url(https://i.postimg.cc/sx8WwgBt/3096852.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    filter: invert(25%) sepia(9%) saturate(751%) hue-rotate(179deg) brightness(92%) contrast(91%);
+}
+
+@media (max-width: 639px){
+  div.basket-items-wrapper div.promo{
+    margin-left:0px;
+    font-size:10px;
+    margin-top:10px;
+  }
+}
+
 /* Size chart style */
 
 /* Christmas Hat */
