@@ -1259,8 +1259,8 @@ div.basket-items-wrapper div.promo:before{
     background-size: contain;
     display: block;
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 27px;
+    width: 27px;
     margin-left: -40px;
     margin-top: 5px;
     filter: invert(25%) sepia(9%) saturate(751%) hue-rotate(179deg) brightness(92%) contrast(91%);
@@ -1307,7 +1307,6 @@ div.basket-items-wrapper div.promo:before{
   -webkit-user-select: none;
   touch-action: manipulation;
   margin-top:0;
-  font-size:9px;
 }
 
 .btn.remove-item-link.remove-entry-button:before {
@@ -1337,6 +1336,11 @@ div.basket-items-wrapper div.promo:before{
     outline:none; 
 }
 
+@media (max-width: 639px){
+  .btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button{
+     font-size:6px;
+  }
+}
 /* Size chart style */
 
 /* Christmas Hat */
