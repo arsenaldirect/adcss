@@ -1372,7 +1372,7 @@ font-size:26px;
     font-weight: lighter;
     margin-bottom:20px;
 }
-[id^=updateCartForm] > span > div > span:nth-child(1){
+[id^=updateCartForm] > span > div > span:nth-child(1) button{
     position: absolute;
     width: 2.8rem;
     height: 2.8rem;
@@ -1392,7 +1392,7 @@ font-size:26px;
     opacity: 0.5;
     left: 0.6rem;
 }
-[id^=updateCartForm] > span > div > span:nth-child(3){
+[id^=updateCartForm] > span > div > span:nth-child(3) button{
     position: absolute;
     width: 2.8rem;
     height: 2.8rem;
