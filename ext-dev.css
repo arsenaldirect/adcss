@@ -1425,6 +1425,7 @@ span.glyphicon glyphicon-minus{
   position:absolute;
   left: 0px;
   margin-left: -14px;
+  top: 6px;
 }
 
 /* Size chart style */
