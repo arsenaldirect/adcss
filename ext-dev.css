@@ -1307,6 +1307,7 @@ div.basket-items-wrapper div.promo:before{
   -webkit-user-select: none;
   touch-action: manipulation;
   margin-top:0;
+  font-size:9px;
 }
 
 button#removeEntry_0:before {
