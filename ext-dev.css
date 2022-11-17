@@ -1310,7 +1310,7 @@ div.basket-items-wrapper div.promo:before{
   font-size:9px;
 }
 
-button#removeEntry_0:before {
+.btn.remove-item-link.remove-entry-button:before {
     content: "";
     background: url(https://i.postimg.cc/MGgFkjsd/2830383.png);
     background-repeat: no-repeat;
