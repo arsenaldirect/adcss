@@ -1373,7 +1373,7 @@ font-size:26px;
     margin-bottom:20px;
 }
 @media (max-width: 639px){
-  [id^=updateCartForm] > span > div{
+  [id^=updateCartForm] [id^=quantity_]{
      padding: 0 2rem;
     }
 }
