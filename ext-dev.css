@@ -1388,6 +1388,7 @@ font-size:26px;
     cursor: pointer;
     transition: opacity 0.15s;
     opacity: 0.5;
+    margin-left: -33px;
 }
 [id^=updateCartForm] > span > div > span:nth-child(3) button{
     position: absolute;
