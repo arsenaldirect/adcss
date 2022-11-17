@@ -1359,18 +1359,19 @@ font-size:26px;
 
 /* Update qty input on cart */
 
-#updateCartForm0 > span > div.input-group{
+#updateCartForm0 > span > div{
     font-size: 18px;
     height: 4rem;
     padding: 0 4rem;
     border: 0;
     background: #fff;
     color: #222;
-    box-shadow: 0 10px 35px -10px rgb(0 0 0 / 25%);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
     text-align: center;
     width: 100%;
     box-sizing: border-box;
     font-weight: lighter;
+    margin-bottom:20px;
 }
 #updateCartForm0 > span > div > span:nth-child(1){
     position: absolute;
