@@ -1372,11 +1372,6 @@ font-size:26px;
     font-weight: lighter;
     margin-bottom:20px;
 }
-@media (max-width: 639px){
-  [id^=updateCartForm] [id^=quantity_]{
-     padding: 0 2rem;
-    }
-}
 [id^=updateCartForm] > span > div > span:nth-child(1) button{
     position: absolute;
     width: 2.8rem;
@@ -1438,6 +1433,13 @@ span.glyphicon.glyphicon-plus{
   margin-left: -6px;
   top: 7px;
 }
+
+@media (max-width: 639px){
+  [id^=updateCartForm] [id^=quantity_]{
+     padding: 0 2rem;
+    }
+}
+
 /* Size chart style */
 
 /* Christmas Hat */
