@@ -1359,7 +1359,7 @@ font-size:26px;
 
 /* Update qty input on cart */
 
-#updateCartForm0 > span > div{
+[id^=updateCartForm] > span > div{
     font-size: 18px;
     height: 4rem;
     padding: 0 4rem;
@@ -1372,7 +1372,7 @@ font-size:26px;
     font-weight: lighter;
     margin-bottom:20px;
 }
-#updateCartForm0 > span > div > span:nth-child(1){
+[id^=updateCartForm] > span > div > span:nth-child(1){
     position: absolute;
     width: 2.8rem;
     height: 2.8rem;
@@ -1392,7 +1392,7 @@ font-size:26px;
     opacity: 0.5;
     left: 0.6rem;
 }
-#updateCartForm0 > span > div > span:nth-child(3){
+[id^=updateCartForm] > span > div > span:nth-child(3){
     position: absolute;
     width: 2.8rem;
     height: 2.8rem;
@@ -1414,7 +1414,7 @@ font-size:26px;
     background-position-x: -2.8rem;
 }
 
-#quantity_0{
+[id^=updateCartForm] [id^=quantity_] {
     font-size: 18px;
     height: 4rem;
     padding: 0 4rem;
