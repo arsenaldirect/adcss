@@ -1348,12 +1348,7 @@ div.basket-items-wrapper div.promo:before{
 font-family:"agency-gothic-ct-cond-tt";
 }
 .cart-list .product-item .item-price{
-font-size:30px;
-}
-@media only screen and (max-width: 1023px){
-.cart-list .product-item .item-price {
-    font-size: 26px;
-}
+font-size:26px;
 }
 
 /* Fix outline around button focus */
