@@ -1356,6 +1356,14 @@ font-size:30px;
 }
 }
 
+/* Fix outline around button focus */
+
+.btn:focus{
+  outline:none;
+}
+
+
+
 /* Size chart style */
 
 /* Christmas Hat */
