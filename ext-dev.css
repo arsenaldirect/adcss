@@ -1445,6 +1445,10 @@ span.glyphicon.glyphicon-plus{
  padding: 20px; 
 }
 
+.input-group .input-group-addon .btn.btn-icon.disabled{
+  color: rgba(0,0,0,0.2);
+}
+
 /* Size chart style */
 
 /* Christmas Hat */
