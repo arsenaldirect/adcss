@@ -1254,7 +1254,7 @@ div.basket-items-wrapper div.promo{
 
 div.basket-items-wrapper div.promo:before{
     content: "";
-    background: url(https://i.postimg.cc/sx8WwgBt/3096852.png);
+    background: url(https://www.arsenal.com/sites/default/files/images/DiscountApplied.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
@@ -1311,7 +1311,7 @@ div.basket-items-wrapper div.promo:before{
 
 .btn.remove-item-link.remove-entry-button:before {
     content: "";
-    background: url(https://i.postimg.cc/MGgFkjsd/2830383.png);
+    background: url(https://www.arsenal.com/sites/default/files/images/Remove.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -1322,7 +1322,7 @@ div.basket-items-wrapper div.promo:before{
 
 .btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button:before{
     content: "";
-    background: url(https://torqueenergy.in/assets/cmswebsite/images/wishlist-icon.png);
+    background: url(https://www.arsenal.com/sites/default/files/images/MoveToWishlist.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
