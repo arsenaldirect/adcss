@@ -1344,10 +1344,10 @@ div.basket-items-wrapper div.promo:before{
 
 /* Cart price font and size  */
 
-.cart-totals .grand-total-price, .cart-list .product-item .item-price{
+.cart-totals .grand-total-price, .cart-list .product-item .item-price, .cart-totals .discount-cart-page{
 font-family:"agency-gothic-ct-cond-tt";
 }
-.cart-list .product-item .item-price{
+.cart-list .product-item .item-price, .cart-totals .discount-cart-page{
 font-size:26px;
 }
 
@@ -1421,7 +1421,7 @@ font-size:26px;
     font-weight: lighter;
 }
 
-span.glyphicon .glyphicon-minus{
+span.glyphicon.glyphicon-minus{
   position:absolute;
   left: 0px;
   margin-left: -14px;
