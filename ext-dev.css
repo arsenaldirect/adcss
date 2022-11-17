@@ -1437,7 +1437,7 @@ span.glyphicon.glyphicon-plus{
 
 @media (max-width: 639px){
   [id^=updateCartForm] [id^=quantity_]{
-     padding: 0 2rem;
+     padding: 0 1rem;
     }
 }
 
