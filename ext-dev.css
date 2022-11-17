@@ -1427,7 +1427,12 @@ span.glyphicon.glyphicon-minus{
   margin-left: -14px;
   top: 6px;
 }
-
+span.glyphicon.glyphicon-plus{
+  position:absolute;
+  left: 0px;
+  margin-left: -14px;
+  top: 6px;
+}
 /* Size chart style */
 
 /* Christmas Hat */
