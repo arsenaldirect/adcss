@@ -1368,7 +1368,6 @@ font-size:26px;
     color: #222;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
     text-align: center;
-    width: 100%;
     box-sizing: border-box;
     font-weight: lighter;
     margin-bottom:20px;
@@ -1415,7 +1414,7 @@ font-size:26px;
     background-position-x: -2.8rem;
 }
 
-div.input-group #quantity_0{
+#quantity_0{
     font-size: 18px;
     height: 4rem;
     padding: 0 4rem;
