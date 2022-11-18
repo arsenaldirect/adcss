@@ -1360,6 +1360,50 @@ span.glyphicon.glyphicon-plus{
   color: rgba(0,0,0,0.2);
 }
 
+/* Wishlist formatting */
+
+.wl-product-property--key{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-left:18px;
+}
+.wl-product-property--value{
+    font-size:0.8em;
+}
+.wl-product-property--personalisation{
+    margin-bottom:15px;
+    margin-top:5px;
+}
+
+.wl-product-property--personalisation:before {
+    content: "\2607\00FE0E";
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-45deg);
+    margin-top: -8px;
+    margin-left: -3px;
+}
+
+.wl-product-property--cavaet{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    font-style:italic;
+}
+
+@media (max-width: 639px){
+  .wl-product-property--price{
+    margin-top:10px;
+  }
+  .wl-product-property--personalisation{
+    margin-bottom:5px;
+  }
+}
+
 /* END RELEASE */
 
 /*.......................................................................................
@@ -1533,46 +1577,4 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
 }
 */
 
-/* Wishlist formatting */
 
-.wl-product-property--key{
-    text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: bold;
-    padding-left:18px;
-}
-.wl-product-property--value{
-    font-size:0.8em;
-}
-.wl-product-property--personalisation{
-    margin-bottom:15px;
-    margin-top:5px;
-}
-
-.wl-product-property--personalisation:before {
-    content: "\2607\00FE0E";
-    position: absolute;
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    transform: rotate(-45deg);
-    margin-top: -8px;
-    margin-left: -3px;
-}
-
-.wl-product-property--cavaet{
-    font-size: 0.8em;
-    margin-bottom: 10px;
-    font-style:italic;
-}
-
-@media (max-width: 639px){
-  .wl-product-property--price{
-    margin-top:10px;
-  }
-  .wl-product-property--personalisation{
-    margin-bottom:5px;
-  }
-}
