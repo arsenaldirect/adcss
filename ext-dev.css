@@ -1372,7 +1372,7 @@ span.glyphicon.glyphicon-plus{
     font-size:0.8em;
 }
 .wl-product-property--personalisation{
-    margin-bottom:15px;
+    margin-bottom:5px;
     margin-top:5px;
 }
 
@@ -1395,10 +1395,11 @@ span.glyphicon.glyphicon-plus{
     font-style:italic;
 }
 
-@media (max-width: 639px){
   .wl-product-property--price{
     margin-top:10px;
   }
+
+@media (max-width: 639px){
   .wl-product-property--personalisation{
     margin-bottom:5px;
     margin-top:2px;
