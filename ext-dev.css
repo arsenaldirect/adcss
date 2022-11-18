@@ -1360,6 +1360,10 @@ font-size:26px;
   outline:none;
 }
 
+:focus-visible{
+  outline:none;
+}
+
 /* Update qty input on cart */
 
 [id^=updateCartForm] > span > div{
