@@ -1148,3 +1148,240 @@ a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
     background-image: url(https://www.arsenal.com/sites/default/files/images/MicrosoftTeams-image_13.png);
     background-size: contain;
 }
+
+/*......................................................................................
+//....1111....888888........ NNN...NNNN.............................222222....222222....
+//...11111...18888888....... NNNN..NNNN............................ 2222222..22222222...
+//..111111..1188888888...... NNNN..NNNN........................... 22..22222222..2222..
+//.1111111..1188..8888...... NNNNN.NNNN....oooooo..oovv..vvvv..... 22..22222222..2222..
+//.1111111..118888888....... NNNNN.NNNN..Noooooooo.oovv..vvvv...........2222......2222..
+//.11.1111...18888888....... NNNNNNNNNN..Nooo.ooooooovv.vvvv...........22222.....22222..
+//....1111...18888888....... NNNNNNNNNN.NNoo...oooo.ovvvvvvv..........22222.....22222...
+//....1111..1188.88888...... NNNNNNNNNN.NNoo...oooo.ovvvvvvv.........22222.....22222....
+//....1111..1188..8888...... NNNNNNNNNN.NNoo...oooo.ovvvvvv.........22222.....22222.....
+//....1111..1188..8888...... NNN.NNNNNN.NNoo...oooo..vvvvvv........ 2222.....22222......
+//....1111..1188888888...... NNN..NNNNN..Nooo.ooooo..vvvvvv........ 222......2222.......
+//....1111...18888888....... NNN..NNNNN..Noooooooo...vvvvv........ 222222222222222222..
+//....1111....888888........ NNN...NNNN....oooooo.....vvvv........ 222222222222222222..
+//....................................................................................*/
+
+/* Cart page discount/promo styling */
+
+div.basket-items-wrapper div.promo{
+    padding: 5px 10px 5px 50px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: -60px;
+    color: #3D434D;
+    margin-top: 0px;
+    background-color: #F3F3F3;
+    min-height: 50px;
+}
+
+div.basket-items-wrapper div.promo:before{
+    content: "";
+    background: url(https://www.arsenal.com/sites/default/files/images/DiscountApplied.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    margin-left: -40px;
+    margin-top: 5px;
+    filter: invert(25%) sepia(9%) saturate(751%) hue-rotate(179deg) brightness(92%) contrast(91%);
+}
+
+@media (max-width: 639px){
+  div.basket-items-wrapper div.promo{
+    margin-left:0px;
+    margin-right:5px;
+    font-size:12px;
+    margin-top:10px;
+    padding-left:30px;
+  }
+  div.basket-items-wrapper div.promo:before{
+    height: 20px;
+    width: 20px;
+    margin-left: -25px;
+    
+  }
+}
+
+/* Cart page remove/save for later buttons */
+
+.btn.remove-item-link.remove-entry-button, .btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: white;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 6px;
+  text-decoration: none;
+  width: auto;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top:0;
+}
+
+.btn.remove-item-link.remove-entry-button:before {
+    content: "";
+    background: url(https://www.arsenal.com/sites/default/files/images/Remove.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+
+.btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button:before{
+    content: "";
+    background: url(https://www.arsenal.com/sites/default/files/images/MoveToWishlist.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    filter: invert(30%) sepia(72%) saturate(7325%) hue-rotate(352deg) brightness(104%) contrast(100%);
+}
+
+.btn.remove-item-link.remove-entry-button:focus, .btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button:focus{
+    outline:none; 
+}
+
+ .btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button{
+   font-size:8px;
+}
+@media (max-width: 639px){
+  .btn.btn-link.btn-move-to-wl.js-move-to-wishlist-entry-button{
+     font-size:6px;
+  }
+}
+
+/* Cart price font and size  */
+
+.cart-totals .grand-total-price, .cart-list .product-item .item-price, .cart-totals .discount-cart-page{
+font-family:"agency-gothic-ct-cond-tt";
+}
+.cart-list .product-item .item-price, .cart-totals .discount-cart-page{
+font-size:26px;
+}
+
+/* Fix outline around button focus */
+
+.btn:focus{
+  outline:none;
+}
+
+:focus-visible{
+  outline:none;
+}
+
+/* Update qty input on cart */
+
+[id^=updateCartForm] > span > div{
+    font-size: 18px;
+    height: 4rem;
+    padding: 0 4rem;
+    border: 0;
+    background: #fff;
+    color: #222;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: lighter;
+    margin-bottom:20px;
+}
+[id^=updateCartForm] > span > div > span:nth-child(1) button{
+    position: absolute;
+    width: 2.8rem;
+    height: 2.8rem;
+    top: 0.6rem;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%;
+    border-radius: 1.4rem;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    opacity: 0.5;
+    margin-left: -33px;
+}
+[id^=updateCartForm] > span > div > span:nth-child(3) button{
+    position: absolute;
+    width: 2.8rem;
+    height: 2.8rem;
+    top: 0.6rem;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%;
+    border-radius: 1.4rem;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    opacity: 0.5;
+}
+
+[id^=updateCartForm] [id^=quantity_] {
+    font-size: 18px;
+    height: 4rem;
+    padding: 0 4rem;
+    border: 0;
+    background: #fff;
+    color: #222;
+    box-shadow: 0 10px 35px -10px rgb(0 0 0 / 25%);
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+
+span.glyphicon.glyphicon-minus{
+  position:absolute;
+  left: 0px;
+  margin-left: -14px;
+  top: 6px;
+}
+span.glyphicon.glyphicon-plus{
+  position:absolute;
+  left: 0px;
+  margin-left: -6px;
+  top: 7px;
+}
+
+@media (max-width: 639px){
+  [id^=updateCartForm] [id^=quantity_]{
+     padding: 0 1rem;
+    }
+}
+
+.cart-list .product-item .qty-selector .btn-icon{
+ padding: 20px; 
+}
+
+.input-group .input-group-addon .btn.btn-icon.disabled{
+  color: rgba(0,0,0,0.2);
+}
+
+/* END RELEASE */
