@@ -1430,4 +1430,10 @@ span.glyphicon.glyphicon-plus{
   }
 }
 
+/* Fix third promo slot image */
+
+.bottom-header-wrapper .bottom-header-inner .content:nth-of-type(3) p:before{
+  background-image:url(https://arsenaldirect.arsenal.com/_ui/responsive/theme-blue/images/header-bottom-second-inv.png);
+}
+
 /* END RELEASE */
