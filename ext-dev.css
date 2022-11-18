@@ -1084,48 +1084,6 @@ div.starRatings.starRatings--pdp-desktop > div.starRatings__hollow.starRatings__
 }
 
 
-/* BLACK FRIDAY 22 */
-
-@media (min-width: 1024px){
-#nav > ul > li:nth-child(1) > a{
-    background-color: black;
-    color: #DFFD16;
-    height: auto;
-    padding: 10px 20px;
-    transition: padding .4s;
-}
-
-#nav > ul > li:nth-child(1) > a:before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    padding-bottom: 10%;
-    background: black;
-    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
-    transform: rotate(0deg);
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 3px;
-    z-index: 99999999;
-}
-}
-
-@media only screen and (max-device-width: 1023px){
-#nav > ul > li:nth-child(1) > a:after{
-    content: "Exclusive Deals";
-    position: absolute;
-    margin-left: 30px;
-    background-color: black;
-    color: yellow;
-    padding: 5px;
-    margin-top: -5px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-}
-
 /* Fix adidas size guide page on desktop */
 
 #adidas-sizeguide-tabs .tabhead+.tabbody{
@@ -1167,75 +1125,21 @@ a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
     background-size: contain;
 }
 
-/* Black friday promo message styling */
-
-div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"]{
-    color: black;
-    background-color: #DFFD16;
-    font-weight: bold;
-    width: 90%;
-    display: block;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Member discount promo message styling */
-
-div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
-    width: 90%;
-    display: block;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media (max-width: 639px){
-  div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"], div[data-promo-name="Arsenal Member 10% Discount"], , div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
-    width: 100%;
-  }
-}
-
-/* Black Friday promo banner (bottom of header) */
-
-.page-homepage .bottom-header-wrapper, .page-parentCategory .bottom-header-wrapper{
-    background: none;
-    background-color: #DFFD16;
-    position: relative;
-    top:0;
-}
-.bottom-header-wrapper .bottom-header-inner .content:nth-child(n) p{
-  color:black;
-  font-weight:600;
-}
-
-.bottom-header-wrapper .content:nth-of-type(1) p:before, .bottom-header-wrapper .content:nth-of-type(2) p:before, #monetate_selectorHTML_cca15348_0 p:before, .bottom-header-wrapper .content:nth-of-type(3) p:before, .promo-banner__logos{
-  filter: brightness(0);
-}
-
-#monetate_selectorHTML_cca15348_0 > p > span{
-  color:black !important;
-}
-
-header > div.bottom-header-wrapper.text-center{
-  background-color: #DFFD16;
-}
-
-/* Black Friday member login button on PDP */
-
-#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
-  background: linear-gradient(to right, #000000 50%, #DFFD16 50%);
-  color:black;
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 1s ease;
-}
-#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10:hover{  
-  color:#DFFD16;
-  background-position:left top;
-}
+/*......................................................................................
+//....1111....888888........ NNN...NNNN.............................222222....222222....
+//...11111...18888888....... NNNN..NNNN............................ 2222222..22222222...
+//..111111..1188888888...... NNNN..NNNN........................... 22..22222222..2222..
+//.1111111..1188..8888...... NNNNN.NNNN....oooooo..oovv..vvvv..... 22..22222222..2222..
+//.1111111..118888888....... NNNNN.NNNN..Noooooooo.oovv..vvvv...........2222......2222..
+//.11.1111...18888888....... NNNNNNNNNN..Nooo.ooooooovv.vvvv...........22222.....22222..
+//....1111...18888888....... NNNNNNNNNN.NNoo...oooo.ovvvvvvv..........22222.....22222...
+//....1111..1188.88888...... NNNNNNNNNN.NNoo...oooo.ovvvvvvv.........22222.....22222....
+//....1111..1188..8888...... NNNNNNNNNN.NNoo...oooo.ovvvvvv.........22222.....22222.....
+//....1111..1188..8888...... NNN.NNNNNN.NNoo...oooo..vvvvvv........ 2222.....22222......
+//....1111..1188888888...... NNN..NNNNN..Nooo.ooooo..vvvvvv........ 222......2222.......
+//....1111...18888888....... NNN..NNNNN..Noooooooo...vvvvv........ 222222222222222222..
+//....1111....888888........ NNN...NNNN....oooooo.....vvvv........ 222222222222222222..
+//....................................................................................*/
 
 /* Cart page discount/promo styling */
 
@@ -1455,6 +1359,156 @@ span.glyphicon.glyphicon-plus{
 .input-group .input-group-addon .btn.btn-icon.disabled{
   color: rgba(0,0,0,0.2);
 }
+
+/* END RELEASE */
+
+/*.......................................................................................
+//...222222......1111........NNNN...NNNN.............................222222....222222....
+//..22222222....11111........NNNNN..NNNN............................22222222..22222222...
+//.2222..2222..111111........NNNNN..NNNN........................... 222..22222222..2222..
+//.2222..2222.1111111........NNNNNN.NNNN....oooooo..ovvv..vvvv..... 222..22222222..2222..
+//.......2222.1111111........NNNNNN.NNNN..ooooooooo.ovvv..vvvv...........2222......2222..
+//......22222.11.1111........NNNNNNNNNNN..oooo.oooooovvv.vvvv...........22222.....22222..
+//.....22222.....1111........NNNNNNNNNNN.Nooo...oooo.vvvvvvvv..........22222.....22222...
+//....22222......1111........NNNNNNNNNNN.Nooo...oooo.vvvvvvvv.........22222.....22222....
+//...22222.......1111........NNNNNNNNNNN.Nooo...oooo.vvvvvvv.........22222.....22222.....
+//..22222........1111........NNNN.NNNNNN.Nooo...oooo..vvvvvv........22222.....22222......
+//..2222.........1111........NNNN..NNNNN..oooo.ooooo..vvvvvv........2222......2222.......
+//.2222222222....1111........NNNN..NNNNN..ooooooooo...vvvvv........ 2222222222222222222..
+//.2222222222....1111........NNNN...NNNN....oooooo.....vvvv........ 2222222222222222222..
+//.....................................................................................*/
+
+/* Black friday PLP promo message styling */
+
+div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"]{
+    color: black;
+    background-color: #DFFD16;
+    font-weight: bold;
+    width: 90%;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Member discount promo message styling */
+
+div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
+    width: 90%;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 639px){
+  div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"], div[data-promo-name="Arsenal Member 10% Discount"], , div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
+    width: 100%;
+  }
+}
+
+/* Black Friday promo banner (bottom of header) */
+
+.page-homepage .bottom-header-wrapper, .page-parentCategory .bottom-header-wrapper{
+    background: none;
+    background-color: #DFFD16;
+    position: relative;
+    top:0;
+}
+.bottom-header-wrapper .bottom-header-inner .content:nth-child(n) p{
+  color:black;
+  font-weight:600;
+}
+
+.bottom-header-wrapper .content:nth-of-type(1) p:before, .bottom-header-wrapper .content:nth-of-type(2) p:before, #monetate_selectorHTML_cca15348_0 p:before, .bottom-header-wrapper .content:nth-of-type(3) p:before, .promo-banner__logos{
+  filter: brightness(0);
+}
+
+#monetate_selectorHTML_cca15348_0 > p > span{
+  color:black !important;
+}
+
+header > div.bottom-header-wrapper.text-center{
+  background-color: #DFFD16;
+}
+
+/* Black Friday member login button on PDP */
+
+#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
+  background: linear-gradient(to right, #000000 50%, #DFFD16 50%);
+  color:black;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s ease;
+}
+#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10:hover{  
+  color:#DFFD16;
+  background-position:left top;
+}
+
+/* END RELEASE */
+
+/*.......................................................................................
+//...222222....222222........NNNN...NNNN.............................222222....222222....
+//..22222222..22222222.......NNNNN..NNNN............................22222222..22222222...
+//.2222..22222222..2222......NNNNN..NNNN........................... 222..22222222..2222..
+//.2222..22222222..2222......NNNNNN.NNNN....oooooo..ovvv..vvvv..... 222..22222222..2222..
+//.......2222......2222......NNNNNN.NNNN..ooooooooo.ovvv..vvvv...........2222......2222..
+//......22222.....22222......NNNNNNNNNNN..oooo.oooooovvv.vvvv...........22222.....22222..
+//.....22222.....22222.......NNNNNNNNNNN.Nooo...oooo.vvvvvvvv..........22222.....22222...
+//....22222.....22222........NNNNNNNNNNN.Nooo...oooo.vvvvvvvv.........22222.....22222....
+//...22222.....22222.........NNNNNNNNNNN.Nooo...oooo.vvvvvvv.........22222.....22222.....
+//..22222.....22222..........NNNN.NNNNNN.Nooo...oooo..vvvvvv........22222.....22222......
+//..2222......2222...........NNNN..NNNNN..oooo.ooooo..vvvvvv........2222......2222.......
+//.22222222222222222222......NNNN..NNNNN..ooooooooo...vvvvv........ 2222222222222222222..
+//.22222222222222222222......NNNN...NNNN....oooooo.....vvvv........ 2222222222222222222..
+//.....................................................................................*/
+
+/* BLACK FRIDAY NAV MENU 22 */
+
+@media (min-width: 1024px){
+#nav > ul > li:nth-child(1) > a{
+    background-color: black;
+    color: #DFFD16;
+    height: auto;
+    padding: 10px 20px;
+    transition: padding .4s;
+}
+
+#nav > ul > li:nth-child(1) > a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding-bottom: 10%;
+    background: black;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+    transform: rotate(0deg);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 3px;
+    z-index: 99999999;
+}
+}
+
+@media only screen and (max-device-width: 1023px){
+#nav > ul > li:nth-child(1) > a:after{
+    content: "Exclusive Deals";
+    position: absolute;
+    margin-left: 30px;
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    margin-top: -5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+
+/* END RELEASE */
 
 /* Size chart style */
 
