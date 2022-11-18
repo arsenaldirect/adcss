@@ -1143,7 +1143,7 @@ a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
 
 /* Cart page discount/promo styling */
 
-div:not(.account-section) div.basket-items-wrapper div.promo{
+.basket-wrapper div.basket-items-wrapper div.promo{
     padding: 5px 10px 5px 50px;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -1156,7 +1156,7 @@ div:not(.account-section) div.basket-items-wrapper div.promo{
     min-height: 50px;
 }
 
-div:not(.account-section) div.basket-items-wrapper div.promo:before{
+.basket-wrapper div.basket-items-wrapper div.promo:before{
     content: "";
     background: url(https://www.arsenal.com/sites/default/files/images/DiscountApplied.png);
     background-repeat: no-repeat;
@@ -1171,14 +1171,14 @@ div:not(.account-section) div.basket-items-wrapper div.promo:before{
 }
 
 @media (max-width: 639px){
- div:not(.account-section) div.basket-items-wrapper div.promo{
+ .basket-wrapper div.basket-items-wrapper div.promo{
     margin-left:0px;
     margin-right:5px;
     font-size:12px;
     margin-top:10px;
     padding-left:30px;
   }
- div:not(.account-section) div.basket-items-wrapper div.promo:before{
+ .basket-wrapper div.basket-items-wrapper div.promo:before{
     height: 20px;
     width: 20px;
     margin-left: -25px;
