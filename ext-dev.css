@@ -1569,7 +1569,10 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
 }
 
 @media (max-width: 639px){
-.wl-product-property--price{
-  margin-top:10px;
-}
+  .wl-product-property--price{
+    margin-top:10px;
+  }
+  .wl-product-property--personalisation{
+    margin-bottom:5px;
+  }
 }
