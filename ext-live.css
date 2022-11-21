@@ -1437,3 +1437,91 @@ span.glyphicon.glyphicon-plus{
 }
 
 /* END RELEASE */
+
+/*.......................................................................................
+//...222222......1111........NNNN...NNNN.............................222222....222222....
+//..22222222....11111........NNNNN..NNNN............................22222222..22222222...
+//.2222..2222..111111........NNNNN..NNNN........................... 222..22222222..2222..
+//.2222..2222.1111111........NNNNNN.NNNN....oooooo..ovvv..vvvv..... 222..22222222..2222..
+//.......2222.1111111........NNNNNN.NNNN..ooooooooo.ovvv..vvvv...........2222......2222..
+//......22222.11.1111........NNNNNNNNNNN..oooo.oooooovvv.vvvv...........22222.....22222..
+//.....22222.....1111........NNNNNNNNNNN.Nooo...oooo.vvvvvvvv..........22222.....22222...
+//....22222......1111........NNNNNNNNNNN.Nooo...oooo.vvvvvvvv.........22222.....22222....
+//...22222.......1111........NNNNNNNNNNN.Nooo...oooo.vvvvvvv.........22222.....22222.....
+//..22222........1111........NNNN.NNNNNN.Nooo...oooo..vvvvvv........22222.....22222......
+//..2222.........1111........NNNN..NNNNN..oooo.ooooo..vvvvvv........2222......2222.......
+//.2222222222....1111........NNNN..NNNNN..ooooooooo...vvvvv........ 2222222222222222222..
+//.2222222222....1111........NNNN...NNNN....oooooo.....vvvv........ 2222222222222222222..
+//.....................................................................................*/
+
+/* Black friday PLP promo message styling */
+
+div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"]{
+    color: black;
+    background-color: #DFFD16;
+    font-weight: bold;
+    width: 90%;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Member discount promo message styling */
+
+div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
+    width: 90%;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 639px){
+  div[data-promo-name="BLACK FRIDAY DISCOUNT MEMBER EARLY ACCESS"], div[data-promo-name="BLACK FRIDAY DEAL + ARSENAL MEMBER EXTRA 10% DISCOUNT"], div[data-promo-name="Arsenal Member 10% Discount"], , div[data-promo-name="ARSENAL MEMBER 10% DISCOUNT"]{
+    width: 100%;
+  }
+}
+
+/* Black Friday promo banner (bottom of header) */
+
+.page-homepage .bottom-header-wrapper, .page-parentCategory .bottom-header-wrapper{
+    background: none;
+    background-color: #DFFD16;
+    position: relative;
+    top:0;
+}
+.bottom-header-wrapper .bottom-header-inner .content:nth-child(n) p{
+  color:black;
+  font-weight:600;
+}
+
+.bottom-header-wrapper .content:nth-of-type(1) p:before, .bottom-header-wrapper .content:nth-of-type(2) p:before, #monetate_selectorHTML_cca15348_0 p:before, .bottom-header-wrapper .content:nth-of-type(3) p:before, .promo-banner__logos{
+  filter: brightness(0);
+}
+
+#monetate_selectorHTML_cca15348_0 > p > span{
+  color:black !important;
+}
+
+header > div.bottom-header-wrapper.text-center{
+  background-color: #DFFD16;
+}
+
+/* Black Friday member login button on PDP */
+
+#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
+  background: linear-gradient(to right, #000000 50%, #DFFD16 50%);
+  color:black;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 1s ease;
+}
+#addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10:hover{  
+  color:#DFFD16;
+  background-position:left top;
+}
+
+/* END RELEASE */
