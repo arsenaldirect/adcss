@@ -1562,6 +1562,8 @@ header > div.bottom-header-wrapper.text-center{
 }
 }
 
+/* Make tours main nav menu black for Black Friday */
+
 @media (min-width: 1024px){
   .main-header .main-navigation .nav li.has-sub:nth-last-child(3)>.tours{
   background:black;
