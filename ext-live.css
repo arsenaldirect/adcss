@@ -1525,3 +1525,65 @@ header > div.bottom-header-wrapper.text-center{
 }
 
 /* END RELEASE */
+
+/*.......................................................................................
+//...222222....222222........NNNN...NNNN.............................222222....222222....
+//..22222222..22222222.......NNNNN..NNNN............................22222222..22222222...
+//.2222..22222222..2222......NNNNN..NNNN........................... 222..22222222..2222..
+//.2222..22222222..2222......NNNNNN.NNNN....oooooo..ovvv..vvvv..... 222..22222222..2222..
+//.......2222......2222......NNNNNN.NNNN..ooooooooo.ovvv..vvvv...........2222......2222..
+//......22222.....22222......NNNNNNNNNNN..oooo.oooooovvv.vvvv...........22222.....22222..
+//.....22222.....22222.......NNNNNNNNNNN.Nooo...oooo.vvvvvvvv..........22222.....22222...
+//....22222.....22222........NNNNNNNNNNN.Nooo...oooo.vvvvvvvv.........22222.....22222....
+//...22222.....22222.........NNNNNNNNNNN.Nooo...oooo.vvvvvvv.........22222.....22222.....
+//..22222.....22222..........NNNN.NNNNNN.Nooo...oooo..vvvvvv........22222.....22222......
+//..2222......2222...........NNNN..NNNNN..oooo.ooooo..vvvvvv........2222......2222.......
+//.22222222222222222222......NNNN..NNNNN..ooooooooo...vvvvv........ 2222222222222222222..
+//.22222222222222222222......NNNN...NNNN....oooooo.....vvvv........ 2222222222222222222..
+//.....................................................................................*/
+
+/* BLACK FRIDAY NAV MENU 22 */
+
+@media (min-width: 1024px){
+#nav > ul > li:nth-child(1) > a{
+    background-color: black;
+    color: #DFFD16;
+    height: auto;
+    padding: 10px 20px;
+    transition: padding .4s;
+}
+
+#nav > ul > li:nth-child(1) > a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding-bottom: 10%;
+    background: black;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+    transform: rotate(0deg);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 3px;
+    z-index: 99999999;
+}
+}
+
+@media only screen and (max-device-width: 1023px){
+#nav > ul > li:nth-child(1) > a:after{
+    content: "Exclusive Deals";
+    position: absolute;
+    margin-left: 30px;
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    margin-top: -5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
+
+/* END RELEASE */
+
+
