@@ -1554,6 +1554,20 @@ header > div.bottom-header-wrapper.text-center{
 }
 }
 
+@media (min-width: 1024px){
+  .main-header .main-navigation .nav li.has-sub:nth-last-child(3)>.tours{
+  background:black;
+  color:#DFFD16;
+  }
+  .main-header .main-navigation .nav li.has-sub:nth-last-child(3)>.tours:before{
+  background:black;
+  }
+  .main-header .main-navigation .nav li.has-sub:nth-last-child(3):hover>.tours{
+  background:black;
+  color:#DFFD16;
+  }
+}
+
 /* END RELEASE */
 
 /* Size chart style */
