@@ -1346,6 +1346,10 @@ span.glyphicon.glyphicon-plus{
   top: 7px;
 }
 
+span.glyphicon.glyphicon-plus:before{
+  position:absolute;
+}
+
 @media (max-width: 639px){
   [id^=updateCartForm] [id^=quantity_]{
      padding: 0 1rem;
