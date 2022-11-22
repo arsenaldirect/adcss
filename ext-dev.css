@@ -1346,7 +1346,7 @@ span.glyphicon.glyphicon-plus{
   top: 7px;
 }
 
-span.glyphicon.glyphicon-plus:before{
+.product-item--basket span.glyphicon.glyphicon-plus:before{
   position:absolute;
 }
 
