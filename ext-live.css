@@ -884,10 +884,11 @@ a.thumb.product-link-js picture img.primaryImageF {
 }
 
 /* Hide PDP personalised shirt delivery delay notice */
-
+/*
 .AddToCart-AddToCartAction .pdp-warning-box{
   display:none;
 }
+*/
 
 /* SBP text background colour */
 
