@@ -1468,7 +1468,7 @@ div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL
 
 .page-homepage .bottom-header-wrapper, .page-parentCategory .bottom-header-wrapper{
     background: none;
-    background-color: #DFFD16;
+    background-color: white;
     position: relative;
     top:0;
 }
@@ -1486,10 +1486,11 @@ div[data-promo-name="Arsenal Member 10% Discount"], div[data-promo-name="ARSENAL
 }
 
 header > div.bottom-header-wrapper.text-center{
-  background-color: #DFFD16;
+  background-color: white;
 }
 
 /* Black Friday member login button on PDP */
+/*
 
 #addToCartForm > a.gigya-raas-link.btn.btn-secondary.btn-block.mt10{
   background: linear-gradient(to right, #000000 50%, #DFFD16 50%);
@@ -1502,7 +1503,7 @@ header > div.bottom-header-wrapper.text-center{
   color:#DFFD16;
   background-position:left top;
 }
-
+*/
 /* END RELEASE */
 
 /*.......................................................................................
@@ -1522,7 +1523,7 @@ header > div.bottom-header-wrapper.text-center{
 //.....................................................................................*/
 
 /* BLACK FRIDAY NAV MENU 22 */
-
+/*
 @media (min-width: 1024px){
 #nav > ul > li:nth-child(1) > a{
     background-color: black;
@@ -1562,9 +1563,9 @@ header > div.bottom-header-wrapper.text-center{
     padding-right: 10px;
 }
 }
-
+*/
 /* Make tours main nav menu black for Black Friday */
-
+/*
 @media (min-width: 1024px){
   .main-header .main-navigation .nav li.has-sub:nth-last-child(3)>.tours{
   background:black;
@@ -1578,7 +1579,7 @@ header > div.bottom-header-wrapper.text-center{
   color:#DFFD16;
   }
 }
-
+*/
 /* END RELEASE */
 
 /* Size chart style */
