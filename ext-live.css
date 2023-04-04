@@ -1611,3 +1611,12 @@ header > div.bottom-header-wrapper.text-center{
 }
 */
 /* END RELEASE */
+
+
+/* Fix trust banner width after release 04/04/23 */
+
+@media (min-width: 1024px){
+.bottom-header-wrapper .bottom-header-inner .content:nth-child(-n + 2){
+  padding-right:100px;
+}
+}
