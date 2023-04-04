@@ -1605,4 +1605,9 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
 }
 */
 
+/* Fix trust banner width */
+
+.bottom-header-wrapper .bottom-header-inner .content{
+  padding-right:40px;
+}
 
