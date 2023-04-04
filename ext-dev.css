@@ -1607,7 +1607,7 @@ body > main > header > div.header-wrapper > div > div.row.no-gutter > div.site-l
 
 /* Fix trust banner width */
 
-.bottom-header-wrapper .bottom-header-inner .content{
+.bottom-header-wrapper .bottom-header-inner .content:nth-child(-n + 2){
   padding-right:40px;
 }
 
