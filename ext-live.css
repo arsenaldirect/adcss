@@ -1620,3 +1620,10 @@ header > div.bottom-header-wrapper.text-center{
   padding-right:100px;
 }
 }
+
+/* Fix Amazon logo size in trust banner */
+
+.promo-banner__logos .ml10.amazon-pay__logo{
+ height:10px; 
+}
+
