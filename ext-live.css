@@ -1627,3 +1627,8 @@ header > div.bottom-header-wrapper.text-center{
  height:10px; 
 }
 
+/* Fix transparency being too clear on SBP page behind names */
+
+.sbp-tab .player__details{
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.86) 0%, #fff 100%);
+}
