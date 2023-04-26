@@ -1632,3 +1632,11 @@ header > div.bottom-header-wrapper.text-center{
 .sbp-tab .player__details{
     background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.86) 0%, #fff 100%);
 }
+
+/* Fix monetate badging overlaying filters */
+
+.search-dropdown input[name="search-dropdown-component"]:checked~.search-dropdown__item .search-dropdown__panel{
+  z-index:9;
+}
+
+
