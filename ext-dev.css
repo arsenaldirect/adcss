@@ -1638,3 +1638,10 @@ background-size: contain;
 background-image: url(https://i.postimg.cc/9FXxc0M2/shirt-icon.png);
 background-size: contain;
 }
+
+/* Fix video display on 23/24 home kit PDP */
+
+#render-productdetailpage-8797862757436 > div{
+ display:content; 
+}
+
