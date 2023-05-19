@@ -1647,7 +1647,7 @@ background-size: contain;
 
 /* Hide extended delivery lead time box on PDP */
 
-.pdp-warning-box{
+div.addtocart-component > div.AddToCart-AddToCartAction > div.pdp-warning-box{
   display:none;
 }
 
