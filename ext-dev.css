@@ -1645,3 +1645,9 @@ background-size: contain;
  display:contents; 
 }
 
+/* Hide extended delivery lead time box on PDP */
+
+.pdp-buy-section.pdp-buy-section--shadow.js-personalise-product > div.addtocart-component > div.AddToCart-AddToCartAction > div.pdp-warning-box{
+  display:none;
+}
+
