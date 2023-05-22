@@ -1651,3 +1651,8 @@ div.addtocart-component > div.AddToCart-AddToCartAction > div.pdp-warning-box{
   display:none;
 }
 
+/* Remove background colour behind text on SBP player pages */
+
+.shopbyplayer-title-over-image{
+  background-color:transparent;
+}
