@@ -1665,9 +1665,10 @@ div.addtocart-component > div.AddToCart-AddToCartAction > div.pdp-warning-box{
 
 /* Resize delay icon size on first stage of checkout */
 
-div.container.basket-wrapper > div > div > div:nth-child(5) > div > div:before{
+div.container.basket-wrapper > div > div > div:nth-child(5) > div > div.pdp-warning-box:before{
   width:30px;
   height:30px;  
 }
+
 
 
