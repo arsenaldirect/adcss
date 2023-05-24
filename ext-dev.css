@@ -1662,3 +1662,12 @@ div.addtocart-component > div.AddToCart-AddToCartAction > div.pdp-warning-box{
 #home-delivery-form-wrapper > div > div.address-form__step2 > div:nth-child(4) > div.row > div > div.pdp-warning-box{
   display:none;
 }
+
+/* Resize delay icon size on first stage of checkout */
+
+div.container.basket-wrapper > div > div > div:nth-child(5) > div > div{
+  width:30px;
+  height:30px;  
+}
+
+
