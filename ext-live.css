@@ -1712,14 +1712,14 @@ div.container.basket-wrapper > div > div > div:nth-child(5) > div > div.pdp-warn
 div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:after, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a:after{
     content: "";
     display: inline-block;
-    background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/856764b6db4ecbf8739c556115d1ef517092bee1/img/new-corner120-trans.png);
+    background-image: url(https://cdn.media.amplience.net/i/ArsenalDirect/mobnavnew);
     height: 60px;
     width: 60px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 22px;
+    right: 22px;
 }
 
 div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a {
