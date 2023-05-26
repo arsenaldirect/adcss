@@ -1697,4 +1697,13 @@ div.container.basket-wrapper > div > div > div:nth-child(5) > div > div.pdp-warn
   height:30px;  
 }
 
+/* Update heart icon to shirt icon on PDP info box */
+
+.template-pages-product-kitProductLayout1Page p.product-summary-style:not(:empty):before, .template-pages-product-kitProductPlayerLayoutPage p.product-summary-style:not(:empty):before, .template-pages-product-kitUserCustomisedProductLayout1Page p.product-summary-style:not(:empty):before{
+    background-image: url(https://i.postimg.cc/9FXxc0M2/shirt-icon.png);
+    width: 60px;
+    height: 60px;
+    margin-left: -76px;
+}
+
 /* END UPDATE */
