@@ -1707,9 +1707,9 @@ div.container.basket-wrapper > div > div > div:nth-child(5) > div > div.pdp-warn
    margin-top:-5px;
 }
 
-/* Highlight home kit in mobile nav menu - change to sub.counter_8 for live */
+/* Highlight home kit in mobile nav menu */
 
-div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:after{
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:after, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(6) > li > a:after{
     content: "";
     display: inline-block;
     background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/856764b6db4ecbf8739c556115d1ef517092bee1/img/new-corner120-trans.png);
@@ -1722,12 +1722,12 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
     right: 0;
 }
 
-div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a {
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(6) > li > a {
     border-left: 5px solid #ED1F1F;
     padding-left: 15px;
 }
 
-div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:before {
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:before, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(6) > li > a:before {
     content: "23/24";
     padding-right: 4px;
 }
