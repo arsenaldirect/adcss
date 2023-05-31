@@ -1687,3 +1687,11 @@ div.container.basket-wrapper > div > div > div:nth-child(5) > div > div.pdp-warn
 
 /* END UPDATE */
 
+/* style home shirt comparison table on PDP */
+
+table.compare_tab td, table.compare_tab th {
+    border: 1px solid #E6E6E6;
+    padding: 10px;
+}
+
+
