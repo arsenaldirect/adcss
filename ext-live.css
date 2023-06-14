@@ -1707,7 +1707,7 @@ div.container.basket-wrapper > div > div > div:nth-child(5) > div > div.pdp-warn
    margin-top:-5px;
 }
 
-/* Highlight home kit in mobile nav menu */
+/* Highlight home and GK kit in mobile nav menu */
 
 div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:after, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a:after{
     content: "";
