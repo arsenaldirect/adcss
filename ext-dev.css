@@ -1714,9 +1714,4 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
     padding-left: 15px;
 }
 
-div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:before{
-    content: "23/24";
-    padding-right: 4px;
-}
-
 /* END UPDATE */
