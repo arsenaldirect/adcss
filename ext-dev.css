@@ -1694,4 +1694,29 @@ table.compare_tab td, table.compare_tab th {
     padding: 10px;
 }
 
+/* Highlight training kit in mobile nav menu */
 
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:after{
+    content: "";
+    display: inline-block;
+    background-image: url(https://cdn.media.amplience.net/i/ArsenalDirect/mobnavnew);
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a{
+    border-left: 5px solid #ED1F1F;
+    padding-left: 15px;
+}
+
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:before{
+    content: "23/24";
+    padding-right: 4px;
+}
+
+/* END UPDATE */
