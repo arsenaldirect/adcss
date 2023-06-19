@@ -1734,5 +1734,25 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
 
 /* END UPDATE */
 
+/* Highlight training kit in mobile nav menu */
 
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a:after, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a:after{
+    content: "";
+    display: inline-block;
+    background-image: url(https://cdn.media.amplience.net/i/ArsenalDirect/mobnavnew);
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 23px;
+    right: 57px;
+}
+
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(1) > li > a, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a{
+    border-left: 5px solid #ED1F1F;
+    padding-left: 15px;
+}
+
+/* END UPDATE */
 
