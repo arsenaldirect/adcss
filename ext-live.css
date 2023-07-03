@@ -1736,7 +1736,7 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
 
 /* Highlight training kit in mobile nav menu */
 
-div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a:after, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div.no_pad.col-md-4.col-md-offset-2.col-lg-offset-3 > div.col-md-6.no_pad > ul:nth-child(2) > li > a:after{
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a:after, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a:after{
     content: "";
     display: inline-block;
     background-image: url(https://cdn.media.amplience.net/i/ArsenalDirect/mobnavnew);
@@ -1749,7 +1749,7 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show >
     right: 57px;
 }
 
-div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div.no_pad.col-md-4.col-md-offset-2.col-lg-offset-3 > div.col-md-6.no_pad > ul:nth-child(2) > li > a{
+div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a{
     border-left: 5px solid #ED1F1F;
     padding-left: 15px;
 }
