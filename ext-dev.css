@@ -1741,7 +1741,7 @@ label[for=deliveryMethodCollection] {
  div.form-group.form-group--radio-group.js-delivery-method > div:nth-child(4) > div > label[for=deliveryMethodCollection] > div.form-radio:after{
     content: "TEMPORARILY UNAVAILABLE";
     display: block;
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: red;
  }
 }
@@ -1758,3 +1758,4 @@ label[for=deliveryMethodCollection] {
       background-repeat: no-repeat;
   }
 }
+
