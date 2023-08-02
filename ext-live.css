@@ -1738,6 +1738,35 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
     padding-left: 15px;
 }
 
+/* TEMPORARILY DISABLE CLICK AND COLLECT */
 
+label[for=deliveryMethodCollection] {
+    pointer-events: none;
+    background-color: #F3F3F3;
+}
+ div.form-group.form-group--radio-group.js-delivery-method > div:nth-child(4) > div > label[for=deliveryMethodCollection] > div.form-radio:before{
+ border:none;
+}
+@media (max-width: 1024px){
+ div.form-group.form-group--radio-group.js-delivery-method > div:nth-child(4) > div > label[for=deliveryMethodCollection] > div.form-radio:after{
+    content: "TEMPORARILY UNAVAILABLE";
+    display: block;
+    font-size: 0.6em;
+    color: red;
+ }
+}
+@media (min-width: 1024px){
+  label[for=deliveryMethodCollection]:after {
+      background-image: url(https://raw.githubusercontent.com/arsenaldirect/adcss/main/img/360_F_616178874_agCV247F4wqVeTYryzef1aEw1avJy2ys.webp);
+      height: 75px;
+      width: 280px;
+      display: block;
+      background-size: contain;
+      position: absolute;
+      right: -130px;
+      top: -3px;
+      background-repeat: no-repeat;
+  }
+}
 /* END UPDATE */
 
