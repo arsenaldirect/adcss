@@ -1729,7 +1729,7 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
 
 
 /* TEMPORARILY DISABLE CLICK AND COLLECT */
-
+/*
 label[for=deliveryMethodCollection] {
     pointer-events: none;
     background-color: #F3F3F3;
@@ -1758,4 +1758,4 @@ label[for=deliveryMethodCollection] {
       background-repeat: no-repeat;
   }
 }
-
+*/
