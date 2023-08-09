@@ -1737,9 +1737,10 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
     border-left: 5px solid #ED1F1F;
     padding-left: 15px;
 }
+/* END UPDATE */
 
 /* TEMPORARILY DISABLE CLICK AND COLLECT */
-
+/*
 label[for=deliveryMethodCollection] {
     pointer-events: none;
     background-color: #F3F3F3;
@@ -1768,5 +1769,6 @@ label[for=deliveryMethodCollection] {
       background-repeat: no-repeat;
   }
 }
-/* END UPDATE */
+
+*/
 
