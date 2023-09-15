@@ -1708,7 +1708,7 @@ div.container.basket-wrapper > div > div > div:nth-child(5) > div > div.pdp-warn
 }
 
 /* Highlight away kit in mobile nav menu */
-
+/*
 div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a:after, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a:after{
     content: "";
     display: inline-block;
@@ -1721,6 +1721,7 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
     top: 23px;
     right: 57px;
 }
+*/
 /*
 div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(1) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a:before{
     content: "23/24";
@@ -1735,12 +1736,12 @@ div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.n
     padding-right: 4px;
 }
 */
-
+/*
 div.navigation-main-links.js-navigation-main-links.navigation-main-links--show.no-scroll--mobile > div > ul:nth-child(3) > li:nth-child(2) > div > div > div.col-md-6.no_pad > ul:nth-child(2) > li > a, div.navigation-main-links.js-navigation-main-links.navigation-main-links--show > div > ul:nth-child(3) > li:nth-child(2) > a{
     border-left: 5px solid #ED1F1F;
     padding-left: 15px;
 }
-
+*/
 /* END UPDATE */
 
 /* TEMPORARILY DISABLE CLICK AND COLLECT */
