@@ -2,6 +2,6 @@
 .js-utility-bar, div.sticky.top-0.z-20.js-main-header-wrapper > header{
   letter-spacing:1.3px;
 }
-.CustomSwitcherPopup:focus-visible, .CustomWelcomePopup:focus-visible{
+.gePopupsContainer .CustomSwitcherPopup:focus-visible, .gePopupsContainer .CustomWelcomePopup:focus-visible{
   outline:none !important;
 }
