@@ -1,8 +1,7 @@
 /* Live CSS file */
-.js-utility-bar, div.sticky.top-0.z-20.js-main-header-wrapper > header:not(#miniCartSlot){
+.js-utility-bar, div.sticky.top-0.z-20.js-main-header-wrapper > header:not(#miniCartSlot > div){
   letter-spacing:1.3px;
 }
 .gePopupsContainer .CustomSwitcherPopup:focus-visible, .gePopupsContainer .CustomWelcomePopup:focus-visible{
   outline:none !important;
 }
-
