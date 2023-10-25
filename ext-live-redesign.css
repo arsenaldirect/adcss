@@ -3,3 +3,19 @@
 .gePopupsContainer .CustomSwitcherPopup:focus-visible, .gePopupsContainer .CustomWelcomePopup:focus-visible{
   outline:none !important;
 }
+
+.amplience__content-type-9-shop-by-player h2{
+font-size:2em !important;
+}
+
+@media (min-width: 1280px) {
+.amplience__content-type-9-shop-by-player h2{
+font-size:3em !important;
+}
+}
+
+@media (min-width: 1024px) {
+#product-list-heading-anchor .typography--subtitle5{
+font-size:1.25em !important;
+}
+}
