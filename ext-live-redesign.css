@@ -15,7 +15,7 @@ font-size:3em !important;
 }
 
 @media (min-width: 1024px) {
-#product-list-heading-anchor .typography--subtitle5{
+h2#product-list-heading-anchor{
 font-size:1.25em !important;
 }
 }
