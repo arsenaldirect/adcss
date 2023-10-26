@@ -31,7 +31,11 @@ a.js-contentType13MainContainer:nth-child(1) > div:nth-child(3), a.js-contentTyp
 }
 
 /* Mobile nav - prevent white link on click */
-
 #nav a:focus{
     color:black;
+}
+
+/* PLP reduce space between lines for long product names */
+div.col-span-6 > a.flex-col.gap-4 > div:nth-child(2) > div.typography--body3 {
+  line-height: 1.2em;
 }
