@@ -21,7 +21,7 @@ font-size:1.25em !important;
 }
 
 /* Home page - Kit section - adjust font positioning to bottom corner */
-.amplience__content-type-13-three-promo-block div.relative image-container .xl:container absolute{
+.amplience__content-type-13-three-promo-block div.relative.image-container .absolute{
     padding-bottom:0.7rem;
 }
 
