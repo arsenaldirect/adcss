@@ -29,3 +29,9 @@ font-size:1.25em !important;
 .amplience__content-type-9-shop-by-player .grid a:hover{
     font-style:italic;
 }
+
+/* Mobile nav - prevent white link on click */
+
+#nav:focus{
+    color:black;
+}
