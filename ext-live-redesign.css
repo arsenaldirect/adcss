@@ -19,3 +19,13 @@ h2#product-list-heading-anchor{
 font-size:1.25em !important;
 }
 }
+
+/* Home page - Kit section - adjust font positioning to bottom corner */
+
+.amplience__content-type-13-three-promo-block div.relative image-container .xl:container absolute{
+    padding-bottom:0.7rem;
+}
+
+.amplience__content-type-9-shop-by-player .grid a:hover{
+    font-style:italic;
+}
