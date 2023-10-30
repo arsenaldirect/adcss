@@ -46,6 +46,6 @@ a[href=""] {
 }
 
 /* Change SBP page font colour (landing page and player page */
-body.page-playerLandingPage .text-white, .page-shopByPlayerLandingPage .text-white{
+body.page-playerLandingPage .text-white, body.page-shopByPlayerLandingPage .text-white{
 color: #D80B14 !important;
 }
