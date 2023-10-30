@@ -49,3 +49,8 @@ a[href=""] {
 body.page-playerLandingPage .text-white:not(.uppercase), body.page-shopByPlayerLandingPage .text-white:not(.uppercase){
 color: #D80B14 !important;
 }
+
+/* Change SBP text colour on homepage */
+.page-homepage a[href="/shopbyplayer/"] h3{
+color: #D80B14 !important;
+}
