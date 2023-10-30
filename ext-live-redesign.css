@@ -39,3 +39,8 @@ a.js-contentType13MainContainer:nth-child(1) > div:nth-child(3), a.js-contentTyp
 div.col-span-6 > a.flex-col.gap-4 > div:nth-child(2) > div.typography--body3 {
   line-height: 1.2em;
 }
+
+/* Hide empty links (i.e. homepage holiday section CTA) */
+a[href=""] {
+    display: none;
+}
