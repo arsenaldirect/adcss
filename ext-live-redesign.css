@@ -40,6 +40,11 @@ body.page-homepage .amplience__content-type-13-three-promo-block .w-full.gradien
 height:30% !important;
 }
 
+/* Home page - remove space above promo blocks under carousel */
+body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.flex.flex-row.w-full.items-end.justify-between{
+padding-bottom:0px;
+}
+
 /* Mobile nav - prevent white link on click */
 #nav a:focus{
     color:black;
