@@ -35,6 +35,11 @@ padding-bottom:1em !important;
     font-style:italic;
 }
 
+/* Home page - kit blocks - reduce shadow height */
+body.page-homepage .amplience__content-type-13-three-promo-block .w-full.gradient--vertical{
+height:30% !important;
+}
+
 /* Mobile nav - prevent white link on click */
 #nav a:focus{
     color:black;
