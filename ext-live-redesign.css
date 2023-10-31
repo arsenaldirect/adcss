@@ -25,6 +25,11 @@ a.js-contentType13MainContainer:nth-child(1) > div:nth-child(3), a.js-contentTyp
   padding-bottom: 0.7rem !important;
 }
 
+/* Home page - collection blocks - adjust font positioning to bottom corner */
+div.amplience__content-type-12-collection-blocks-wrapper a > .absolute{
+padding-bottom:1em !important;
+}
+
 /* Home page - italics on hover */
 .amplience__content-type-9-shop-by-player .grid a:hover{
     font-style:italic;
