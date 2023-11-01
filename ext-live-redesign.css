@@ -56,9 +56,11 @@ div.col-span-6 > a.flex-col.gap-4 > div:nth-child(2) > div.typography--body3 {
 }
 
 /* Hide empty links (i.e. homepage holiday section CTA) */
+/*
 a[href=""] {
     display: none;
 }
+*/
 
 /* Change SBP page font colour (landing page and player page */
 body.page-playerLandingPage .text-white:not(.uppercase), body.page-shopByPlayerLandingPage .text-white:not(.uppercase){
