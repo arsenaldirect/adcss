@@ -108,7 +108,7 @@ background:transparent;
 
 /* SBP landing page mobile only, shift hero image to the left */
 @media (max-width: 640px){
-  #arsenal-shop-by-player-tabs div.hidden.first > a > picture{
+  #arsenal-shop-by-player-tabs div.hidden.first > a > picture, #arsenal-shop-by-player-tabs div.hidden.legends > a > picture, #arsenal-shop-by-player-tabs div.hidden.womens > a > picture{
   margin-left:-500px;
   }
 }
@@ -138,6 +138,13 @@ background:transparent;
 @media (max-width: 640px){
   body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > div, body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > h1{
   color:white !important;
+  }
+}
+
+/* SBP landing pages desktop, change CTA background colour */
+@media (min-width: 640px){
+  #arsenal-shop-by-player-tabs  div.hidden.legends > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button, #arsenal-shop-by-player-tabs  div.hidden.womens > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button, #arsenal-shop-by-player-tabs  div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button{
+  background-color:#E1E1E1;
   }
 }
 
