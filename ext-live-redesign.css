@@ -9,15 +9,15 @@ font-size:2em !important;
 }
 
 @media (min-width: 1280px) {
-.amplience__content-type-9-shop-by-player h2{
-font-size:3em !important;
-}
+  .amplience__content-type-9-shop-by-player h2{
+  font-size:3em !important;
+  }
 }
 
 @media (min-width: 1024px) {
-h2#product-list-heading-anchor{
-font-size:1.25em !important;
-}
+  h2#product-list-heading-anchor{
+  font-size:1.25em !important;
+  }
 }
 
 /* Home page - Kit section - adjust font positioning to bottom corner */
@@ -77,18 +77,21 @@ body.page-shopByPlayerLandingPage #arsenal-shop-by-player-tabs .gradient--vertic
 background:transparent;
 }
 
-/* SBP page mobile only, replace hero gradient */
+/* SBP page mobile only, replace hero gradient and text color */
 @media (max-width: 640px){
-#arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
-background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
-}
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
+  background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
+  }
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h5.lg\:typography--h3.text-white, #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h3.lg\:typography--h1.text-white.mb-6.md\:mb-8.\!leading-\[75\%\]{
+  color:white;
+  }
 }
 
 /* SBP page mobile only, shift hero image to the left */
 @media (max-width: 640px){
-#arsenal-shop-by-player-tabs div.hidden.first > a > picture{
-margin-left:-500px;
-}
+  #arsenal-shop-by-player-tabs div.hidden.first > a > picture{
+  margin-left:-500px;
+  }
 }
 
 /* SBP page desktop, remove horizontal gradient on hero image */
