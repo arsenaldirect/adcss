@@ -157,3 +157,9 @@ background:transparent;
   margin-bottom:1em;
   }
 }
+
+/* Kit builder - add padding to right to allow space before scrollbar */
+
+#js-isKitProduct{
+  padding-right:20px;
+}
