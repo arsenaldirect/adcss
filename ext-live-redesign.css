@@ -78,11 +78,30 @@ background:transparent;
 }
 
 /* SBP page mobile only, replace hero gradient and text color */
+/* MEN */
 @media (max-width: 640px){
   #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
   background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
   }
   #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h5.lg\:typography--h3.text-white, #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h3.lg\:typography--h1.text-white.mb-6.md\:mb-8.\!leading-\[75\%\]{
+  color:white !important;
+  }
+}
+/* WOMEN */
+@media (max-width: 640px){
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.womens > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
+  background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
+  }
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.womens > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h5.lg\:typography--h3.text-white, #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.womens > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h3.lg\:typography--h1.text-white.mb-6.md\:mb-8.\!leading-\[75\%\]{
+  color:white !important;
+  }
+}
+/* LEGENDS */
+@media (max-width: 640px){
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.legends > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
+  background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
+  }
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.legends > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h5.lg\:typography--h3.text-white, #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.legends > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h3.lg\:typography--h1.text-white.mb-6.md\:mb-8.\!leading-\[75\%\]{
   color:white !important;
   }
 }
