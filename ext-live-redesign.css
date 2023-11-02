@@ -171,7 +171,13 @@ background:transparent;
 }
 
 /* Kit builder - hide Yotpo number of reviews due to broken link */
-
 #kitSelector > div.mb-5.pt-1.transition-opacity.duration-600.h-\[24px\] > a > div > div > div.standalone-bottomline > div.yotpo-bottomline.pull-left.star-clickable > a{
   display:none;
+}
+
+/* PDP Yotpo button styling issues  */
+@media only screen and (max-width: 541px){
+.yotpo-main-container .main-widget .write-question-review-buttons-container .write-question-review-button {
+    width: auto;
+}
 }
