@@ -71,3 +71,20 @@ color: #D80B14 !important;
 .page-homepage a[href="/shopbyplayer/"] h3{
 color: #D80B14 !important;
 }
+
+/* SBP page remove vertical gradient on player grid */
+body.page-shopByPlayerLandingPage #arsenal-shop-by-player-tabs .gradient--vertical{
+background:transparent;
+}
+
+/* SBP page mobile only, shift hero image to the left */
+@media (max-width: 640px){
+#arsenal-shop-by-player-tabs div.hidden.first > a > picture{
+margin-left:-500px;
+}
+}
+
+/* SBP page desktop, remove horizontal gradient on hero image */
+body.page-shopByPlayerLandingPage .sm\:gradient--horizontal{
+background:transparent;
+}
