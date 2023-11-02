@@ -159,7 +159,12 @@ background:transparent;
 }
 
 /* Kit builder - add padding to right to allow space before scrollbar */
-
 #js-isKitProduct{
   padding-right:20px;
+}
+
+/* Kit builder - hide Yotpo number of reviews due to broken link */
+
+#kitSelector > div.mb-5.pt-1.transition-opacity.duration-600.h-\[24px\] > a > div > div > div.standalone-bottomline > div.yotpo-bottomline.pull-left.star-clickable > a{
+  display:none;
 }
