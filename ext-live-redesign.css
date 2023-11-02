@@ -133,3 +133,10 @@ background:transparent;
   background:transparent;
   }
 }
+
+/* SBP player page mobile, change hero text colour */
+@media (max-width: 640px){
+  body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > div, body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > h1{
+  color:white !important;
+  }
+}
