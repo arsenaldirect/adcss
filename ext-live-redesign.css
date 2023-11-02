@@ -106,15 +106,26 @@ background:transparent;
   }
 }
 
-/* SBP page mobile only, shift hero image to the left */
+/* SBP landing page mobile only, shift hero image to the left */
 @media (max-width: 640px){
   #arsenal-shop-by-player-tabs div.hidden.first > a > picture{
   margin-left:-500px;
   }
 }
 
-/* SBP page desktop, remove horizontal gradient on hero image */
+/* SBP player page mobile only, shift hero image to the left */
+@media (max-width: 640px){
+  body.page-playerLandingPage > main > div:nth-child(8) > div > picture{
+  margin-left:-500px;
+  }
+}
+
+/* SBP landing page desktop, remove horizontal gradient on hero image */
 body.page-shopByPlayerLandingPage .sm\:gradient--horizontal{
 background:transparent;
 }
 
+/* SBP player page desktop, remove horizontal gradient on hero image */
+body.page-playerLandingPage .sm\:gradient--horizontal{
+background:transparent;
+}
