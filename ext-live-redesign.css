@@ -178,6 +178,6 @@ background:transparent;
 /* PDP Yotpo button styling issues  */
 @media only screen and (max-width: 541px){
 .yotpo-main-container .main-widget .write-question-review-buttons-container .write-question-review-button {
-    width: auto;
+    width: auto !important;
 }
 }
