@@ -181,3 +181,8 @@ background:transparent;
     width: auto !important;
 }
 }
+
+/* Checkout summary - add padding above opt-out checkbox  */
+body.page-multiStepCheckoutSummaryPage [for="optedin1checkbox"] {
+    padding-top: 20px;
+}
