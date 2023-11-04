@@ -186,3 +186,8 @@ background:transparent;
 body.page-multiStepCheckoutSummaryPage [for="optedin1checkbox"] {
     padding-top: 20px;
 }
+
+/* Bag page - underline links in return text */
+body.page-cartPage .returns-table-content a{
+text-decoration:underline;
+}
