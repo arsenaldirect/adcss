@@ -198,3 +198,8 @@ text-decoration:underline;
       padding-right: 0;
   }
 }
+
+/* Returns page - fix font size */
+.template-pages-layout-returnsContentLayoutPage p, .template-pages-layout-returnsContentLayoutPage .md\:typography--body1{
+font-size:1em;
+}
