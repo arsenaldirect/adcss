@@ -50,11 +50,6 @@ padding-bottom:0px;
       color:black;
   }
 }
-@media (min-width: 640px){
-  #nav a:focus{
-      color:white;
-  }
-}
 
 /* PLP reduce space between lines for long product names */
 div.col-span-6 > a.flex-col.gap-4 > div:nth-child(2) > div.typography--body3 {
