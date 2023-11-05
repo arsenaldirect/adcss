@@ -191,3 +191,9 @@ body.page-multiStepCheckoutSummaryPage [for="optedin1checkbox"] {
 body.page-cartPage .returns-table-content a{
 text-decoration:underline;
 }
+
+/* Bag page - prevent word wrap on item update buttons */
+.page-cartPage #moveToWishlistEntry_0 {
+    padding-left: 0;
+    padding-right: 0;
+}
