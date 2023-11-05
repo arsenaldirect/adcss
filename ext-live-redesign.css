@@ -192,8 +192,10 @@ body.page-cartPage .returns-table-content a{
 text-decoration:underline;
 }
 
-/* Bag page - prevent word wrap on item update buttons */
-.page-cartPage #moveToWishlistEntry_0 {
-    padding-left: 0;
-    padding-right: 0;
+/* Bag page mobile - prevent word wrap on item update buttons */
+@media (max-width: 640px){
+  .page-cartPage #moveToWishlistEntry_0 {
+      padding-left: 0;
+      padding-right: 0;
+  }
 }
