@@ -218,8 +218,8 @@ background-color:white;
 @media (max-width: 640px){
 body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > h1{
 font-size:1.2em;
-padding-top:12px;
-padding-bottom:10px;
+padding-top:8px;
+padding-bottom:6px;
 }
 }
 
