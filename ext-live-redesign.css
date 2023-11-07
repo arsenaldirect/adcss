@@ -214,6 +214,15 @@ font-size:1em;
   }
 }
 
+/* bag page, desktop - change subtotal colours */
+@media (min-width: 640px){
+  body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > div.lg\:flex.lg\:gap-10.\[\&\>\.breadcrumb-wrapper\]\:hidden > div.lg\:w-\[40\%\] > div.bg-black.text-white.px-4.py-6.typography--body3-bold{
+      color: black;
+      background-color: #F6F6F6;
+      border-bottom: 20px solid white;
+  }
+}
+
 /* Bag page, mobile - adjust header sizing */
 @media (max-width: 640px){
   body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > h1{
