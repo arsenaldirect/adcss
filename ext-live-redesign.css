@@ -244,7 +244,7 @@ font-size:1em;
 
 /* Bag page, mobile - adjust font size and line height for items */
 @media (max-width: 640px){
-  body.page-cartPage .items-center *:not(.js-open-update-options):not(button){
+  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow){
       font-size: 14px;
       line-height:1.5;
   }
