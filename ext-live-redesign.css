@@ -243,3 +243,12 @@ font-size:1em;
       margin-bottom:0px;
   }
 }
+
+/* Printed product extended lead time messaging - bag */
+
+body.page-cartPage .pdp-warning-box{
+    padding: 1.25rem;
+    background-color: #93040C;
+    margin-bottom: 2em;
+    color: white;
+}
