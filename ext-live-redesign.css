@@ -285,6 +285,6 @@ body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--
 }
 
 /* Fix font sizes on order summary - checkout */
-body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body5--bold, body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body5, body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body3{
+#bagSummaryComponent .typography--body5--bold, #bagSummaryComponent .typography--body5, #bagSummaryComponent .typography--body3{
   font-size:14px;
 }
