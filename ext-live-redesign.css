@@ -245,10 +245,22 @@ font-size:1em;
 }
 
 /* Printed product extended lead time messaging - bag */
-
 body.page-cartPage .pdp-warning-box{
     padding: 1.25rem;
     background-color: #93040C;
     margin-bottom: 2em;
     color: white;
+}
+
+/* Printed product extended lead time messaging - checkout */
+page-multiStepCheckoutDeliveryPage .pdp-warning-box{
+ display:none;
+}
+page-multiStepCheckoutDeliveryPage .pdp-warning-box ~ .pdp-warning-box{
+    display: block;
+    padding: 1.25rem;
+    background-color: #93040C;
+    margin-bottom: 2em;
+    color: white;
+    font-family: ChampmanV15,system-ui,sans-serif;
 }
