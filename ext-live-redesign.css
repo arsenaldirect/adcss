@@ -64,7 +64,7 @@ a[href=""] {
 */
 
 /* Change SBP page font colour (landing page and player page */
-body.page-playerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div), body.page-shopByPlayerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div){
+body.page-playerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert), body.page-shopByPlayerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert){
 color: #D80B14 !important;
 }
 
