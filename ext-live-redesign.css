@@ -253,10 +253,10 @@ body.page-cartPage .pdp-warning-box{
 }
 
 /* Printed product extended lead time messaging - checkout */
-page-multiStepCheckoutDeliveryPage .pdp-warning-box{
+body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
  display:none;
 }
-page-multiStepCheckoutDeliveryPage .pdp-warning-box ~ .pdp-warning-box{
+body.page-multiStepCheckoutDeliveryPage .pdp-warning-box ~ .pdp-warning-box{
     display: block;
     padding: 1.25rem;
     background-color: #93040C;
