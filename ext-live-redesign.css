@@ -264,7 +264,12 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
     font-family: ChampmanV15,system-ui,sans-serif;
 }
 
+/* Fix font sizes on mini bag item details */
+#miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3{
+  font-size:14px;
+}
+
 /* Fix font sizes on order summary - checkout */
 body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body5--bold, body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body5, body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body3{
-font-size:14px;
+  font-size:14px;
 }
