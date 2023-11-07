@@ -274,7 +274,7 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
 }
 
 /* Fix font sizes on mini bag item details */
-#miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3{
+#miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3:not(#miniCartSlot > div > div.relative.grow.pl-8.py-3\.5.overflow-x-hidden.overflow-y-auto.border-l.border-grey-E1E1E1 > div > div.col-span-4 > div.max-lg\:text-sm){
   font-size:14px;
   color: #666666;
 }
@@ -287,7 +287,7 @@ body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--
 }
 
 /* Fix font sizes on order summary - checkout */
-#bagSummaryComponent .typography--body5--bold, #bagSummaryComponent .typography--body5, #bagSummaryComponent .typography--body3{
+#bagSummaryComponent .typography--body5--bold, #bagSummaryComponent .typography--body5, #bagSummaryComponent .typography--body3:not(#miniCartSlot > div > div.relative.grow.pl-8.py-3\.5.overflow-x-hidden.overflow-y-auto.border-l.border-grey-E1E1E1 > div > div.col-span-4 > div.max-lg\:text-sm){
   font-size:14px;
   color: #666666;
 }
