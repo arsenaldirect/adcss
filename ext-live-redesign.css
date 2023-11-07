@@ -239,7 +239,7 @@ font-size:1em;
       font-size: 14px;
       line-height:1.5;
   }
-  body.page-cartPage .items-center > div.grow > div.text-sm > div{
+  body.page-cartPage .items-center > div.grow > div.text-sm > div[class^='mb-']{
       margin-bottom:0px;
   }
 }
