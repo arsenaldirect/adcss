@@ -208,27 +208,35 @@ font-size:1em;
 
 /* Bag page, mobile - change subtotal colours */
 @media (max-width: 640px){
-body.page-cartPage  div.bg-black.text-white.px-4.py-6.typography--body3-bold{
-color:black;
-background-color:white;
-}
+  body.page-cartPage  div.bg-black.text-white.px-4.py-6.typography--body3-bold{
+  color:black;
+  background-color:white;
+  }
 }
 
 /* Bag page, mobile - adjust header sizing */
 @media (max-width: 640px){
-body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > h1{
-font-size:1.2em;
-padding-top:8px;
-padding-bottom:6px;
-}
+  body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > h1{
+  font-size:1.2em;
+  padding-top:8px;
+  padding-bottom:6px;
+  }
 }
 
 /* Bag page, mobile - adjust coupon input sizing */
 @media (max-width: 640px){
-body.page-cartPage #applyVoucherForm > div.flex.gap-2 > button{
-height:36px;
+  body.page-cartPage #applyVoucherForm > div.flex.gap-2 > button{
+  height:36px;
+  }
+  body.page-cartPage  input#codeVoucher{
+  height:36px;
+  }
 }
-body.page-cartPage  input#codeVoucher{
-height:36px;
-}
+
+/* Bag page, mobile - adjust font size and line height for items */
+@media (max-width: 640px){
+  body.page-cartPage .items-center *{
+      font-size: 14px;
+      line-height:1.5;
+  }
 }
