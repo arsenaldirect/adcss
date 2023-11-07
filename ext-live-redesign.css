@@ -307,3 +307,8 @@ body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--
 div.yCmsContentSlot.productDetailsPageSection1 div.border-b, div.yCmsContentSlot.productDetailsPageSection1 div.border-b:after{
 border-bottom:none;
 }
+
+/* Stadium tours - hide opening times popup on main page */
+.amplience__content-type-21-opening-times-pop-up{
+display:none;
+}
