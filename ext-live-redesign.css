@@ -253,7 +253,7 @@ body.page-cartPage .pdp-warning-box{
 }
 
 /* Printed product extended lead time messaging - checkout */
-body.page-multiStepCheckoutDeliveryPage div.checkout-shipping.js-delivery-options > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box{
+body.page-multiStepCheckoutDeliveryPage div.checkout-shipping.js-delivery-options > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box, body.page-multiStepCheckoutDeliveryPage > main > div:nth-child(8) > div:nth-child(5) > div > main > div.lg\:grid.lg\:grid-cols-2.lg\:gap-4.w-full.lg\:h-full.lg\:max-w-\[960px\].lg\:container.mx-auto.lg\:mt-\[75px\] > div.checkout-shipping > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box{
  display:none;
 }
 body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
