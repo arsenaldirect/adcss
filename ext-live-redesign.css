@@ -239,4 +239,7 @@ font-size:1em;
       font-size: 14px;
       line-height:1.5;
   }
+  body.page-cartPage .items-center > div.grow > div.text-sm > div{
+      margin-bottom:0px;
+  }
 }
