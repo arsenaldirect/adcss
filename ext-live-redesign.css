@@ -274,7 +274,7 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
 }
 
 /* Fix font sizes on mini bag item details */
-#miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3:not(.max-lg:text-sm):not(.mb-5.lg:mb-2){
+#miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3{
   font-size:14px;
   color: #666666;
 }
