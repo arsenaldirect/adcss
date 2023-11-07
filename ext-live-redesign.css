@@ -253,7 +253,7 @@ body.page-cartPage .pdp-warning-box{
 }
 
 /* Printed product extended lead time messaging - checkout */
-body.page-multiStepCheckoutDeliveryPage #home-delivery-form-wrapper > div > div.address-form__step2 > div:nth-child(1) > div > div.row > div > div.pdp-warning-box{
+body.page-multiStepCheckoutDeliveryPage div.checkout-shipping.js-delivery-options > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box{
  display:none;
 }
 body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
