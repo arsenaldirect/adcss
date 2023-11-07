@@ -278,6 +278,9 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
   font-size:14px;
   color: #666666;
 }
+#miniCartSlot > div > div.relative > div > div.col-span-4 > div:first-child, #miniCartSlot > div > div.relative > div > div.col-span-4 > div:nth-child(2){
+  font-size:16px;
+}
 
 /* Fix font sizes on bag page for item details */
 body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--body4-bold{
