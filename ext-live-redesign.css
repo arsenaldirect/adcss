@@ -206,6 +206,11 @@ text-decoration:underline;
 font-size:1em;
 }
 
+/* Stores page - fix font size */
+body.page-ourStores p, body.page-ourStores div{
+font-size:1em;
+}
+
 /* Bag page, mobile - change subtotal colours */
 @media (max-width: 640px){
   body.page-cartPage  div.bg-black.text-white.px-4.py-6.typography--body3-bold{
