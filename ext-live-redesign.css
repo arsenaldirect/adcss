@@ -276,15 +276,18 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
 /* Fix font sizes on mini bag item details */
 #miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3{
   font-size:14px;
+  color: #666666;
 }
 
 /* Fix font sizes on bag page for item details */
 body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--body4-bold{
     font-size: 14px;
+    color: #666666;
     font-weight: normal;
 }
 
 /* Fix font sizes on order summary - checkout */
 #bagSummaryComponent .typography--body5--bold, #bagSummaryComponent .typography--body5, #bagSummaryComponent .typography--body3{
   font-size:14px;
+  color: #666666;
 }
