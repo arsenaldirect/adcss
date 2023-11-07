@@ -228,4 +228,7 @@ padding-bottom:6px;
 body.page-cartPage #applyVoucherForm > div.flex.gap-2 > button{
 height:36px;
 }
+body.page-cartPage  input#codeVoucher{
+height:36px;
+}
 }
