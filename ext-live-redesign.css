@@ -253,7 +253,7 @@ body.page-cartPage .pdp-warning-box{
 }
 
 /* Printed product extended lead time messaging - checkout */
-body.page-multiStepCheckoutDeliveryPage .pdp-warning-box:nth-of-type(1){
+body.page-multiStepCheckoutDeliveryPage #home-delivery-form-wrapper > div > div.address-form__step2 > div:nth-child(1) > div > div.row > div > div.pdp-warning-box{
  display:none;
 }
 body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
