@@ -291,3 +291,8 @@ body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--
   font-size:14px;
   color: #666666;
 }
+
+/* Stadium tours - remove double line divider */
+div.yCmsContentSlot.productDetailsPageSection1 div.border-b, div.yCmsContentSlot.productDetailsPageSection1 div.border-b:after{
+border-bottom:none;
+}
