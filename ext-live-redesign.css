@@ -269,6 +269,12 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
   font-size:14px;
 }
 
+/* Fix font sizes on bag page for item details */
+body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--body4-bold{
+    font-size: 14px;
+    font-weight: normal;
+}
+
 /* Fix font sizes on order summary - checkout */
 body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body5--bold, body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body5, body.page-multiStepCheckoutDeliveryPage #bagSummaryComponent .typography--body3{
   font-size:14px;
