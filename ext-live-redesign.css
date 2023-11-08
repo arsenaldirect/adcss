@@ -215,6 +215,9 @@ font-size:1em;
 body.page-tourVisitorInfo p, body.page-tourOpeningHoursPage p {
     font-size: 16px;
 }
+body.page-tourHomePage p, body.page-tourHomePage li{
+    font-size: 16px;
+}
 
 /* Bag page, mobile - change subtotal colours */
 @media (max-width: 640px){
