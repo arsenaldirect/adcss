@@ -218,6 +218,9 @@ body.page-tourVisitorInfo p, body.page-tourOpeningHoursPage p {
 body.page-tourHomePage p, body.page-tourHomePage li{
     font-size: 16px;
 }
+body.page-arsenalMuseum p{
+    font-size: 16px;
+}
 
 /* Terms page - fix font size */
 body.page-termsAndConditions p:not(.mb-6){
