@@ -330,7 +330,7 @@ border-bottom:none;
 }
 
 /* Stadium tours - remove double line divider on museum page */
-body.page-arsenalMuseum div.px-4.mt-12.lg:px-0, body.page-arsenalMuseum div.px-4.mt-12.lg:px-0:after{
+body.page-arsenalMuseum .px-4.mt-12, body.page-arsenalMuseum .px-4.mt-12:after{
   border-bottom:none;
 }
 
