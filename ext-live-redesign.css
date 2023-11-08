@@ -325,7 +325,7 @@ body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--
 }
 
 /* Stadium tours - remove double line divider */
-div.yCmsContentSlot.productDetailsPageSection1 div.border-b, div.yCmsContentSlot.productDetailsPageSection1 div.border-b:after{
+div.yCmsContentSlot.productDetailsPageSection1 div.border-b, div.yCmsContentSlot.productDetailsPageSection1 div.border-b:after, body.page-tourAudioProductPage div.border-b, body.page-tourAudioProductPage div.border-b:after{
 border-bottom:none;
 }
 
