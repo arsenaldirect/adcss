@@ -270,7 +270,7 @@ body.page-tourAudioProductPage ul{
 
 /* Bag page, mobile - adjust font size and line height for items */
 @media (max-width: 640px){
-  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div):not(.gigya-raas-link.bg-icon-myaccount-circle > span){
+  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div):not(.gigya-raas-link.bg-icon-myaccount-circle > span):not(body > main > div.flex.justify-center.h-10.w-full.bg-red-E30613.z-10.text-\[10px\].md\:text-xs.text-white.font-\[\'NorthBankForward\'\].js-utility-bar > div.flex.w-full.h-full.items-center.xl\:container.\[\&\>\.yCmsComponent\>\.content\]\:flex.\[\&\>\.yCmsComponent\>\.content\]\:lg\:gap-2\.5 > div.yCmsComponent.relative.flex.justify-end.w-\[90px\].lg\:w-2\/12.lg\:pl-4.items-center.h-full.mr-auto > div > span){
       font-size: 14px;
       line-height:1.5;
   }
