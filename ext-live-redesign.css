@@ -270,7 +270,7 @@ body.page-tourAudioProductPage ul{
 
 /* Bag page, mobile - adjust font size and line height for items */
 @media (max-width: 640px){
-  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-utility-bar){
+  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div){
       font-size: 14px;
       line-height:1.5;
   }
