@@ -270,7 +270,7 @@ body.page-tourAudioProductPage ul{
 
 /* Bag page, mobile - adjust font size and line height for items */
 @media (max-width: 640px){
-  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div):not(.gigya-raas-link.bg-icon-myaccount-circle > span){
+  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div):not(.gigya-raas-link.bg-icon-myaccount-circle > span):not(span.block.w-10.text-right.lg:text-left){
       font-size: 14px;
       line-height:1.5;
   }
