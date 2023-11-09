@@ -1,1 +1,340 @@
 /* Dev CSS file */
+
+.gePopupsContainer .CustomSwitcherPopup:focus-visible, .gePopupsContainer .CustomWelcomePopup:focus-visible{
+  outline:none !important;
+}
+
+/* Homepage - adjust section title font sizes for Billy */
+.amplience__content-type-9-shop-by-player h2{
+font-size:2em !important;
+}
+@media (min-width: 1280px) {
+  .amplience__content-type-9-shop-by-player h2{
+  font-size:3em !important;
+  }
+}
+@media (min-width: 1024px) {
+  h2#product-list-heading-anchor{
+  font-size:1.25em !important;
+  }
+}
+
+/* Home page - Kit section - adjust font positioning to bottom corner */
+a.js-contentType13MainContainer:nth-child(1) > div:nth-child(3), a.js-contentType13MainContainer:nth-child(2) > div:nth-child(3), a.js-contentType13MainContainer:nth-child(3) > div:nth-child(3) {
+  padding-bottom: 0.7rem !important;
+}
+
+/* Home page - collection blocks - adjust font positioning to bottom corner */
+.page-homepage div.amplience__content-type-12-collection-blocks-wrapper a > .absolute{
+padding-bottom:1em !important;
+}
+
+/* Home page - italics on hover */
+.amplience__content-type-9-shop-by-player .grid a:hover{
+    font-style:italic;
+}
+
+/* Home page - kit blocks - reduce shadow height */
+body.page-homepage .amplience__content-type-13-three-promo-block .w-full.gradient--vertical{
+height:30% !important;
+}
+
+/* Home page - remove space above promo blocks under carousel */
+body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.flex.flex-row.w-full.items-end.justify-between{
+padding-bottom:0px;
+}
+
+/* Mobile nav - prevent white link on click */
+@media (max-width: 640px){
+  #nav a:focus{
+      color:black;
+  }
+}
+
+/* PLP reduce space between lines for long product names */
+div.col-span-6 > a.flex-col.gap-4 > div:nth-child(2) > div.typography--body3 {
+  line-height: 1.2em;
+}
+
+/* Hide empty links (i.e. homepage holiday section CTA) */
+/*
+a[href=""] {
+    display: none;
+}
+*/
+
+/* Change SBP page font colour (landing page and player page */
+body.page-playerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert):not(#GigyaRaasComponentForLogin > div > div), body.page-shopByPlayerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert):not(#GigyaRaasComponentForLogin > div > div){
+color: #D80B14 !important;
+}
+
+/* Change SBP text colour on homepage */
+.page-homepage a[href="/shopbyplayer/"] h3{
+color: #D80B14 !important;
+}
+
+/* SBP page remove vertical gradient on player grid */
+body.page-shopByPlayerLandingPage #arsenal-shop-by-player-tabs .gradient--vertical{
+background:transparent;
+}
+
+/* SBP landing page mobile only, replace hero gradient and text color */
+/* MEN */
+@media (max-width: 640px){
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
+  background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
+  }
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h5.lg\:typography--h3.text-white, #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h3.lg\:typography--h1.text-white.mb-6.md\:mb-8.\!leading-\[75\%\]{
+  color:white !important;
+  }
+}
+/* WOMEN */
+@media (max-width: 640px){
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.womens > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
+  background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
+  }
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.womens > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h5.lg\:typography--h3.text-white, #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.womens > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h3.lg\:typography--h1.text-white.mb-6.md\:mb-8.\!leading-\[75\%\]{
+  color:white !important;
+  }
+}
+/* LEGENDS */
+@media (max-width: 640px){
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.legends > a > div.absolute.bottom-0.w-full.h-\[60\%\].sm\:h-full.gradient--vertical.sm\:gradient--horizontal{
+  background:linear-gradient(180deg,transparent,rgba(0,0,0,.8)) !important;
+  }
+  #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.legends > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h5.lg\:typography--h3.text-white, #arsenal-shop-by-player-tabs > div.peer-checked\/first\:\[\&\>\.first\]\:block.peer-checked\/womens\:\[\&\>\.womens\]\:block.peer-checked\/legends\:\[\&\>\.legends\]\:block.mb-16 > div.hidden.legends > a > div.xl\:container.self-center.absolute.w-full.h-full > div > div.typography--h3.lg\:typography--h1.text-white.mb-6.md\:mb-8.\!leading-\[75\%\]{
+  color:white !important;
+  }
+}
+
+/* SBP landing page mobile only, shift hero image to the left */
+@media (max-width: 640px){
+  #arsenal-shop-by-player-tabs div.hidden.first > a > picture, #arsenal-shop-by-player-tabs div.hidden.legends > a > picture, #arsenal-shop-by-player-tabs div.hidden.womens > a > picture{
+  margin-left:-500px;
+  }
+}
+
+/* SBP player page mobile only, shift hero image to the left */
+@media (max-width: 640px){
+  body.page-playerLandingPage > main > div:nth-child(8) > div > picture{
+  margin-left:-500px;
+  }
+}
+
+/* SBP landing page desktop, remove horizontal gradient on hero image */
+@media (min-width: 640px){
+  body.page-shopByPlayerLandingPage .sm\:gradient--horizontal{
+  background:transparent;
+  }
+}
+
+/* SBP player page desktop, remove horizontal gradient on hero image */
+@media (min-width: 640px){
+  body.page-playerLandingPage .sm\:gradient--horizontal{
+  background:transparent;
+  }
+}
+
+/* SBP player page mobile, change hero text colour */
+@media (max-width: 640px){
+  body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > div, body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > h1{
+  color:white !important;
+  }
+}
+
+/* SBP landing pages desktop, change CTA background colour */
+@media (min-width: 640px){
+  #arsenal-shop-by-player-tabs  div.hidden.legends > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button, #arsenal-shop-by-player-tabs  div.hidden.womens > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button, #arsenal-shop-by-player-tabs  div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button{
+  background-color:#E1E1E1;
+  }
+}
+
+/* PDP on mobile, move add to bag button above wishlist button */
+@media (max-width: 640px){
+  #notifyMeOos{
+  display:flex;
+  }
+  #notifyMeOos > div.lg\:grid.lg\:grid-cols-2.lg\:gap-x-4{
+  display:flex;
+  flex-direction:column-reverse;
+  }
+  #pdpWishList{
+  margin-bottom:0px;
+  }
+  #addToCartComponentSlot > div > button{
+  margin-bottom:1em;
+  }
+}
+
+/* Kit builder - add padding to right to allow space before scrollbar */
+#js-isKitProduct{
+  padding-right:20px;
+}
+
+/* Kit builder - hide Yotpo number of reviews due to broken link */
+#kitSelector > div.mb-5.pt-1.transition-opacity.duration-600.h-\[24px\] > a > div > div > div.standalone-bottomline > div.yotpo-bottomline.pull-left.star-clickable > a{
+  display:none;
+}
+
+/* PDP Yotpo button styling issues  */
+@media only screen and (max-width: 541px){
+.yotpo-main-container .main-widget .write-question-review-buttons-container .write-question-review-button {
+    width: auto !important;
+}
+}
+
+/* Checkout summary - add padding above opt-out checkbox  */
+body.page-multiStepCheckoutSummaryPage [for="optedin1checkbox"] {
+    padding-top: 20px;
+}
+
+/* Bag page - underline links in return text */
+body.page-cartPage .returns-table-content a{
+text-decoration:underline;
+}
+
+/* Bag page mobile - prevent word wrap on item update buttons */
+@media (max-width: 640px){
+  .page-cartPage [id^='moveToWishlistEntry_'] {
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+
+/* Returns page - fix font size */
+.template-pages-layout-returnsContentLayoutPage p, .template-pages-layout-returnsContentLayoutPage .md\:typography--body1{
+font-size:1em;
+}
+
+/* Stores page - fix font size */
+body.page-ourStores p, body.page-ourStores div{
+font-size:1em;
+}
+
+/* Tours pages - fix font size */
+body.page-tourVisitorInfo p, body.page-tourOpeningHoursPage p {
+    font-size: 16px;
+}
+body.page-tourHomePage p, body.page-tourHomePage li{
+    font-size: 16px;
+}
+body.page-arsenalMuseum p{
+    font-size: 16px;
+}
+
+/* Terms page - fix font size */
+body.page-termsAndConditions p:not(.mb-6){
+    font-size: 16px;
+}
+
+/* Tours page - audio - fix gap under text above opening hours */
+body.page-tourAudioProductPage ul{
+    padding-bottom:2.5rem;
+}
+
+/* Bag page, mobile - change subtotal colours */
+@media (max-width: 640px){
+  body.page-cartPage  div.bg-black.text-white.px-4.py-6.typography--body3-bold{
+  color:black;
+  background-color:white;
+  }
+}
+
+/* bag page, desktop - change subtotal colours */
+@media (min-width: 640px){
+  body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > div.lg\:flex.lg\:gap-10.\[\&\>\.breadcrumb-wrapper\]\:hidden > div.lg\:w-\[40\%\] > div.bg-black.text-white.px-4.py-6.typography--body3-bold{
+      color: black;
+      background-color: #F6F6F6;
+      border-bottom: 20px solid white;
+  }
+}
+
+/* Bag page, mobile - adjust header sizing */
+@media (max-width: 640px){
+  body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > h1{
+  font-size:1.2em;
+  padding-top:8px;
+  padding-bottom:6px;
+  }
+}
+
+/* Bag page, mobile - adjust coupon input sizing */
+@media (max-width: 640px){
+  body.page-cartPage #applyVoucherForm > div.flex.gap-2 > button{
+  height:36px;
+  }
+  body.page-cartPage  input#codeVoucher{
+  height:36px;
+  }
+}
+
+/* Bag page, mobile - adjust font size and line height for items */
+@media (max-width: 640px){
+  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div):not(.gigya-raas-link.bg-icon-myaccount-circle > span):not(span.block.w-10.text-right.lg:text-left){
+      font-size: 14px;
+      line-height:1.5;
+  }
+  body.page-cartPage .items-center > div.grow > div.text-sm > div[class^='mb-']{
+      margin-bottom:0px;
+  }
+}
+
+/* Printed product extended lead time messaging - bag */
+body.page-cartPage .pdp-warning-box{
+    padding: 1.25rem;
+    background-color: #93040C;
+    margin-bottom: 2em;
+    color: white;
+}
+
+/* Printed product extended lead time messaging - checkout */
+body.page-multiStepCheckoutDeliveryPage div.checkout-shipping.js-delivery-options > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box, body.page-multiStepCheckoutDeliveryPage > main > div:nth-child(8) > div:nth-child(5) > div > main > div.lg\:grid.lg\:grid-cols-2.lg\:gap-4.w-full.lg\:h-full.lg\:max-w-\[960px\].lg\:container.mx-auto.lg\:mt-\[75px\] > div.checkout-shipping > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box{
+ display:none;
+}
+body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
+    padding: 1.25rem;
+    background-color: #93040C;
+    margin-bottom: 2em;
+    color: white;
+    font-family: ChampmanV15,system-ui,sans-serif;
+}
+
+/* Fix font sizes on mini bag item details */
+#miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3:not(.col-span-4 > .typography--body3), #miniCartSlot .typography--subtitle4{
+  font-size:14px;
+  color: #666666;
+}
+#miniCartSlot > div > div.relative > div > div.col-span-4 > div:first-child, #miniCartSlot > div > div.relative > div > div.col-span-4 > div:nth-child(2){
+  font-size:16px;
+}
+
+/* Fix font sizes on bag page for item details */
+body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--body4-bold{
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+}
+
+/* Fix font sizes on order summary - checkout */
+#bagSummaryComponent .typography--body5--bold, #bagSummaryComponent .typography--body5, #bagSummaryComponent .typography--body3{
+  font-size:14px;
+  color: #666666;
+}
+#bagSummaryComponent div.col-span-4 > div:first-child, #bagSummaryComponent div.col-span-4 > div:nth-child(2){
+  font-size:16px;
+}
+
+/* Stadium tours - remove double line divider */
+div.yCmsContentSlot.productDetailsPageSection1 div.border-b, div.yCmsContentSlot.productDetailsPageSection1 div.border-b:after, body.page-tourAudioProductPage div.border-b, body.page-tourAudioProductPage div.border-b:after{
+border-bottom:none;
+}
+
+/* Stadium tours - remove double line divider on museum page */
+body.page-arsenalMuseum .px-4.mt-12, body.page-arsenalMuseum .px-4.mt-12:after{
+  border-bottom:none;
+}
+
+/* Stadium tours - hide opening times popup on main page */
+.amplience__content-type-21-opening-times-pop-up{
+display:none;
+}
