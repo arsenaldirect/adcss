@@ -338,3 +338,8 @@ body.page-arsenalMuseum .px-4.mt-12, body.page-arsenalMuseum .px-4.mt-12:after{
 .amplience__content-type-21-opening-times-pop-up{
 display:none;
 }
+
+/* PDP Yotpo star rating dropdown - fix left alignment */
+body.page-productDetails .yotpo-main-container .yotpo .filters-container .yotpo-drop-down-layout .yotpo-dropdown{
+  left:0px;
+}
