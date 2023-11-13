@@ -343,3 +343,8 @@ display:none;
 body.page-productDetails .yotpo-main-container .yotpo .filters-container .yotpo-drop-down-layout .yotpo-dropdown{
   left:0px;
 }
+
+/* Hide weekdays on date picker calendar due to only having six days in the numbers */
+body. page-tourProductPage .flatpickr-weekdays{
+display:none;
+}
