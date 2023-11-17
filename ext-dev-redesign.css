@@ -352,7 +352,12 @@ body.page-page-00000KU0 div.amplience__content-type-9-shop-by-player h3{
 font-size:3em;
 }
 @media (min-width: 640px){
-body.page-page-00000KU0 > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.xl\:container.mx-auto > div > div > div:nth-child(3){
-margin-top:-96px;
+  body.page-page-00000KU0 > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.xl\:container.mx-auto > div > div > div:nth-child(3){
+  margin-top:-96px;
+  }
 }
+@media (max-width: 640px){
+  body.page-page-00000KU0 > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.xl\:container.mx-auto > div > div > div:nth-child(3){
+  margin-top:-54px;
+  }
 }
