@@ -343,37 +343,3 @@ display:none;
 body.page-productDetails .yotpo-main-container .yotpo .filters-container .yotpo-drop-down-layout .yotpo-dropdown{
   left:0px;
 }
-
-/* Black Friday members only badging */
-@media (min-width: 640px){
-  #nav > div > div:nth-child(1) > a:before {
-      display: block;
-      content: "member exclusive";
-      background-color: #ff0;
-      border-radius: 6px;
-      font-size: 8px;
-      padding: 3px 5px;
-      text-transform: uppercase;
-      color: black;
-      margin-top: 8px;
-      margin-left: auto;
-      margin-right: auto;
-      position: absolute;
-      text-align: center;
-  }
-}
-@media (max-width: 640px){
-  #nav > div > div:nth-child(1) > a > span:after {
-      display: inline-block;
-      content: "member exclusive";
-      background-color: #ff0;
-      border-radius: 6px;
-      font-size: 8px;
-      padding: 3px 5px;
-      text-transform: uppercase;
-      color: black;
-      margin-left: 5px;
-      position: absolute;
-      margin-top: 1px;
-  }
-}
