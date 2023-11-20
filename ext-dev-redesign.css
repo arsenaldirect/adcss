@@ -344,7 +344,11 @@ body.page-productDetails .yotpo-main-container .yotpo .filters-container .yotpo-
   left:0px;
 }
 
-/* Black Friday landing page size sizes */
+/* Black Friday landing page font colour */
 body.page-page-00000KU0 div.amplience__content-type-13-three-promo-block h2{
+  color:#e0ff00;
+}
+/* Black Friday homepage font colour */
+body.page-homepage div.amplience__content-type-1-main-banner.relativ h2{
   color:#e0ff00;
 }
