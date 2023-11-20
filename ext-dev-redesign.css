@@ -345,21 +345,6 @@ body.page-productDetails .yotpo-main-container .yotpo .filters-container .yotpo-
 }
 
 /* Black Friday landing page size sizes */
-body.page-page-00000KU0 div.amplience__content-type-1-main-banner.relative h2{
-font-size:0.8em;
+body.page-page-00000KU0 div.amplience__content-type-13-three-promo-block h2{
   color:#e0ff00;
-}
-body.page-page-00000KU0 div.amplience__content-type-9-shop-by-player h3{
-font-size:3em;
-  color:#e0ff00;
-}
-@media (min-width: 640px){
-  body.page-page-00000KU0 > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.xl\:container.mx-auto > div > div > div:nth-child(3){
-  margin-top:-96px;
-  }
-}
-@media (max-width: 640px){
-  body.page-page-00000KU0 > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.xl\:container.mx-auto > div > div > div:nth-child(3){
-  margin-top:-54px;
-  }
 }
