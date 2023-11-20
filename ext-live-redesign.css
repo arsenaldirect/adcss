@@ -359,3 +359,6 @@ body.page-productDetails button.gigya-raas-link{
   background-color:black;
   color:#e0ff00;
 }
+body.page-productDetails button.gigya-raas-link:hover{
+  color:black;
+}
