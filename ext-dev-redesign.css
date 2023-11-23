@@ -352,3 +352,90 @@ body.page-page-00000KU0 div.amplience__content-type-13-three-promo-block h2{
 body.page-homepage div.amplience__content-type-1-main-banner.relativ h2{
   color:#e0ff00;
 }
+
+/* GITHUB MASKING */
+
+#GigyaRaasComponentForLogin button span {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  #GigyaRaasComponentForLogin-mobile a {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  #GigyaRaasComponentForLogin div.text-white {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-account-home span:contains("Hi") {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-my-details #update-container {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-my-details .accountAddressItem {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-multiStepCheckoutSummaryPage #savedaddress-delivery {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-multiStepCheckoutSummaryPage .js-select-address {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-multiStepCheckoutSummaryPage .js-addressBook-selected .typography--body5 {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-orderConfirmationPage .text-white:contains("Thank") {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-orderConfirmationPage div.pb-6:contains("@arsenal") {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-orderConfirmationPage div.pb-6:contains("Order number") a {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-orders div.mb-1:contains("Order") {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-order div.mb-8:contains("Order number") span:eq(1) {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-order .capitalize {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-my-tours div.typography--subtitle5:contains("Order number") {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
+  
+  body.page-my-payment-methods div.yCmsContentSlot .grow:eq(0) {
+    background: #808080 !important;
+    color: #808080 !important;
+  }
