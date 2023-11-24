@@ -420,6 +420,26 @@ body.page-multiStepCheckoutSummaryPage #adyenPaymentDetailsForm .adyen-checkout_
   color: #808080 !important;
 }
 
+body.page-multiStepCheckoutSummaryPage .mt-16.w-full.mx-auto span {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutSummaryPage #giftMessageForm input {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutSummaryPage #giftMessageForm textarea {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutSummaryPage .js-gift-message-valid {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
 body.page-orderConfirmationPage .relative .text-white.absolute {
   background: #808080 !important;
   color: #808080 !important;
@@ -461,6 +481,36 @@ body.page-multiStepCheckoutDeliveryPage .js-delivery-method p {
 }
 
 body.page-multiStepCheckoutDeliveryPage .savedaddress-list {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutDeliveryPage .mt-16.w-full.mx-auto span {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutDeliveryPage #addressForm {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutDeliveryPage #addressForm input {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutDeliveryPage #specialInstructions {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-cartPage div.text-center.my-3.typography--body4 {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-checkout-login .typography--body4.text-center.mb-4 {
   background: #808080 !important;
   color: #808080 !important;
 }
