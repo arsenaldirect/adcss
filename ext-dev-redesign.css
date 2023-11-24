@@ -410,6 +410,16 @@ body.page-multiStepCheckoutSummaryPage .js-addressBook-selected .typography--bod
   color: #808080 !important;
 }
 
+body.page-multiStepCheckoutSummaryPage #adyenPaymentDetailsForm .js-select-saved-card {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutSummaryPage #adyenPaymentDetailsForm .adyen-checkout__input {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
 body.page-orderConfirmationPage .relative .text-white.absolute {
   background: #808080 !important;
   color: #808080 !important;
@@ -440,12 +450,17 @@ body.page-my-tours .typography--subtitle5:nth-child(2) > .typography--body3 {
   color: #808080 !important;
 }
 
-body.page-my-payment-methods .typography--body3 .flex .grow:nth-child(2) {
+body.page-my-payment-methods .typography--body3.col-span-12 .flex .grow:nth-child(2) {
   background: #808080 !important;
   color: #808080 !important;
 }
 
 body.page-multiStepCheckoutDeliveryPage .js-delivery-method p {
+  background: #808080 !important;
+  color: #808080 !important;
+}
+
+body.page-multiStepCheckoutDeliveryPage .savedaddress-list {
   background: #808080 !important;
   color: #808080 !important;
 }
