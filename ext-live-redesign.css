@@ -349,12 +349,12 @@ body.page-tourProductPage .flatpickr-weekdays{
 display:none;
 }
 
+
 /* Black Friday landing page font colour */
+/*
 body.page-page-00000KU0 div.amplience__content-type-13-three-promo-block h2{
   color:#e0ff00;
 }
-
-/* PDP Black Friday styling for member login button */
 body.page-productDetails button.gigya-raas-link{
   background-color:black;
   color:#e0ff00;
@@ -362,3 +362,4 @@ body.page-productDetails button.gigya-raas-link{
 body.page-productDetails button.gigya-raas-link:hover{
   color:black;
 }
+*/
