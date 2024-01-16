@@ -24,7 +24,7 @@ a.js-contentType13MainContainer:nth-child(1) > div:nth-child(3), a.js-contentTyp
   padding-bottom: 0.7rem !important;
 }
 
-/* Home page - collection blocks - adjust font positioning to bottom corner */
+/* REMOVE THIS Home page - collection blocks - adjust font positioning to bottom corner */
 .page-homepage div.amplience__content-type-12-collection-blocks-wrapper a > .absolute{
 padding-bottom:1em !important;
 }
@@ -149,7 +149,7 @@ background:transparent;
   }
 }
 
-/* PDP on mobile, move add to bag button above wishlist button */
+/* REMOVE THIS PDP on mobile, move add to bag button above wishlist button */
 @media (max-width: 640px){
   #notifyMeOos{
   display:flex;
@@ -166,12 +166,12 @@ background:transparent;
   }
 }
 
-/* Kit builder - add padding to right to allow space before scrollbar */
+/* REMOVE THIS Kit builder - add padding to right to allow space before scrollbar */
 #js-isKitProduct{
   padding-right:20px;
 }
 
-/* Kit builder - hide Yotpo number of reviews due to broken link */
+/* REMOVE THIS Kit builder - hide Yotpo number of reviews due to broken link */
 #kitSelector > div.mb-5.pt-1.transition-opacity.duration-600.h-\[24px\] > a > div > div > div.standalone-bottomline > div.yotpo-bottomline.pull-left.star-clickable > a{
   display:none;
 }
@@ -183,17 +183,17 @@ background:transparent;
 }
 }
 
-/* Checkout summary - add padding above opt-out checkbox  */
+/* REMOVE THIS Checkout summary - add padding above opt-out checkbox  */
 body.page-multiStepCheckoutSummaryPage [for="optedin1checkbox"] {
     padding-top: 20px;
 }
 
-/* Bag page - underline links in return text */
+/* REMOVE THIS Bag page - underline links in return text */
 body.page-cartPage .returns-table-content a{
 text-decoration:underline;
 }
 
-/* Bag page mobile - prevent word wrap on item update buttons */
+/* REMOVE THIS Bag page mobile - prevent word wrap on item update buttons */
 @media (max-width: 640px){
   .page-cartPage [id^='moveToWishlistEntry_'] {
       padding-left: 0;
@@ -233,7 +233,7 @@ body.page-tourAudioProductPage ul{
     padding-bottom:2.5rem;
 }
 
-/* Bag page, mobile - change subtotal colours */
+/* REMOVE THIS Bag page, mobile - change subtotal colours */
 @media (max-width: 640px){
   body.page-cartPage  div.bg-black.text-white.px-4.py-6.typography--body3-bold{
   color:black;
@@ -241,7 +241,7 @@ body.page-tourAudioProductPage ul{
   }
 }
 
-/* bag page, desktop - change subtotal colours */
+/* REMOVE THIS bag page, desktop - change subtotal colours */
 @media (min-width: 640px){
   body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > div.lg\:flex.lg\:gap-10.\[\&\>\.breadcrumb-wrapper\]\:hidden > div.lg\:w-\[40\%\] > div.bg-black.text-white.px-4.py-6.typography--body3-bold{
       color: black;
@@ -250,7 +250,7 @@ body.page-tourAudioProductPage ul{
   }
 }
 
-/* Bag page, mobile - adjust header sizing */
+/* REMOVE THIS Bag page, mobile - adjust header sizing */
 @media (max-width: 640px){
   body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > h1{
   font-size:1.2em;
@@ -259,7 +259,7 @@ body.page-tourAudioProductPage ul{
   }
 }
 
-/* Bag page, mobile - adjust coupon input sizing */
+/* REMOVE THIS Bag page, mobile - adjust coupon input sizing */
 @media (max-width: 640px){
   body.page-cartPage #applyVoucherForm > div.flex.gap-2 > button{
   height:36px;
@@ -269,7 +269,7 @@ body.page-tourAudioProductPage ul{
   }
 }
 
-/* Bag page, mobile - adjust font size and line height for items */
+/* REMOVE THIS Bag page, mobile - adjust font size and line height for items */
 @media (max-width: 640px){
   body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div):not(.gigya-raas-link.bg-icon-myaccount-circle > span):not(span.block.w-10.text-right.lg:text-left){
       font-size: 14px;
@@ -280,7 +280,7 @@ body.page-tourAudioProductPage ul{
   }
 }
 
-/* Printed product extended lead time messaging - bag */
+/* REMOVE THIS Printed product extended lead time messaging - bag */
 body.page-cartPage .pdp-warning-box{
     padding: 1.25rem;
     background-color: #93040C;
@@ -288,7 +288,7 @@ body.page-cartPage .pdp-warning-box{
     color: white;
 }
 
-/* Printed product extended lead time messaging - checkout */
+/* REMOVE THIS Printed product extended lead time messaging - checkout */
 body.page-multiStepCheckoutDeliveryPage div.checkout-shipping.js-delivery-options > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box, body.page-multiStepCheckoutDeliveryPage > main > div:nth-child(8) > div:nth-child(5) > div > main > div.lg\:grid.lg\:grid-cols-2.lg\:gap-4.w-full.lg\:h-full.lg\:max-w-\[960px\].lg\:container.mx-auto.lg\:mt-\[75px\] > div.checkout-shipping > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box{
  display:none;
 }
@@ -309,14 +309,14 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
   font-size:16px;
 }
 
-/* Fix font sizes on bag page for item details */
+/* REMOVE THIS Fix font sizes on bag page for item details */
 body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--body4-bold{
     font-size: 14px;
     color: #666666;
     font-weight: normal;
 }
 
-/* Fix font sizes on order summary - checkout */
+/* REMOVE THIS Fix font sizes on order summary - checkout */
 #bagSummaryComponent .typography--body5--bold, #bagSummaryComponent .typography--body5, #bagSummaryComponent .typography--body3{
   font-size:14px;
   color: #666666;
@@ -340,7 +340,7 @@ body.page-arsenalMuseum .px-4.mt-12, body.page-arsenalMuseum .px-4.mt-12:after{
 display:none;
 }
 
-/* PDP Yotpo star rating dropdown - fix left alignment */
+/* REMOVE THIS PDP Yotpo star rating dropdown - fix left alignment */
 body.page-productDetails .yotpo-main-container .yotpo .filters-container .yotpo-drop-down-layout .yotpo-dropdown{
   left:0px;
 }
