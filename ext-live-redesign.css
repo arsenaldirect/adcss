@@ -19,7 +19,7 @@ font-size:2em !important;
   }
 }
 
-/* Home page - Kit section - adjust font positioning to bottom corner */
+/* REMOVE THIS Home page - Kit section - adjust font positioning to bottom corner */
 a.js-contentType13MainContainer:nth-child(1) > div:nth-child(3), a.js-contentType13MainContainer:nth-child(2) > div:nth-child(3), a.js-contentType13MainContainer:nth-child(3) > div:nth-child(3) {
   padding-bottom: 0.7rem !important;
 }
@@ -34,7 +34,7 @@ padding-bottom:1em !important;
     font-style:italic;
 }
 
-/* Home page - kit blocks - reduce shadow height */
+/* REMOVE THIS Home page - kit blocks - reduce shadow height */
 body.page-homepage .amplience__content-type-13-three-promo-block .w-full.gradient--vertical{
 height:30% !important;
 }
@@ -44,14 +44,14 @@ body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) >
 padding-bottom:0px;
 }
 
-/* Mobile nav - prevent white link on click */
+/* REMOVE THIS Mobile nav - prevent white link on click */
 @media (max-width: 640px){
   #nav a:focus{
       color:black;
   }
 }
 
-/* PLP reduce space between lines for long product names */
+/* REMOVE THIS PLP reduce space between lines for long product names */
 div.col-span-6 > a.flex-col.gap-4 > div:nth-child(2) > div.typography--body3 {
   line-height: 1.2em;
 }
@@ -201,12 +201,12 @@ text-decoration:underline;
   }
 }
 
-/* Returns page - fix font size */
+/* REMOVE THIS Returns page - fix font size */
 .template-pages-layout-returnsContentLayoutPage p, .template-pages-layout-returnsContentLayoutPage .md\:typography--body1{
 font-size:1em;
 }
 
-/* Stores page - fix font size */
+/* REMOVE THIS Stores page - fix font size */
 body.page-ourStores p, body.page-ourStores div{
 font-size:1em;
 }
@@ -222,7 +222,8 @@ body.page-arsenalMuseum p{
     font-size: 16px;
 }
 
-/* Terms page - fix font size */
+
+/* REMOVE THIS Terms page - fix font size */
 body.page-termsAndConditions p:not(.mb-6){
     font-size: 16px;
 }
