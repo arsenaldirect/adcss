@@ -356,5 +356,5 @@ body.page-homepage div.amplience__content-type-1-main-banner.relativ h2{
 /* Fu's navigation link fix */
 .\[\&\>a\:last-child\>span\]\:underline>a:last-child>span {text-decoration-line: none}
 @media (min-width: 1024px){
-.\[\&\>a\:last-child\>span\]\:before\:content-\[\'All_\'\]>a:last-child>span:before {content: ''}
+.js-level5.\[\&\>a\:last-child\>span\]\:before\:content-\[\'All_\'\]>a:last-child>span:before {content: ''}
 }
