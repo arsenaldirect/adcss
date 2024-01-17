@@ -19,49 +19,15 @@ font-size:2em !important;
   }
 }
 
-/* REMOVE THIS Home page - Kit section - adjust font positioning to bottom corner */
-a.js-contentType13MainContainer:nth-child(1) > div:nth-child(3), a.js-contentType13MainContainer:nth-child(2) > div:nth-child(3), a.js-contentType13MainContainer:nth-child(3) > div:nth-child(3) {
-  padding-bottom: 0.7rem !important;
-}
-
-/* REMOVE THIS Home page - collection blocks - adjust font positioning to bottom corner */
-.page-homepage div.amplience__content-type-12-collection-blocks-wrapper a > .absolute{
-padding-bottom:1em !important;
-}
-
 /* Home page - italics on hover */
 .amplience__content-type-9-shop-by-player .grid a:hover{
     font-style:italic;
-}
-
-/* REMOVE THIS Home page - kit blocks - reduce shadow height */
-body.page-homepage .amplience__content-type-13-three-promo-block .w-full.gradient--vertical{
-height:30% !important;
 }
 
 /* Home page - remove space above promo blocks under carousel */
 body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.flex.flex-row.w-full.items-end.justify-between{
 padding-bottom:0px;
 }
-
-/* REMOVE THIS Mobile nav - prevent white link on click */
-@media (max-width: 640px){
-  #nav a:focus{
-      color:black;
-  }
-}
-
-/* REMOVE THIS PLP reduce space between lines for long product names */
-div.col-span-6 > a.flex-col.gap-4 > div:nth-child(2) > div.typography--body3 {
-  line-height: 1.2em;
-}
-
-/* Hide empty links (i.e. homepage holiday section CTA) */
-/*
-a[href=""] {
-    display: none;
-}
-*/
 
 /* Change SBP page font colour (landing page and player page */
 body.page-playerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert):not(#GigyaRaasComponentForLogin > div > div), body.page-shopByPlayerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert):not(#GigyaRaasComponentForLogin > div > div){
@@ -149,66 +115,11 @@ background:transparent;
   }
 }
 
-/* REMOVE THIS PDP on mobile, move add to bag button above wishlist button */
-@media (max-width: 640px){
-  #notifyMeOos{
-  display:flex;
-  }
-  #notifyMeOos > div.lg\:grid.lg\:grid-cols-2.lg\:gap-x-4{
-  display:flex;
-  flex-direction:column-reverse;
-  }
-  #pdpWishList{
-  margin-bottom:0px;
-  }
-  #addToCartComponentSlot > div > button{
-  margin-bottom:1em;
-  }
-}
-
-/* REMOVE THIS Kit builder - add padding to right to allow space before scrollbar */
-#js-isKitProduct{
-  padding-right:20px;
-}
-
-/* REMOVE THIS Kit builder - hide Yotpo number of reviews due to broken link */
-#kitSelector > div.mb-5.pt-1.transition-opacity.duration-600.h-\[24px\] > a > div > div > div.standalone-bottomline > div.yotpo-bottomline.pull-left.star-clickable > a{
-  display:none;
-}
-
 /* PDP Yotpo button styling issues  */
 @media only screen and (max-width: 541px){
 .yotpo-main-container .main-widget .write-question-review-buttons-container .write-question-review-button {
     width: auto !important;
 }
-}
-
-/* REMOVE THIS Checkout summary - add padding above opt-out checkbox  */
-body.page-multiStepCheckoutSummaryPage [for="optedin1checkbox"] {
-    padding-top: 20px;
-}
-
-/* REMOVE THIS Bag page - underline links in return text */
-body.page-cartPage .returns-table-content a{
-text-decoration:underline;
-}
-
-/* REMOVE THIS Bag page mobile - prevent word wrap on item update buttons */
-@media (max-width: 640px){
-  .page-cartPage [id^='moveToWishlistEntry_'] {
-      padding-left: 0;
-      padding-right: 0;
-  }
-}
-
-/* REMOVE THIS Returns page - fix font size */
-.template-pages-layout-returnsContentLayoutPage p, .template-pages-layout-returnsContentLayoutPage .md\:typography--body1{
-font-size:1em;
-}
-
-/* REMOVE THIS Stores page - fix font size */
-body.page-ourStores p, body.page-ourStores div{
-font-size:1em;
 }
 
 /* Tours pages - fix font size */
@@ -222,82 +133,9 @@ body.page-arsenalMuseum p{
     font-size: 16px;
 }
 
-
-/* REMOVE THIS Terms page - fix font size */
-body.page-termsAndConditions p:not(.mb-6){
-    font-size: 16px;
-}
-
 /* Tours page - audio - fix gap under text above opening hours */
 body.page-tourAudioProductPage ul{
     padding-bottom:2.5rem;
-}
-
-/* REMOVE THIS Bag page, mobile - change subtotal colours */
-@media (max-width: 640px){
-  body.page-cartPage  div.bg-black.text-white.px-4.py-6.typography--body3-bold{
-  color:black;
-  background-color:white;
-  }
-}
-
-/* REMOVE THIS bag page, desktop - change subtotal colours */
-@media (min-width: 640px){
-  body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > div.lg\:flex.lg\:gap-10.\[\&\>\.breadcrumb-wrapper\]\:hidden > div.lg\:w-\[40\%\] > div.bg-black.text-white.px-4.py-6.typography--body3-bold{
-      color: black;
-      background-color: #F6F6F6;
-      border-bottom: 20px solid white;
-  }
-}
-
-/* REMOVE THIS Bag page, mobile - adjust header sizing */
-@media (max-width: 640px){
-  body.page-cartPage > main > div.pt-\[77px\].lg\:pt-\[72px\] > div.container.mx-auto.lg\:px-4.basket-wrapper > h1{
-  font-size:1.2em;
-  padding-top:8px;
-  padding-bottom:6px;
-  }
-}
-
-/* REMOVE THIS Bag page, mobile - adjust coupon input sizing */
-@media (max-width: 640px){
-  body.page-cartPage #applyVoucherForm > div.flex.gap-2 > button{
-  height:36px;
-  }
-  body.page-cartPage  input#codeVoucher{
-  height:36px;
-  }
-}
-
-/* REMOVE THIS Bag page, mobile - adjust font size and line height for items */
-@media (max-width: 640px){
-  body.page-cartPage .items-center *:not(.js-open-update-options):not(button):not(.grow):not(.js-laybuy-poster__text > span):not(.js-utility-bar > div > div > div):not(.gigya-raas-link.bg-icon-myaccount-circle > span):not(span.block.w-10.text-right.lg:text-left){
-      font-size: 14px;
-      line-height:1.5;
-  }
-  body.page-cartPage .items-center > div.grow > div.text-sm > div[class^='mb-']{
-      margin-bottom:0px;
-  }
-}
-
-/* REMOVE THIS Printed product extended lead time messaging - bag */
-body.page-cartPage .pdp-warning-box{
-    padding: 1.25rem;
-    background-color: #93040C;
-    margin-bottom: 2em;
-    color: white;
-}
-
-/* REMOVE THIS Printed product extended lead time messaging - checkout */
-body.page-multiStepCheckoutDeliveryPage div.checkout-shipping.js-delivery-options > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box, body.page-multiStepCheckoutDeliveryPage > main > div:nth-child(8) > div:nth-child(5) > div > main > div.lg\:grid.lg\:grid-cols-2.lg\:gap-4.w-full.lg\:h-full.lg\:max-w-\[960px\].lg\:container.mx-auto.lg\:mt-\[75px\] > div.checkout-shipping > div.form-group.js-delivery-method.font-\[\'NorthBankForward\'\].max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.row > div > div.pdp-warning-box{
- display:none;
-}
-body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
-    padding: 1.25rem;
-    background-color: #93040C;
-    margin-bottom: 2em;
-    color: white;
-    font-family: ChampmanV15,system-ui,sans-serif;
 }
 
 /* Fix font sizes on mini bag item details */
@@ -306,22 +144,6 @@ body.page-multiStepCheckoutDeliveryPage .pdp-warning-box{
   color: #666666;
 }
 #miniCartSlot > div > div.relative > div > div.col-span-4 > div:first-child, #miniCartSlot > div > div.relative > div > div.col-span-4 > div:nth-child(2){
-  font-size:16px;
-}
-
-/* REMOVE THIS Fix font sizes on bag page for item details */
-body.page-cartPage span.typography--body3-bold, body.page-cartPage .typography--body4-bold{
-    font-size: 14px;
-    color: #666666;
-    font-weight: normal;
-}
-
-/* REMOVE THIS Fix font sizes on order summary - checkout */
-#bagSummaryComponent .typography--body5--bold, #bagSummaryComponent .typography--body5, #bagSummaryComponent .typography--body3{
-  font-size:14px;
-  color: #666666;
-}
-#bagSummaryComponent div.col-span-4 > div:first-child, #bagSummaryComponent div.col-span-4 > div:nth-child(2){
   font-size:16px;
 }
 
@@ -340,30 +162,10 @@ body.page-arsenalMuseum .px-4.mt-12, body.page-arsenalMuseum .px-4.mt-12:after{
 display:none;
 }
 
-/* REMOVE THIS PDP Yotpo star rating dropdown - fix left alignment */
-body.page-productDetails .yotpo-main-container .yotpo .filters-container .yotpo-drop-down-layout .yotpo-dropdown{
-  left:0px;
-}
-
 /* Hide weekdays on date picker calendar due to only having six days in the numbers */
 body.page-tourProductPage .flatpickr-weekdays{
 display:none;
 }
-
-
-/* Black Friday landing page font colour */
-/*
-body.page-page-00000KU0 div.amplience__content-type-13-three-promo-block h2{
-  color:#e0ff00;
-}
-body.page-productDetails button.gigya-raas-link{
-  background-color:black;
-  color:#e0ff00;
-}
-body.page-productDetails button.gigya-raas-link:hover{
-  color:black;
-}
-*/
 
 /* Fix word wrapping on middle promo block (for longer title) */
 body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(2) > h3{
