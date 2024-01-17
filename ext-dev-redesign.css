@@ -352,3 +352,7 @@ body.page-page-00000KU0 div.amplience__content-type-13-three-promo-block h2{
 body.page-homepage div.amplience__content-type-1-main-banner.relativ h2{
   color:#e0ff00;
 }
+
+/* Fu's navigation link fix */
+.\[\&\>a\:last-child\>span\]\:underline>a:last-child>span {text-decoration-line: none}
+.\[\&\>a\:last-child\>span\]\:before\:content-\[\'All_\'\]>a:last-child>span:before {content: ''}
