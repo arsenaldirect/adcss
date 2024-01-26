@@ -123,6 +123,7 @@ background:transparent;
 }
 
 /* Tours pages - fix font size */
+/*
 body.page-tourVisitorInfo p, body.page-tourOpeningHoursPage p {
     font-size: 16px;
 }
@@ -132,6 +133,7 @@ body.page-tourHomePage p, body.page-tourHomePage li{
 body.page-arsenalMuseum p{
     font-size: 16px;
 }
+*/
 
 /* Tours page - audio - fix gap under text above opening hours */
 body.page-tourAudioProductPage ul{
