@@ -4,6 +4,7 @@
   outline:none !important;
 }
 
+/* REMOVE THIS */
 /* Homepage - adjust section title font sizes for Billy */
 .amplience__content-type-9-shop-by-player h2{
 font-size:2em !important;
@@ -13,6 +14,8 @@ font-size:2em !important;
   font-size:3em !important;
   }
 }
+
+
 @media (min-width: 1024px) {
   h2#product-list-heading-anchor{
   font-size:1.25em !important;
@@ -29,6 +32,7 @@ body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) >
 padding-bottom:0px;
 }
 
+/* REMOVE THIS */
 /* Change SBP page font colour (landing page and player page */
 body.page-playerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert):not(#GigyaRaasComponentForLogin > div > div), body.page-shopByPlayerLandingPage .text-white:not(.uppercase):not(.js-utility-bar):not(footer a):not(footer):not(#miniCartSlot div):not(.bg-icon-bag-alert):not(#GigyaRaasComponentForLogin > div > div){
 color: #D80B14;
@@ -39,11 +43,13 @@ color: #D80B14;
 color: #D80B14 !important;
 }
 
+/* REMOVE THIS */
 /* SBP page remove vertical gradient on player grid */
 body.page-shopByPlayerLandingPage #arsenal-shop-by-player-tabs .gradient--vertical{
 background:transparent;
 }
 
+/* REMOVE THIS */
 /* SBP landing page mobile only, replace hero gradient and text color */
 /* MEN */
 @media (max-width: 640px){
@@ -73,6 +79,7 @@ background:transparent;
   }
 }
 
+/* REMOVE THIS */
 /* SBP landing page mobile only, shift hero image to the left */
 @media (max-width: 640px){
   #arsenal-shop-by-player-tabs div.hidden.first > a > picture, #arsenal-shop-by-player-tabs div.hidden.legends > a > picture, #arsenal-shop-by-player-tabs div.hidden.womens > a > picture{
@@ -80,6 +87,7 @@ background:transparent;
   }
 }
 
+/* REMOVE THIS */
 /* SBP player page mobile only, shift hero image to the left */
 @media (max-width: 640px){
   body.page-playerLandingPage > main > div:nth-child(8) > div > picture{
@@ -87,6 +95,7 @@ background:transparent;
   }
 }
 
+/* REMOVE THIS */
 /* SBP landing page desktop, remove horizontal gradient on hero image */
 @media (min-width: 640px){
   body.page-shopByPlayerLandingPage .sm\:gradient--horizontal{
@@ -94,6 +103,7 @@ background:transparent;
   }
 }
 
+/* REMOVE THIS */
 /* SBP player page desktop, remove horizontal gradient on hero image */
 @media (min-width: 640px){
   body.page-playerLandingPage .sm\:gradient--horizontal{
@@ -101,6 +111,7 @@ background:transparent;
   }
 }
 
+/* REMOVE THIS */
 /* SBP player page mobile, change hero text colour */
 @media (max-width: 640px){
   body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > div, body > main > div:nth-child(8) > div.relative.flex.flex-col.w-full.h-\[calc\(100vh-184px\)\].sm\:h-\[calc\(100vh-185px\)\].overflow-hidden.mb-6.md\:mb-8.bg-red-93040C > div.xl\:container.self-center.absolute.w-full.h-full > div > h1{
@@ -108,6 +119,7 @@ background:transparent;
   }
 }
 
+/* REMOVE THIS */
 /* SBP landing pages desktop, change CTA background colour */
 @media (min-width: 640px){
   #arsenal-shop-by-player-tabs  div.hidden.legends > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button, #arsenal-shop-by-player-tabs  div.hidden.womens > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button, #arsenal-shop-by-player-tabs  div.hidden.first > a > div.xl\:container.self-center.absolute.w-full.h-full > div > button{
@@ -135,6 +147,7 @@ body.page-arsenalMuseum p{
 }
 */
 
+/* REMOVE THIS */
 /* Tours page - audio - fix gap under text above opening hours */
 body.page-tourAudioProductPage ul{
     padding-bottom:2.5rem;
@@ -149,23 +162,21 @@ body.page-tourAudioProductPage ul{
   font-size:16px;
 }
 
+/* REMOVE THIS */
 /* Stadium tours - remove double line divider */
 div.yCmsContentSlot.productDetailsPageSection1 div.border-b, div.yCmsContentSlot.productDetailsPageSection1 div.border-b:after, body.page-tourAudioProductPage div.border-b, body.page-tourAudioProductPage div.border-b:after{
 border-bottom:none;
 }
 
+/* REMOVE THIS */
 /* Stadium tours - remove double line divider on museum page */
 body.page-arsenalMuseum .px-4.mt-12, body.page-arsenalMuseum .px-4.mt-12:after{
   border-bottom:none;
 }
 
+/* REMOVE THIS */
 /* Stadium tours - hide opening times popup on main page */
 .amplience__content-type-21-opening-times-pop-up{
-display:none;
-}
-
-/* Hide weekdays on date picker calendar due to only having six days in the numbers */
-body.page-tourProductPage .flatpickr-weekdays{
 display:none;
 }
 
@@ -174,6 +185,7 @@ body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) >
   max-width:300px;
 }
 
+/* REMOVE THIS */
 /* Fu's navigation link fix */
 .\[\&\>a\:last-child\>span\]\:underline>a:last-child>span {text-decoration-line: none}
 .js-level5.\[\&\>a\:last-child\>span\]\:before\:content-\[\'All_\'\]>a:last-child>span:before {content: ''}
