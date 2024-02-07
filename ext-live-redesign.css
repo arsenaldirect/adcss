@@ -20,12 +20,6 @@ body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) >
 padding-bottom:0px;
 }
 
-
-/* Change SBP text colour on homepage */
-.page-homepage a[href="/shopbyplayer/"] h3{
-color: #D80B14 !important;
-}
-
 /* PDP Yotpo button styling issues  */
 @media only screen and (max-width: 541px){
 .yotpo-main-container .main-widget .write-question-review-buttons-container .write-question-review-button {
