@@ -40,3 +40,9 @@ padding-bottom:0px;
 body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(2) > h3{
   max-width:300px;
 }
+
+/* Change SBP text colour on homepage */
+.page-homepage a[href="/shopbyplayer/"] h3{
+color: #D80B14 !important;
+}
+
