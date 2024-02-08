@@ -37,7 +37,7 @@ padding-bottom:0px;
 }
 
 /* Fix word wrapping on middle promo block (for longer title) */
-body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(2) > h3{
+body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(1) > h3, body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(2) > h3, body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(3) > h3{
   max-width:300px;
 }
 
