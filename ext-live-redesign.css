@@ -48,11 +48,11 @@ color: #D80B14 !important;
 
 /* Update PDP Pre-order notice styling */
 
-#sizeSelectorContainer > div.flex.items-center.mt-2 {
+#sizeSelectorContainer > div.flex.items-center.mt-2, #pdpProductDetails > div:nth-child(2) > div.grid.grid-cols-12.gap-8.lg\:px-4.js-product-details-section > div.col-span-12.lg\:col-span-4.max-lg\:px-4.min-h-\[410px\] > div:nth-child(3) > div.flex.items-center.mb-4 {
     background-color: #93040C;
     padding: 20px;
     color: white;
 }
-#sizeSelectorContainer > div.flex.items-center.mt-2 > div.pointer-events-none.inline-block.bg-icon-delivery-truck.bg-contain.bg-center.bg-no-repeat.w-6.h-6{
+#sizeSelectorContainer > div.flex.items-center.mt-2 > div.pointer-events-none.inline-block.bg-icon-delivery-truck.bg-contain.bg-center.bg-no-repeat.w-6.h-6, #pdpProductDetails > div:nth-child(2) > div.grid.grid-cols-12.gap-8.lg\:px-4.js-product-details-section > div.col-span-12.lg\:col-span-4.max-lg\:px-4.min-h-\[410px\] > div:nth-child(3) > div.flex.items-center.mb-4 > div.pointer-events-none.inline-block.bg-icon-delivery-truck.bg-contain.bg-center.bg-no-repeat.w-6.h-6{
     filter: invert(100%) sepia(14%) saturate(7481%) hue-rotate(186deg) brightness(112%) contrast(102%);
 }
