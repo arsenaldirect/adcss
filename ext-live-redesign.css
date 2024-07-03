@@ -56,3 +56,26 @@ color: #D80B14 !important;
 #sizeSelectorContainer > div.flex.items-center.mt-2 > div.pointer-events-none.inline-block.bg-icon-delivery-truck.bg-contain.bg-center.bg-no-repeat.w-6.h-6, #pdpProductDetails > div:nth-child(2) > div.grid.grid-cols-12.gap-8.lg\:px-4.js-product-details-section > div.col-span-12.lg\:col-span-4.max-lg\:px-4.min-h-\[410px\] > div:nth-child(3) > div.flex.items-center.mb-4 > div.pointer-events-none.inline-block.bg-icon-delivery-truck.bg-contain.bg-center.bg-no-repeat.w-6.h-6{
     filter: invert(100%) sepia(14%) saturate(7481%) hue-rotate(186deg) brightness(112%) contrast(102%);
 }
+
+/* Ensure the gpay button fits within its container */
+.gpay-btn {
+    overflow: hidden; /* Prevent content from overflowing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.gpay-btn .js-expressCheckout {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+}
+.gpay-btn .js-expressCheckout button {
+    width: 100%;
+    max-width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
