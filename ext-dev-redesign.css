@@ -79,3 +79,8 @@ color: #D80B14 !important;
     justify-content: center;
     align-items: center;
 }
+
+/* Fix sale price colour on Wishlist page */
+body.page-wishlistPage .text-grey-E1E1E1{
+    color: rgb(130 130 130/var(--tw-text-opacity))
+}
