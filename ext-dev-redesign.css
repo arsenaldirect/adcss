@@ -84,3 +84,10 @@ color: #D80B14 !important;
 body.page-wishlistPage .text-grey-E1E1E1{
     color: rgb(130 130 130/var(--tw-text-opacity))
 }
+
+/* Fix alignment on patch dropdown */
+
+#personalisationSelector img.h-full{
+min-width: 39px;
+object-fit: contain;
+}
