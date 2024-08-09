@@ -87,7 +87,7 @@ body.page-wishlistPage .text-grey-E1E1E1{
 
 /* Fix alignment on patch dropdown */
 
-#personalisationSelector img.h-full, #kitSelector img.h-full{
+#personalisationSelector img.h-full:not(.w-full), #kitSelector img.h-full:not(.w-full){
 min-width: 39px;
 object-fit: contain;
 }
