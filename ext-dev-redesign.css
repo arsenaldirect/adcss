@@ -91,3 +91,11 @@ body.page-wishlistPage .text-grey-E1E1E1{
 min-width: 39px;
 object-fit: contain;
 }
+
+/* PDP member message word wrap */
+
+#MemberMessageComponentSlot > button{
+    white-space: normal;
+    padding-top: 13px;
+    padding-bottom: 27px;
+}
