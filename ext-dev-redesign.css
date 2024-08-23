@@ -93,9 +93,7 @@ object-fit: contain;
 }
 
 /* PDP member message word wrap */
-
-#MemberMessageComponentSlot > button{
+#MemberMessageComponentSlot > button > span.rounded-full{
     white-space: normal;
-    padding-top: 13px;
-    padding-bottom: 27px;
+    height:auto;
 }
