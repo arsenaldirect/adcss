@@ -90,9 +90,3 @@ body.page-wishlistPage .text-grey-E1E1E1{
 min-width: 39px;
 object-fit: contain;
 }
-
-/* PDP member message word wrap */
-#MemberMessageComponentSlot > button > span.rounded-full{
-    white-space: normal;
-    height:auto;
-}
