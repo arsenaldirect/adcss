@@ -90,3 +90,14 @@ body.page-wishlistPage .text-grey-E1E1E1{
 min-width: 39px;
 object-fit: contain;
 }
+
+/* Adjust trio block text size for BF on BF page */
+body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
+  max-width: 100% !important;
+  font-size: 4rem !important;
+}
+@media only screen and (max-width: 541px){
+  body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
+    font-size: 2.8rem !important;
+  }
+}
