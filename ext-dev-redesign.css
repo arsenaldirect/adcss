@@ -105,7 +105,8 @@ body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
 
 /* Hide meganav links on desktop */
 @media (min-width: 1024px) {
-  #nav div.block:has(a[href$='/Gifts/Homeware/c/home-car']),#nav div.block:has(a[href$='/shopbyplayer'])  {
-    display:none;
+  #nav div.block:has(> a:first-child[href$='/Gifts/Homeware/c/home-car']),
+  #nav div.block:has(> a:first-child[href$='/shopbyplayer']) {
+    display: none;
   }
 }
