@@ -102,3 +102,10 @@ body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
     font-size: 2.8rem !important;
   }
 }
+
+/* Hide meganav links on desktop */
+@media (min-width: 1024px) {
+  #nav div.block:has(a[target='/Gifts/Homeware/c/home-car']),#nav div.block:has(a[target='/shopbyplayer'])  {
+    display:none;
+  }
+}
