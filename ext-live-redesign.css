@@ -112,3 +112,12 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
     font-size: 2.8rem !important;
   }
 }
+
+/* Hide meganav links on desktop */
+@media (min-width: 1024px) {
+  #nav div.block:has(> a:first-child[href$='/Gifts/Homeware/c/home-car']),
+  #nav div.block:has(> a:first-child[href$='/shopbyplayer']),
+  #nav div.block:has(> a:first-child[href$='/Gifts/c/gifts']){
+    display: none;
+  }
+}
