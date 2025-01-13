@@ -118,7 +118,7 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
   #nav div.block:has(> a:first-child[href$='/Homeware/c/home-car']),
   #nav div.block:has(> a:first-child[href$='/shopbyplayer']),
   #nav div.block:has(> a:first-child[href$='/collections']),
-  #nav div.block:has(> a:first-child[href$='/sale']){
+  #nav div.block:has(> a:first-child[href$='/Offers/Sale/c/sale']){
     display: none;
   }
 }
