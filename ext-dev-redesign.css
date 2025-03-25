@@ -112,7 +112,7 @@ body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
   }
 }
 @media (min-width: 1024px) {
-  body > main .js-utility-bar div.yCmsComponent.flex.grow.h-full.justify-center.items-center{
-    max-width:600px;
+  body > main > div.flex.justify-center.h-10.w-full.bg-red-E30613.z-10.text-white.typography--subtitle9.md\:typography--subtitle8.js-utility-bar > div.flex.w-full.h-full.items-center.xl\:container.\[\&\>\.yCmsComponent\>\.content\]\:flex.\[\&\>\.yCmsComponent\>\.content\]\:lg\:gap-2\.5 > div.h-full.items-center.lg\:flex.lg\:pl-4.lg\:w-2\/12.mr-auto.w-\[72px\].yCmsComponent{
+    width:max-content;
   }
 }
