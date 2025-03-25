@@ -111,3 +111,8 @@ body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
     display: none;
   }
 }
+@media (min-width: 1024px) {
+  body > main .js-utility-bar div.yCmsComponent.flex.grow.h-full.justify-center.items-center{
+    max-width:600px;
+  }
+}
