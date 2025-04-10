@@ -121,3 +121,12 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
     display: none;
   }
 }
+
+/* Hide Express Checkout Hotfix */
+.page-cartPage .js-paymentProviderContainerD {
+  display: none !important;
+}
+
+.page-multiStepCheckoutDeliveryPage #expressCheckoutContainer {
+  display: none !important;
+}
