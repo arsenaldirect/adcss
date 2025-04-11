@@ -122,20 +122,5 @@ body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
   pointer-events: none;      /* Disable interaction */
   opacity: 0.5;              /* Make it look greyed out */
   filter: grayscale(100%);   /* Optional: remove color for visual clarity */
-}
-
-.paypal-btn * {
   cursor: not-allowed !important;  /* Make nested elements show disabled cursor */
-}
-
-.paypal-btn::after {
-  content: "Temporarily unavailable";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 12px;
-  color: #999;
-  margin-top: 4px;
-  pointer-events: none;
 }
