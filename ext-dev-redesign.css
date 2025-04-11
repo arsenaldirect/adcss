@@ -117,17 +117,6 @@ body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
   }
 }
 
-/* CHECKOUT Target the specific PayPal payment method and make it appear disabled */
-.chckt-pm-paypal {
-  pointer-events: none;   /* Disable interactions */
-  opacity: 0.5;           /* Make it look greyed out */
-}
-
-.chckt-pm-paypal label {
-  cursor: not-allowed;
-  filter: grayscale(100%);
-}
-
 /* EXPRESS Target the specific PayPal payment method and make it appear disabled */
 .paypal-btn {
   pointer-events: none;      /* Disable interaction */
@@ -137,4 +126,16 @@ body.pageLabel--blackfriday div.amplience__content-type-9-shop-by-player h3{
 
 .paypal-btn * {
   cursor: not-allowed !important;  /* Make nested elements show disabled cursor */
+}
+
+.paypal-btn::after {
+  content: "Temporarily unavailable";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+  pointer-events: none;
 }
