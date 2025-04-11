@@ -130,3 +130,11 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
 .page-multiStepCheckoutDeliveryPage #expressCheckoutContainer {
   display: none !important;
 }
+
+/* EXPRESS Target the specific PayPal payment method and make it appear disabled */
+.paypal-btn {
+  pointer-events: none;      /* Disable interaction */
+  opacity: 0.2;              /* Make it look faint */
+  filter: grayscale(100%);   /* Remove color for visual clarity */
+  cursor: not-allowed !important;  /* Make nested elements show disabled cursor - doesn't work but leaving anyway */
+}
