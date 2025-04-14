@@ -122,8 +122,7 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
   }
 }
 
-/* Hide Express Checkout Hotfix */
-
+/* Hide PayPal Checkout Hotfix */
 /*
 .page-cartPage .js-paymentProviderContainerD {
   display: none !important;
@@ -134,10 +133,12 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
 }
 */
 
-/* EXPRESS Target the specific PayPal payment method and make it appear disabled */
+/* PayPal EXPRESS Target the specific PayPal payment method and make it appear disabled */
+/*
 .paypal-btn {
-  pointer-events: none;      /* Disable interaction */
-  opacity: 0.2;              /* Make it look faint */
-  filter: grayscale(100%);   /* Remove color for visual clarity */
-  cursor: not-allowed !important;  /* Make nested elements show disabled cursor - doesn't work but leaving anyway */
+  pointer-events: none;     
+  opacity: 0.2;              
+  filter: grayscale(100%);  
+  cursor: not-allowed !important; 
 }
+*/
