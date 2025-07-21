@@ -122,6 +122,11 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
   }
 }
 
+/* Home page fix giant Summer Essentials and Shorts text */
+#skip-to-content > div:nth-child(8) > div > div > a:nth-child(1) > h3, #skip-to-content > div:nth-child(8) > div > div > a:nth-child(2) > h3 {
+  font-size: 3rem !important;
+}
+
 /* Hide PayPal Checkout Hotfix */
 /*
 .page-cartPage .js-paymentProviderContainerD {
