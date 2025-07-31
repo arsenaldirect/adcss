@@ -127,6 +127,11 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
   font-size: 3rem !important;
 }
 
+/* Removing collection tab from Checkout Delivery page as a hotfix with postcode lookup broken  */
+#checkoutShippingDetails > div.form-group.js-delivery-method.max-lg\:pt-6.max-lg\:border-t.max-lg\:border-grey-E1E1E1.max-lg\:px-4 > div.flex.items-center.justify-between.typography--subtitle8.pb-6.lg\:pb-8.mb-6.lg\:mb-8.border-b.border-grey-E1E1E1 > div:nth-child(2) {
+    display: none !important;
+}
+
 /* Hide PayPal Checkout Hotfix */
 /*
 .page-cartPage .js-paymentProviderContainerD {
