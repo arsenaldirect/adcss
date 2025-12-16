@@ -1,9 +1,11 @@
 /* Live CSS file */
-
+/* Remove border from GE switcher pop-up */
+/* Checked 16/12/25 still in use */
 .gePopupsContainer .CustomSwitcherPopup:focus-visible, .gePopupsContainer .CustomWelcomePopup:focus-visible{
   outline:none !important;
 }
 
+/* Checked 16/12/25 - apparent font-size change - can be removed? */
 @media (min-width: 1024px) {
   h2#product-list-heading-anchor{
   font-size:1.25em !important;
@@ -11,16 +13,19 @@
 }
 
 /* Home page - italics on hover */
+/* Checked 16/12/25 compoment not currently in use, but this is needed if added back */
 .amplience__content-type-9-shop-by-player .grid a:hover{
     font-style:italic;
 }
 
 /* Home page - remove space above promo blocks under carousel */
+/* Checked 16/12/25 not in use */
 body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.flex.flex-row.w-full.items-end.justify-between{
 padding-bottom:0px;
 }
 
 /* PDP Yotpo button styling issues  */
+/* Checked 16/12/25 not in use */
 @media only screen and (max-width: 541px){
 .yotpo-main-container .main-widget .write-question-review-buttons-container .write-question-review-button {
     width: auto !important;
@@ -28,6 +33,7 @@ padding-bottom:0px;
 }
 
 /* Fix font sizes on mini bag item details */
+/* Checked 16/12/25 not in use */
 #miniCartSlot .typography--body5--bold, #miniCartSlot .typography--body5, #miniCartSlot .typography--body3:not(.col-span-4 > .typography--body3), #miniCartSlot .typography--subtitle4{
   font-size:14px;
   color: #666666;
@@ -37,11 +43,13 @@ padding-bottom:0px;
 }
 
 /* Fix word wrapping on middle promo block (for longer title) */
+/* Checked 16/12/25 not currently applying due to position change and short name, but this is needed/updated each time for longer names */
 body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(1) > h3, body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(2) > h3, body.page-homepage > main > div:nth-child(8) > div.no-space > div:nth-child(3) > div > div.grid.gap-4.grid-cols-1.grid-row-3.md\:grid-cols-3.md\:grid-row-1 > a:nth-child(3) > h3{
   max-width:300px;
 }
 
 /* Change SBP text colour on homepage */
+/* Checked 16/12/25 not currently in use due to section being disabled, but probably needed if re-enabled */
 .page-homepage a[href="/shopbyplayer/"] h3{
 color: #D80B14 !important;
 }
