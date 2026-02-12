@@ -167,3 +167,8 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
   cursor: not-allowed !important; 
 }
 */
+
+/* ref Fu 12/02/26 to address app webview background */
+html {
+background: white
+}
