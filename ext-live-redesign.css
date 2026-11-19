@@ -125,10 +125,7 @@ body.page-homepage #skip-to-content > div:nth-child(7) > div.amplience__content-
 
 /* Hide meganav links on desktop */
 @media (min-width: 1024px) {
-  #nav div.block:has(> a:first-child[href$='/Homeware/c/home-car']),
-  #nav div.block:has(> a:first-child[href$='/shopbyplayer']),
-  #nav div.block:has(> a:first-child[href$='/collections']),
-  #nav div.block:has(> a:first-child[href$='/Champions/c/champions']){
+  #nav div.main-navigation__link--level1:has(> a:first-child[href$="/Champions/c/champions"]) {
     display: none;
   }
 }
